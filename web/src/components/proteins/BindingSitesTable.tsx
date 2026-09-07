@@ -27,7 +27,7 @@ const SITE_COLORS: Record<string, string> = {
   DNA: '#ec4899',
   Metal: '#6366f1',
 };
-const DEFAULT_COLOR = '#0f766e';
+const DEFAULT_COLOR = '#334155';
 const HIDDEN_SITE_TYPES = new Set(['HEM']);
 
 function isHiddenSite(siteType: string) {

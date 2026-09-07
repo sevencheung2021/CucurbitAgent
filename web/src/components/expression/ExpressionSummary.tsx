@@ -61,8 +61,8 @@ export default function ExpressionSummary({ data }: { data: GeneExpressionResult
         />
       </div>
 
-      <div className="rounded-lg bg-gradient-to-r from-[#F0FDFA] to-[#ECFDF5] border border-[#CCFBF1] px-3 py-2">
-        <div className="text-[10px] uppercase tracking-wider text-[#0F766E]">{t('topTissue')}</div>
+      <div className="rounded-lg bg-gradient-to-r from-[#f8fafc] to-[#ECFDF5] border border-[#f1f5f9] px-3 py-2">
+        <div className="text-[10px] uppercase tracking-wider text-[#334155]">{t('topTissue')}</div>
         <div className="text-sm font-semibold text-[#134E4A]">
           {data.top_tissue || '—'}
           {data.top_tissue_fpkm !== null && data.top_tissue_fpkm !== undefined && (

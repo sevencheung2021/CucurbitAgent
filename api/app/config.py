@@ -135,7 +135,7 @@ class Settings:
     # Public contact for data-protection / privacy inquiries. Default is the
     # institutional mailbox declared in content/home.json.
     privacy_contact_email: str = os.getenv(
-        "CUAGENT_PRIVACY_CONTACT_EMAIL", "bvrc@nercv.org"
+        "CUAGENT_PRIVACY_CONTACT_EMAIL", "privacy@your-domain.example"
     )
 
     def validate_ai_config(self) -> tuple[bool, str]:

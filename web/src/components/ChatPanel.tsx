@@ -188,7 +188,7 @@ function EvidenceBlock({ items }: { items: EvidenceItem[] }) {
               <div>
                 <Link
                   href={link.href}
-                  className="text-[11px] font-medium text-[#0F766E] hover:underline"
+                  className="text-[11px] font-medium text-[#334155] hover:underline"
                 >
                   → {t(`links.${link.labelKey}`)}
                 </Link>
@@ -205,17 +205,17 @@ function ModuleDeepLinks() {
   const t = useTranslations('chat');
   return (
     <div className="rounded-xl border border-[#E2E8F0] bg-slate-50 px-5 py-3 flex flex-wrap gap-x-4 gap-y-2">
-      <Link href="/genes" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-        <DnaIcon className="size-4 text-[#0D9488]" /> {t('geneSearch')}
+      <Link href="/genes" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+        <DnaIcon className="size-4 text-[#475569]" /> {t('geneSearch')}
       </Link>
-      <Link href="/expression" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-        <BarChart3Icon className="size-4 text-[#0D9488]" /> {t('expressionAnalyze')}
+      <Link href="/expression" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+        <BarChart3Icon className="size-4 text-[#475569]" /> {t('expressionAnalyze')}
       </Link>
-      <Link href="/proteins" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-        <MicroscopeIcon className="size-4 text-[#0D9488]" /> {t('proteinPredict')}
+      <Link href="/proteins" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+        <MicroscopeIcon className="size-4 text-[#475569]" /> {t('proteinPredict')}
       </Link>
-      <Link href="/literatures" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-        <BookOpenIcon className="size-4 text-[#0D9488]" /> {t('paperChat')}
+      <Link href="/literatures" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+        <BookOpenIcon className="size-4 text-[#475569]" /> {t('paperChat')}
       </Link>
     </div>
   );
@@ -225,16 +225,16 @@ function IdleShowcase({ onPick }: { onPick: (prompt: string) => void }) {
   const t = useTranslations('chat');
   return (
     <div className="rounded-2xl border border-[#E2E8F0] bg-white shadow-sm overflow-hidden">
-      <div className="px-5 py-3 bg-gradient-to-r from-[#F0FDFA] to-white border-b border-[#E2E8F0]">
+      <div className="px-5 py-3 bg-gradient-to-r from-[#f8fafc] to-white border-b border-[#E2E8F0]">
         <h3 className="text-sm font-semibold text-slate-800 flex items-center gap-2">
-          <BookOpenIcon className="size-4 text-[#0D9488]" />
+          <BookOpenIcon className="size-4 text-[#475569]" />
           <span>{t('examplesTitle')}</span>
         </h3>
       </div>
       <ul className="divide-y divide-[#F1F5F9]">
         {EXAMPLE_PROMPTS.map((ex, i) => (
           <li key={ex.label} className="px-5 py-3.5 flex gap-3 items-start hover:bg-[#FAFEFC] transition">
-            <div className="flex-shrink-0 w-7 h-7 rounded-full bg-[#0D9488] text-white text-xs font-bold flex items-center justify-center">
+            <div className="flex-shrink-0 w-7 h-7 rounded-full bg-[#475569] text-white text-xs font-bold flex items-center justify-center">
               {i + 1}
             </div>
             <div className="flex-1 min-w-0">
@@ -243,7 +243,7 @@ function IdleShowcase({ onPick }: { onPick: (prompt: string) => void }) {
               <button
                 type="button"
                 onClick={() => onPick(ex.prompt)}
-                className="inline-flex items-center gap-1.5 rounded-full border border-[#CCFBF1] bg-[#F0FDFA] px-2.5 py-1 text-[11px] text-[#0F766E] hover:bg-[#CCFBF1] transition"
+                className="inline-flex items-center gap-1.5 rounded-full border border-[#f1f5f9] bg-[#f8fafc] px-2.5 py-1 text-[11px] text-[#334155] hover:bg-[#f1f5f9] transition"
               >
                 <span aria-hidden className="text-[10px]">▶</span>
                 {t('askThis')}
@@ -253,17 +253,17 @@ function IdleShowcase({ onPick }: { onPick: (prompt: string) => void }) {
         ))}
       </ul>
       <div className="px-5 py-3 bg-slate-50 border-t border-[#E2E8F0] flex flex-wrap gap-x-4 gap-y-2">
-        <Link href="/genes" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-          <DnaIcon className="size-4 text-[#0D9488]" /> {t('geneSearch')}
+        <Link href="/genes" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+          <DnaIcon className="size-4 text-[#475569]" /> {t('geneSearch')}
         </Link>
-        <Link href="/expression" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-          <BarChart3Icon className="size-4 text-[#0D9488]" /> {t('expressionAnalyze')}
+        <Link href="/expression" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+          <BarChart3Icon className="size-4 text-[#475569]" /> {t('expressionAnalyze')}
         </Link>
-        <Link href="/proteins" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-          <MicroscopeIcon className="size-4 text-[#0D9488]" /> {t('proteinPredict')}
+        <Link href="/proteins" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+          <MicroscopeIcon className="size-4 text-[#475569]" /> {t('proteinPredict')}
         </Link>
-        <Link href="/literatures" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#0D9488] hover:underline">
-          <BookOpenIcon className="size-4 text-[#0D9488]" /> {t('paperChat')}
+        <Link href="/literatures" className="inline-flex items-center gap-1.5 text-sm font-semibold text-slate-800 hover:text-[#475569] hover:underline">
+          <BookOpenIcon className="size-4 text-[#475569]" /> {t('paperChat')}
         </Link>
       </div>
     </div>
@@ -389,7 +389,7 @@ export default function ChatPanel({ title, subtitle }: { title?: string; subtitl
                       </>
                     ) : (
                       <>
-                        <BotIcon className="size-3.5 text-[#0D9488]" /> CucurbitAgent
+                        <BotIcon className="size-3.5 text-[#475569]" /> CucurbitAgent
                       </>
                     )}
                   </div>
@@ -408,7 +408,7 @@ export default function ChatPanel({ title, subtitle }: { title?: string; subtitl
                       <div className="space-y-3">
                         {isLastAssistant && loading && !m.content && (
                           <div className="space-y-2">
-                            <div className="flex items-center gap-2 text-sm text-[#0D9488]">
+                            <div className="flex items-center gap-2 text-sm text-[#475569]">
                               <span className="inline-flex items-center" aria-label="Working">
                                 <span className="cuagent-thinking-dot" />
                                 <span className="cuagent-thinking-dot" />
@@ -418,7 +418,7 @@ export default function ChatPanel({ title, subtitle }: { title?: string; subtitl
                                 {statuses.length > 0 ? t('working') : t('questionReceived')}
                               </span>
                             </div>
-                            <div className="rounded-lg bg-[#F0FDFA] border border-[#CCFBF1] p-2.5 text-[11px] text-[#0F766E] space-y-1 text-left">
+                            <div className="rounded-lg bg-[#f8fafc] border border-[#f1f5f9] p-2.5 text-[11px] text-[#334155] space-y-1 text-left">
                               {(statuses.length > 0 ? statuses.slice(-8) : [t('connecting')]).map(
                                 (s, si, arr) => (
                                   <div
@@ -436,7 +436,7 @@ export default function ChatPanel({ title, subtitle }: { title?: string; subtitl
                           <>
                             {statuses.length > 0 && isLastAssistant && !loading && (
                               <details className="rounded-lg border border-[#E2E8F0] bg-slate-50/80 px-2.5 py-1.5 text-[11px] text-slate-600">
-                                <summary className="cursor-pointer select-none text-[#0F766E] font-medium">
+                                <summary className="cursor-pointer select-none text-[#334155] font-medium">
                                   {t('showWorkLog', { count: Math.min(statuses.length, 12) })}
                                 </summary>
                                 <div className="mt-1.5 space-y-1 border-t border-[#E2E8F0] pt-1.5">
@@ -457,7 +457,7 @@ export default function ChatPanel({ title, subtitle }: { title?: string; subtitl
                                 type="button"
                                 disabled={loading}
                                 onClick={() => sendText(ex.prompt)}
-                                className="rounded-full border border-[#CCFBF1] bg-[#F0FDFA] px-2.5 py-1 text-[11px] text-[#0F766E] hover:bg-[#CCFBF1] transition"
+                                className="rounded-full border border-[#f1f5f9] bg-[#f8fafc] px-2.5 py-1 text-[11px] text-[#334155] hover:bg-[#f1f5f9] transition"
                               >
                                 {ex.label}
                               </button>

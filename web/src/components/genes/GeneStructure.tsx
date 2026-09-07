@@ -9,7 +9,7 @@ export default function GeneStructure({ structure }: { structure?: any }) {
   return (
     <section className="mt-8">
       <h3 className="text-sm font-bold text-[#2c3e50] mb-2 inline-flex flex-wrap items-center gap-2">
-        <DnaIcon className="size-4 text-[#0D9488]" />
+        <DnaIcon className="size-4 text-[#475569]" />
         <span>V3 Gene Structure | Strand: {structure.strand || 'N/A'} | Length: {len.toLocaleString()} bp</span>
       </h3>
       <div className="relative h-[35px] w-full rounded border border-[#d5dbdb] bg-[#f8f9fa] overflow-hidden">

@@ -16,7 +16,7 @@ export default function GoTerms({ terms }: { terms?: Record<string, string[]> })
   return (
     <section className="mt-8 rounded-lg border border-[#e0e0e0] bg-white p-5">
       <h3 className="mb-4 text-base font-bold text-[#2c3e50] inline-flex items-center gap-2">
-        <BarChart3Icon className="size-5 text-[#0D9488]" /> InterPro GO terms
+        <BarChart3Icon className="size-5 text-[#475569]" /> InterPro GO terms
       </h3>
       <div className="grid gap-5 md:grid-cols-3">
         {blocks.map(([key, title, color]) => (

@@ -10,7 +10,7 @@ export default function GeneAnnotation({ data }: { data: any }) {
 
   return (
     <div className="space-y-4">
-      <div className="rounded-lg bg-[#DFF5E8] border border-[#C7EED6] px-5 py-4 text-sm text-[#117a65] flex items-start gap-2">
+      <div className="rounded-lg bg-[#DFF5E8] border border-[#C7EED6] px-5 py-4 text-sm text-[#334155] flex items-start gap-2">
         <CheckIcon className="size-4 shrink-0 mt-[2px]" />
         <span>Successfully resolved. Showing data for: <code>{data.gene_id}</code></span>
       </div>
@@ -25,9 +25,9 @@ export default function GeneAnnotation({ data }: { data: any }) {
       </div>
       <div className="text-base">
         <b>{t('locationLabel')}:</b>{' '}
-        <code className="text-[#117a65]">{data.basic_info?.chr}</code> :{' '}
-        <code className="text-[#117a65]">{data.basic_info?.start}</code> -{' '}
-        <code className="text-[#117a65]">{data.basic_info?.end}</code>{' '}
+        <code className="text-[#334155]">{data.basic_info?.chr}</code> :{' '}
+        <code className="text-[#334155]">{data.basic_info?.start}</code> -{' '}
+        <code className="text-[#334155]">{data.basic_info?.end}</code>{' '}
         (Strand: <code>{data.basic_info?.strand}</code>)
       </div>
     </div>

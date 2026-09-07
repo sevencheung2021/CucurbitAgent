@@ -33,7 +33,7 @@ export default function LiteratureDataCard({ data }: { data: any }) {
     <div className="rounded-lg border border-slate-200 bg-slate-50/50 overflow-hidden">
       <div className="px-3 py-1.5 bg-slate-100 border-b border-slate-200 flex items-center justify-between">
         <span className="text-xs font-semibold text-slate-700 inline-flex items-center gap-1.5">
-          <BookOpenIcon className="size-3.5 text-[#0D9488]" />
+          <BookOpenIcon className="size-3.5 text-[#475569]" />
           Literature <span className="text-slate-400 font-normal">· {data.query}</span>
         </span>
         <span className="text-[10px] text-slate-400">{displayCount} papers</span>
@@ -58,7 +58,7 @@ export default function LiteratureDataCard({ data }: { data: any }) {
             const doi = /^10\.\d{4,9}\/\S+$/i.test(rawDoi) ? rawDoi : '';
             const doiUrl = doi ? `https://doi.org/${doi}` : '';
             return (
-              <div key={i} className="border-l-2 border-[#0D9488] pl-2.5 py-0.5">
+              <div key={i} className="border-l-2 border-[#475569] pl-2.5 py-0.5">
                 <div className="text-xs font-medium text-slate-800">
                   {i + 1}. {title || `Paper ${i + 1}`}
                 </div>
@@ -75,7 +75,7 @@ export default function LiteratureDataCard({ data }: { data: any }) {
                       href={doiUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-[#0F766E] hover:text-[#0c5a52] hover:underline"
+                      className="inline-flex items-center gap-1 text-[#334155] hover:text-[#0c5a52] hover:underline"
                       title={`Open ${doi} in a new tab`}
                     >
                       <LinkIcon className="size-3" /> {doi}

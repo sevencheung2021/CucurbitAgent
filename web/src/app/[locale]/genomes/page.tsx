@@ -49,8 +49,8 @@ export default function GenomesPage() {
 
   return (
     <div className="max-w-content mx-auto px-4 py-8">
-      <h1 className="mb-2 text-4xl font-extrabold text-[#1a252f]">💾 {t('title')}</h1>
-      <div className="mb-8 rounded-lg border-l-4 border-[#0D9488] bg-[#ECFDF5] p-5 text-[#115E59]">
+      <h1 className="mb-2 text-4xl font-extrabold text-[#0f172a]">💾 {t('title')}</h1>
+      <div className="mb-8 rounded-lg border-l-4 border-[#475569] bg-[#ECFDF5] p-5 text-[#115E59]">
         {t('intro')}
       </div>
       <div className="space-y-5">
@@ -61,7 +61,7 @@ export default function GenomesPage() {
         )}
         {Object.entries(catalog).map(([species, varieties]) => (
           <details key={species} className="overflow-hidden rounded-xl border border-[#DADDE1] bg-white shadow-sm" open={species === 'Cucumber'}>
-            <summary className="cursor-pointer bg-gradient-to-r from-[#F0FDFA] to-white px-5 py-4 text-xl font-extrabold text-[#0f766e]">
+            <summary className="cursor-pointer bg-gradient-to-r from-[#f8fafc] to-white px-5 py-4 text-xl font-extrabold text-[#334155]">
               {species}
             </summary>
             <div className="p-5">
@@ -83,7 +83,7 @@ export default function GenomesPage() {
                         )}
                         {files[suffix] && <div className="mt-3 space-y-2">
                           {files[suffix].length ? files[suffix].map((f) => (
-                            <a key={f.name} href={apiUrl(`/api/genomes/download?path_suffix=${encodeURIComponent(suffix)}&filename=${encodeURIComponent(f.name)}`)} className="flex items-center justify-between rounded-md border border-[#E2E8F0] px-3 py-2 text-sm hover:bg-[#F0FDFA]">
+                            <a key={f.name} href={apiUrl(`/api/genomes/download?path_suffix=${encodeURIComponent(suffix)}&filename=${encodeURIComponent(f.name)}`)} className="flex items-center justify-between rounded-md border border-[#E2E8F0] px-3 py-2 text-sm hover:bg-[#f8fafc]">
                               <span>⬇️ {f.name}</span><span className="text-[#64748B]">{formatSize(f.size_bytes)}</span>
                             </a>
                           )) : <p className="text-sm text-[#64748B]">{t('noFiles')}</p>}

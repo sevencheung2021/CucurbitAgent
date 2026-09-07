@@ -20,7 +20,7 @@ export default function CoexpressionTable({ genes }: { genes: CoexpressedGene[] 
   return (
     <div className="overflow-x-auto rounded-lg border border-[#E2E8F0]">
       <table className="min-w-full text-xs">
-        <thead className="bg-[#F0FDFA] text-[#0F766E]">
+        <thead className="bg-[#f8fafc] text-[#334155]">
           <tr>
             <th className="text-left px-3 py-2 font-semibold w-16">{t('rank')}</th>
             <th className="text-left px-3 py-2 font-semibold">{t('geneId')}</th>
@@ -39,13 +39,13 @@ export default function CoexpressionTable({ genes }: { genes: CoexpressedGene[] 
                 <td className="px-3 py-2 font-mono">
                   <Link
                     href={`/genes?gene=${encodeURIComponent(g.gene_id)}`}
-                    className="text-[#0D9488] hover:text-[#B01A75] hover:underline"
+                    className="text-[#475569] hover:text-[#B01A75] hover:underline"
                   >
                     {g.gene_id}
                   </Link>
                 </td>
                 <td className="px-3 py-2 font-mono font-semibold">
-                  <span className={positive ? 'text-[#0D9488]' : 'text-[#B01A75]'}>
+                  <span className={positive ? 'text-[#475569]' : 'text-[#B01A75]'}>
                     {g.pearson_r >= 0 ? '+' : ''}
                     {g.pearson_r.toFixed(3)}
                   </span>
@@ -53,7 +53,7 @@ export default function CoexpressionTable({ genes }: { genes: CoexpressedGene[] 
                 <td className="px-3 py-2">
                   <div className="h-2 rounded-full bg-slate-100 overflow-hidden w-full">
                     <div
-                      className={`h-full ${positive ? 'bg-[#0D9488]' : 'bg-[#B01A75]'}`}
+                      className={`h-full ${positive ? 'bg-[#475569]' : 'bg-[#B01A75]'}`}
                       style={{ width: `${strength}%` }}
                     />
                   </div>

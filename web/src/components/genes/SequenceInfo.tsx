@@ -10,15 +10,15 @@ export default function SequenceInfo({ geneId, cds, protein }: { geneId: string;
   if (!cds?.sequence && !protein?.sequence) return null;
   return (
     <section className="mt-10">
-      <h2 className="mb-4 text-3xl font-extrabold text-[#1a252f] inline-flex items-center gap-3">
-        <FileTextIcon className="size-7 text-[#0D9488]" /> Sequence Info
+      <h2 className="mb-4 text-3xl font-extrabold text-[#0f172a] inline-flex items-center gap-3">
+        <FileTextIcon className="size-7 text-[#475569]" /> Sequence Info
       </h2>
       <p className="mb-6 text-sm text-[#64748B]">Expand a panel to preview the full sequence or download FASTA.</p>
       <div className="grid gap-4 md:grid-cols-2">
         <SeqPanel
           title={
             <span className="inline-flex items-center gap-1.5">
-              <DnaIcon className="size-4 text-[#0D9488]" /> CDS · {cds?.length_bp?.toLocaleString?.() || 0} bp
+              <DnaIcon className="size-4 text-[#475569]" /> CDS · {cds?.length_bp?.toLocaleString?.() || 0} bp
             </span>
           }
           name={`${geneId}_cds`}
@@ -28,7 +28,7 @@ export default function SequenceInfo({ geneId, cds, protein }: { geneId: string;
         <SeqPanel
           title={
             <span className="inline-flex items-center gap-1.5">
-              <MicroscopeIcon className="size-4 text-[#0D9488]" /> Protein · {protein?.length_aa?.toLocaleString?.() || 0} aa
+              <MicroscopeIcon className="size-4 text-[#475569]" /> Protein · {protein?.length_aa?.toLocaleString?.() || 0} aa
             </span>
           }
           name={`${geneId}_pep`}
@@ -48,7 +48,7 @@ function SeqPanel({ title, name, seq, file }: { title: ReactNode; name: string; 
       <summary className="cursor-pointer text-sm">{title}</summary>
       {seq ? <>
         <pre className="mt-4 max-h-64 overflow-auto rounded bg-[#F8FAFC] p-3 text-xs whitespace-pre-wrap">{fasta(name, seq).replace(/(.{80})/g, '$1\n')}</pre>
-        <a className="mt-3 inline-flex items-center gap-1.5 rounded border border-[#0D9488] px-3 py-2 text-sm text-[#0D9488] hover:bg-[#F0FDFA]" href={href} download={file}>
+        <a className="mt-3 inline-flex items-center gap-1.5 rounded border border-[#475569] px-3 py-2 text-sm text-[#475569] hover:bg-[#f8fafc]" href={href} download={file}>
           <DownloadIcon className="size-3.5" /> {t('downloadFasta')}
         </a>
       </> : <p className="mt-3 text-sm text-[#64748B]">{t('seqUnavailable')}</p>}

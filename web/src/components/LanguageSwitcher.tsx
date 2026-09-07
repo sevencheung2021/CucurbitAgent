@@ -47,7 +47,7 @@ export default function LanguageSwitcher() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1 pb-3 text-sm font-semibold text-slate-500 hover:text-[#0D9488] transition-colors"
+        className="flex items-center gap-1 pb-3 text-sm font-semibold text-slate-500 hover:text-[#475569] transition-colors"
         aria-expanded={open}
         aria-haspopup="listbox"
         aria-label={t('language')}
@@ -74,7 +74,7 @@ export default function LanguageSwitcher() {
               onClick={() => switchLocale(l)}
               className={`flex w-full items-center gap-2.5 px-3.5 py-2 text-left text-sm transition-colors ${
                 l === locale
-                  ? 'bg-[#F0FDFA] font-semibold text-[#0F766E]'
+                  ? 'bg-[#f8fafc] font-semibold text-[#334155]'
                   : 'text-slate-700 hover:bg-slate-50'
               }`}
             >
@@ -83,7 +83,7 @@ export default function LanguageSwitcher() {
               </span>
               <span className="truncate">{localeNames[l]}</span>
               {l === locale && (
-                <span className="ml-auto text-[#0D9488]" aria-hidden>
+                <span className="ml-auto text-[#475569]" aria-hidden>
                   ✓
                 </span>
               )}

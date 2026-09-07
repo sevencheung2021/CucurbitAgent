@@ -29,7 +29,7 @@ export default function OverviewTable({ species }: { species: ExpressionOverview
   return (
     <div className="overflow-x-auto rounded-xl border border-[#E2E8F0]">
       <table className="min-w-full text-xs">
-        <thead className="bg-gradient-to-r from-[#F0FDFA] to-[#ECFDF5] text-[#0F766E]">
+        <thead className="bg-gradient-to-r from-[#f8fafc] to-[#ECFDF5] text-[#334155]">
           <tr>
             <th className="text-left px-3 py-2.5 font-semibold">{t('species')}</th>
             <th className="text-right px-3 py-2.5 font-semibold">{t('genes')}</th>

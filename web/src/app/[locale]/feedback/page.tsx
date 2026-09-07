@@ -45,12 +45,12 @@ export default function FeedbackPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="max-w-content mx-auto px-4 py-8">
-        <h1 className="mb-4 text-4xl font-extrabold text-[#1a252f] inline-flex items-center gap-3">
-          <MessageSquareIcon className="size-8 text-[#0D9488]" /> {t('title')}
+        <h1 className="mb-4 text-4xl font-extrabold text-[#0f172a] inline-flex items-center gap-3">
+          <MessageSquareIcon className="size-8 text-[#475569]" /> {t('title')}
         </h1>
 
-        <div className="mb-8 rounded-lg border-l-4 border-[#0D9488] bg-[#F0FDFA] p-5 text-[#115E59]">
-          <p className="mb-2 font-semibold text-[#0F766E]">{t('introTitle')}</p>
+        <div className="mb-8 rounded-lg border-l-4 border-[#475569] bg-[#f8fafc] p-5 text-[#115E59]">
+          <p className="mb-2 font-semibold text-[#334155]">{t('introTitle')}</p>
           <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed">
             {REPORT_ITEMS.map((item) => (
               <li key={item}>{item}</li>
@@ -59,17 +59,17 @@ export default function FeedbackPage() {
         </div>
 
         <div className="rounded-xl border border-[#E2E8F0] bg-white p-6 shadow-sm md:p-8">
-          <h2 className="mb-6 text-xl font-bold text-[#1a252f]">{t('formTitle')}</h2>
+          <h2 className="mb-6 text-xl font-bold text-[#0f172a]">{t('formTitle')}</h2>
 
           {done ? (
             <div className="space-y-4">
-              <div className="rounded-lg border border-[#CCFBF1] bg-[#F0FDFA] px-4 py-3 text-sm text-[#0F766E]">
+              <div className="rounded-lg border border-[#f1f5f9] bg-[#f8fafc] px-4 py-3 text-sm text-[#334155]">
                 {t('thanks')}
               </div>
               <button
                 type="button"
                 onClick={() => setDone(false)}
-                className="rounded-lg bg-[#0D9488] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] transition-colors"
+                className="rounded-lg bg-[#475569] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] transition-colors"
               >
                 {t('submitAnother')}
               </button>
@@ -87,7 +87,7 @@ export default function FeedbackPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email"
-                  className="w-full rounded-lg border border-[#CBD5E1] px-3 py-2.5 text-sm text-slate-800 placeholder:text-slate-400 focus:border-[#0D9488] focus:outline-none focus:ring-1 focus:ring-[#0D9488]"
+                  className="w-full rounded-lg border border-[#CBD5E1] px-3 py-2.5 text-sm text-slate-800 placeholder:text-slate-400 focus:border-[#475569] focus:outline-none focus:ring-1 focus:ring-[#475569]"
                 />
               </div>
 
@@ -103,7 +103,7 @@ export default function FeedbackPage() {
                     onChange={(e) => setDescription(e.target.value.slice(0, MAX_CHARS))}
                     placeholder={t('descPlaceholder', { max: MAX_CHARS })}
                     rows={8}
-                    className="w-full resize-y rounded-lg border border-[#CBD5E1] px-3 py-2.5 pb-8 text-sm text-slate-800 placeholder:text-slate-400 focus:border-[#0D9488] focus:outline-none focus:ring-1 focus:ring-[#0D9488]"
+                    className="w-full resize-y rounded-lg border border-[#CBD5E1] px-3 py-2.5 pb-8 text-sm text-slate-800 placeholder:text-slate-400 focus:border-[#475569] focus:outline-none focus:ring-1 focus:ring-[#475569]"
                   />
                   <div className="pointer-events-none absolute bottom-2.5 right-3 text-xs text-slate-400">
                     {t('chars', { used: description.length, max: MAX_CHARS })}
@@ -123,7 +123,7 @@ export default function FeedbackPage() {
               <button
                 type="submit"
                 disabled={!canSubmit}
-                className="rounded-lg bg-[#0D9488] px-6 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] transition-colors disabled:cursor-not-allowed disabled:opacity-50"
+                className="rounded-lg bg-[#475569] px-6 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] transition-colors disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {submitting ? t('submitting') : t('submit')}
               </button>

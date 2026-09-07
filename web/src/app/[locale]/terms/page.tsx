@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 
 const TERMS_VERSION = 'v1.0';
 const TERMS_UPDATED = '2026-07-29';
-const CONTACT_EMAIL = 'bvrc@nercv.org';
+const CONTACT_EMAIL = 'privacy@your-domain.example';
 
 function H2({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="mt-8 mb-3 text-lg font-bold text-[#0F766E] first:mt-0">{children}</h2>
+    <h2 className="mt-8 mb-3 text-lg font-bold text-[#334155] first:mt-0">{children}</h2>
   );
 }
 
@@ -20,7 +20,7 @@ export default function TermsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 text-slate-800">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-[#0F766E]">Terms of Use</h1>
+        <h1 className="text-3xl font-bold text-[#334155]">Terms of Use</h1>
         <p className="mt-2 text-sm text-slate-500">
           Version {TERMS_VERSION} · Last updated {TERMS_UPDATED}
         </p>
@@ -32,7 +32,7 @@ export default function TermsPage() {
           by the Beijing Vegetable Research Center (BVRC), Beijing Academy of Agriculture and
           Forestry Sciences (BAAFS). The Service is provided free of charge for academic research.
           By registering or using the Service you agree to these Terms and to our{' '}
-          <Link href="/privacy" className="font-medium text-[#0D9488] underline">
+          <Link href="/privacy" className="font-medium text-[#475569] underline">
             Privacy Policy
           </Link>
           .
@@ -72,7 +72,7 @@ export default function TermsPage() {
         <H2>4. Data and Privacy</H2>
         <p>
           What we collect and why is described in our{' '}
-          <Link href="/privacy" className="font-medium text-[#0D9488] underline">
+          <Link href="/privacy" className="font-medium text-[#475569] underline">
             Privacy Policy
           </Link>
           .
@@ -108,17 +108,17 @@ export default function TermsPage() {
         <H2>9. Contact</H2>
         <p>
           Questions about these Terms? Email{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-[#0D9488] underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-[#475569] underline">
             {CONTACT_EMAIL}
           </a>
           .
         </p>
 
         <div className="mt-10 flex items-center justify-between border-t border-slate-200 pt-4 text-sm">
-          <Link href="/privacy" className="text-[#0D9488] hover:underline">
+          <Link href="/privacy" className="text-[#475569] hover:underline">
             ← Privacy Policy
           </Link>
-          <Link href="/" className="text-[#0D9488] hover:underline">
+          <Link href="/" className="text-[#475569] hover:underline">
             Back to home →
           </Link>
         </div>

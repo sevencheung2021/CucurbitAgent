@@ -23,7 +23,7 @@ function Cell({ label, children }: { label: string; children: React.ReactNode })
 function Section({ title, count, children }: { title: string; count?: number; children: React.ReactNode }) {
   return (
     <div>
-      <div className="text-[10px] font-semibold text-[#0F766E] uppercase tracking-wider mb-1.5">
+      <div className="text-[10px] font-semibold text-[#334155] uppercase tracking-wider mb-1.5">
         {title}{typeof count === 'number' ? ` (${count})` : ''}
       </div>
       <div className="space-y-1">{children}</div>
@@ -37,7 +37,7 @@ function fmt1(n: any): string {
 }
 
 function plddtColor(score: number): string {
-  if (score >= 90) return '#0D9488';   // excellent - teal
+  if (score >= 90) return '#475569';   // excellent - teal
   if (score >= 70) return '#16A34A';   // good - green
   if (score >= 50) return '#F59E0B';   // low - amber
   return '#DC2626';                     // very low - red
@@ -74,10 +74,10 @@ export default function ProteinDataCard({ data }: { data: any }) {
     <div className="rounded-lg border border-slate-200 bg-slate-50/50 overflow-hidden">
       <div className="px-3 py-1.5 bg-slate-100 border-b border-slate-200 flex items-center justify-between">
         <span className="text-xs font-semibold text-slate-700 inline-flex items-center gap-1.5">
-          <MicroscopeIcon className="size-3.5 text-[#0D9488]" />
+          <MicroscopeIcon className="size-3.5 text-[#475569]" />
           {data.gene_id} <span className="text-slate-400 font-normal">· ESMFold</span>
         </span>
-        {data.pdb_url && <span className="text-[10px] text-[#0D9488]">3D structure available</span>}
+        {data.pdb_url && <span className="text-[10px] text-[#475569]">3D structure available</span>}
       </div>
 
       <div className="p-3 space-y-3">
@@ -108,7 +108,7 @@ export default function ProteinDataCard({ data }: { data: any }) {
             {sites.map((s: any, i: number) => (
               <div key={i} className="flex justify-between text-xs">
                 <span className="text-slate-700">{s.site}</span>
-                <span className="text-[#0F766E] tabular-nums">
+                <span className="text-[#334155] tabular-nums">
                   {(s.confidence * 100).toFixed(0)}%
                 </span>
               </div>

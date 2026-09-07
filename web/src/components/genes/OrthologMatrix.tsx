@@ -15,8 +15,8 @@ export default function OrthologMatrix({ matrix }: { matrix?: any }) {
 
   return (
     <section className="mt-10">
-      <h2 className="mb-4 text-3xl font-extrabold text-[#1a252f] inline-flex items-center gap-3">
-        <NetworkIcon className="size-7 text-[#0D9488]" /> Plant Orthologs
+      <h2 className="mb-4 text-3xl font-extrabold text-[#0f172a] inline-flex items-center gap-3">
+        <NetworkIcon className="size-7 text-[#475569]" /> Plant Orthologs
       </h2>
       <p className="mb-6 text-sm text-[#64748B]">Each column is one other species (excluding the query species); rows show the best homolog hit. Gray cells (—) mean no homolog passed the filter (identity ≥ 40%, coverage ≥ 50%).</p>
       {groups.map(([title, cols]) => cols.length ? <MatrixTable key={title} title={title} cols={cols as string[]} matrix={matrix} /> : null)}

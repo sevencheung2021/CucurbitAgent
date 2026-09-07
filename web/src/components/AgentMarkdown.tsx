@@ -99,23 +99,23 @@ export default function AgentMarkdown({ content, className = '' }: Props) {
         remarkPlugins={[remarkGfm]}
         components={{
           h1: ({ children }) => (
-            <h1 className="mb-3 mt-4 text-xl font-bold text-[#1a252f] first:mt-0">{children}</h1>
+            <h1 className="mb-3 mt-4 text-xl font-bold text-[#0f172a] first:mt-0">{children}</h1>
           ),
           h2: ({ children }) => (
-            <h2 className="mb-2 mt-4 text-lg font-bold text-[#1a252f] first:mt-0">{children}</h2>
+            <h2 className="mb-2 mt-4 text-lg font-bold text-[#0f172a] first:mt-0">{children}</h2>
           ),
           h3: ({ children }) => (
-            <h3 className="mb-2 mt-3 text-base font-semibold text-[#1a252f] first:mt-0">{children}</h3>
+            <h3 className="mb-2 mt-3 text-base font-semibold text-[#0f172a] first:mt-0">{children}</h3>
           ),
           p: ({ children }) => <p className="mb-3 last:mb-0">{children}</p>,
           ul: ({ children }) => <ul className="mb-3 list-disc space-y-1 pl-5 last:mb-0">{children}</ul>,
           ol: ({ children }) => <ol className="mb-3 list-decimal space-y-1 pl-5 last:mb-0">{children}</ol>,
           li: ({ children }) => <li className="pl-0.5">{children}</li>,
-          strong: ({ children }) => <strong className="font-semibold text-[#1a252f]">{children}</strong>,
+          strong: ({ children }) => <strong className="font-semibold text-[#0f172a]">{children}</strong>,
           em: ({ children }) => <em className="italic text-[#475569]">{children}</em>,
           hr: () => <hr className="my-4 border-[#E2E8F0]" />,
           blockquote: ({ children }) => (
-            <blockquote className="mb-3 border-l-4 border-[#0d9488] bg-[#F0FDFA] px-3 py-2 text-[#0f766e] last:mb-0">
+            <blockquote className="mb-3 border-l-4 border-[#475569] bg-[#f8fafc] px-3 py-2 text-[#334155] last:mb-0">
               {children}
             </blockquote>
           ),
@@ -139,7 +139,7 @@ export default function AgentMarkdown({ content, className = '' }: Props) {
               );
             }
             return (
-              <code className="rounded bg-[#E2E8F0] px-1.5 py-0.5 font-mono text-[0.85em] text-[#1a252f]">
+              <code className="rounded bg-[#E2E8F0] px-1.5 py-0.5 font-mono text-[0.85em] text-[#0f172a]">
                 {children}
               </code>
             );

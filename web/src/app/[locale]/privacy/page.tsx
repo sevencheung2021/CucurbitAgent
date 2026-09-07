@@ -8,11 +8,11 @@ export const metadata: Metadata = {
 
 const POLICY_VERSION = 'v1.0';
 const POLICY_UPDATED = '2026-07-29';
-const CONTACT_EMAIL = 'bvrc@nercv.org';
+const CONTACT_EMAIL = 'privacy@your-domain.example';
 
 function H2({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="mt-8 mb-3 text-lg font-bold text-[#0F766E] first:mt-0">{children}</h2>
+    <h2 className="mt-8 mb-3 text-lg font-bold text-[#334155] first:mt-0">{children}</h2>
   );
 }
 
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 text-slate-800">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-[#0F766E]">Privacy Policy</h1>
+        <h1 className="text-3xl font-bold text-[#334155]">Privacy Policy</h1>
         <p className="mt-2 text-sm text-slate-500">
           Version {POLICY_VERSION} · Last updated {POLICY_UPDATED}
         </p>
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
           You may request access to, correction of, or deletion of the information we hold about you,
           and you may withdraw your consent at any time (which will close your account). To do so,
           email{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-[#0D9488] underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-[#475569] underline">
             {CONTACT_EMAIL}
           </a>
           .
@@ -127,7 +127,7 @@ export default function PrivacyPage() {
         <H2>8. Contact</H2>
         <p>
           Questions about your data? Email{' '}
-          <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-[#0D9488] underline">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="font-medium text-[#475569] underline">
             {CONTACT_EMAIL}
           </a>
           , or write to:
@@ -138,10 +138,10 @@ export default function PrivacyPage() {
         </p>
 
         <div className="mt-10 flex items-center justify-between border-t border-slate-200 pt-4 text-sm">
-          <Link href="/" className="text-[#0D9488] hover:underline">
+          <Link href="/" className="text-[#475569] hover:underline">
             ← Back to home
           </Link>
-          <Link href="/terms" className="text-[#0D9488] hover:underline">
+          <Link href="/terms" className="text-[#475569] hover:underline">
             Terms of Use →
           </Link>
         </div>

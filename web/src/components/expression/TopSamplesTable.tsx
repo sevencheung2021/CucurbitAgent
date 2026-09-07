@@ -17,7 +17,7 @@ export default function TopSamplesTable({ samples }: { samples: TopSampleEntry[]
   return (
     <div className="overflow-x-auto rounded-lg border border-[#E2E8F0]">
       <table className="min-w-full text-xs">
-        <thead className="bg-[#F0FDFA] text-[#0F766E]">
+        <thead className="bg-[#f8fafc] text-[#334155]">
           <tr>
             <th className="text-left px-3 py-2 font-semibold">{t('fpkm')}</th>
             <th className="text-left px-3 py-2 font-semibold">{t('tissue')}</th>
@@ -30,7 +30,7 @@ export default function TopSamplesTable({ samples }: { samples: TopSampleEntry[]
         <tbody className="divide-y divide-[#E2E8F0]">
           {samples.map((s, i) => (
             <tr key={`${s.sample_id}-${i}`} className="hover:bg-slate-50">
-              <td className="px-3 py-2 font-mono font-semibold text-[#0D9488]">
+              <td className="px-3 py-2 font-mono font-semibold text-[#475569]">
                 {s.fpkm.toFixed(1)}
               </td>
               <td className="px-3 py-2 text-slate-700">{s.tissue || '—'}</td>
