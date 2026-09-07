@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "ยินดีต้อนรับสู่\nCucurbitAgent",
+    "subtitle": "แพลตฟอร์มอัจฉริยะยุคใหม่สำหรับงานวิจัย Cucurbitaceae ผสานโมเดลภาษาขนาดใหญ่เข้ากับข้อมูลมัลติ-ออมิกส์",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 ยีน",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 การแสดงออก",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 โปรตีน",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "เกี่ยวกับ CucurbitAgent",
+    "paragraphs": [
+      "พืชตระกูลแตง (Cucurbitaceae) — แตงโม แตงกวา แตงเมล่อน ฟักทอง มะระขี้นก และพืชที่เกี่ยวข้อง — เป็นพืชผักสำคัญของโลก จีโนม ทรานสคริพโตม และงานวิจัยเชิงหน้าที่คุณภาพสูงมีการสะสมเพิ่มขึ้นอย่างต่อเนื่อง แต่ทรัพยากรเหล่านี้ยังกระจัดกระจายอยู่ในฐานข้อมูลและรูปแบบที่หลากหลาย — และแม้จะรวบรวมมาแล้ว ขนาดที่ใหญ่โตของข้อมูลก็เกินกว่าที่จะตีความด้วยกำลังคน การเปลี่ยนความรู้ที่กระจัดกระจายและเติบโตอย่างรวดเร็วนี้ให้เป็นคำตอบสำหรับการค้นพบยีนและการปรับปรุงพันธุ์ระดับโมเลกุล จำเป็นต้องอาศัยทั้งการบูรณาการอย่างเป็นระบบและการอนุมานด้วย AI",
+      "พวกเราสร้าง CucurbitAgent ขึ้นเพื่อเติมเต็มช่องว่างนี้ พัฒนาโดยศูนย์วิจัยผักปักกิ่ง (Beijing Vegetable Research Center: BVRC) สังกัดสถาบันวิทยาศาสตร์เกษตรและป่าไม้ปักกิ่ง (BAAFS) CucurbitAgent เป็นแพลตฟอร์มวิจัย AI ที่ผสานทรัพยากรมัลติ-ออมิกส์ซึ่งผ่านการคัดสรรสำหรับพืชตระกูลแตงเก้าสปีชีส์ — คำอธิบายประกอบยีนและความสัมพันธ์แบบออร์โธลอกัส การจับคู่รหัสยีนข้ามเวอร์ชัน การแสดงออกระดับเนื้อเยื่อและเครือข่ายการแสดงออกร่วมกัน โครงสร้าง ESMFold ทั่วทั้งโปรตีโอมพร้อมตำแหน่งจับที่ GPSite ทำนาย และคลังงานวิจัยขนาดใหญ่ — เข้ากับผู้ช่วยโมเดลภาษาขนาดใหญ่ที่ใช้การสืบค้นเสริมการสร้างคำตอบ (RAG) และการเรียกใช้เครื่องมือ ตั้งคำถามด้วยภาษาธรรมชาติ CucurbitAgent จะดึงหลักฐานจากฐานข้อมูลยีน การแสดงออก โครงสร้าง และงานวิจัยที่โฮสต์ไว้ภายในระบบ แล้วส่งมอบคำตอบที่มีหลักฐานรองรับผ่านโมดูลเฉพาะทาง ได้แก่ ยีน การแสดงออก โปรตีน งานวิจัย และดาวน์โหลดจีโนม",
+      "เมื่อรวมกัน ความรู้เกี่ยวกับพืชตระกูลแตงที่ผ่านการคัดสรร การสืบค้นเสริมการสร้างคำตอบ และเครื่องมือฐานข้อมูลที่มีโครงสร้าง ช่วยให้ CucurbitAgent สนับสนุนการค้นพบยีนที่รวดเร็วยิ่งขึ้น การตีความความแปรผัน รูปแบบการแสดงออก และตำแหน่งจับของโปรตีนที่ชัดเจนยิ่งขึ้น ตลอดจนการตัดสินใจปรับปรุงพันธุ์ที่มีข้อมูลรองรับมากขึ้น — เพื่อชุมชนวิจัยพืชตระกูลแตงทั่วโลก"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 แหล่งข้อมูลภายนอก",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "จีโนม ยีน งานวิจัย",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "ฐานข้อมูลจีโนมิกส์ของพืชตระกูลแตง v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "จีโนมิกส์เปรียบเทียบพืช",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "จีโนมิกส์พืช (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "ฐานข้อมูลจีโนมแตงกวา",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "ข้อมูล Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "จีโนมแตงเมล่อน T2T และเครื่องมือ",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "การทำนายโครงสร้างโปรตีน",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "การอ้างอิง",
+    "intro": "หากคุณพบว่าแพลตฟอร์มนี้มีประโยชน์ต่องานวิจัยของคุณ โปรดอ้างอิง:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 สถาบันวิทยาศาสตร์เกษตรและป่าไม้ปักกิ่ง (BAAFS) สงวนลิขสิทธิ์"
+  }
+}

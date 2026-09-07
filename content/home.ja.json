@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "CucurbitAgent へ\nようこそ",
+    "subtitle": "大規模言語モデルとマルチオミクスデータを統合した、ウリ科研究のための次世代インテリジェントプラットフォーム。",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 遺伝子",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 発現",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 タンパク質",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent について",
+    "paragraphs": [
+      "ウリ科（Cucurbitaceae）——スイカ、キュウリ、メロン、カボチャ、ニガウリおよび関連作物——は、世界の主要な野菜作物です。高品質なゲノム、トランスクリプトーム、機能研究は増え続けていますが、これらのリソースは依然としてデータベースや形式ごとに分散しており、また集めたとしてもその規模は手作業での解釈を超えています。こうした断片化し急速に成長する知識を、遺伝子発見や分子育種への答えに変えるには、体系的な統合と AI による推論の両方が必要です。",
+      "CucurbitAgent はこのギャップを埋めるために構築されました。北京市農林科学院野菜研究所（BVRC）が開発した CucurbitAgent は、9 種のウリ科作物のキュレーション済みマルチオミクスリソース——遺伝子アノテーションとオーソロジー、バージョン間遺伝子IDマッピング、組織発現と共発現ネットワーク、プロテオーム全体の ESMFold 構造と GPSite による結合部位予測、大規模文献コーパス——に、検索拡張生成（RAG）とツール実行可能な大規模言語モデルアシスタントを組み合わせた AI 研究プラットフォームです。自然言語で質問すると、CucurbitAgent はローカルにホストされた遺伝子・発現・構造・文献データベースから証拠を検索し、遺伝子・発現・タンパク質・文献・ゲノムダウンロードの各モジュールを通じて根拠のある回答を返します。",
+      "キュレーション済みのウリ科知識、RAG、構造化データベースツールの組み合わせにより、CucurbitAgent はより速い遺伝子発見、変異・発現パターン・タンパク質結合部位のより明確な解釈、より良い育種判断を、世界のウリ科研究コミュニティに提供します。"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 外部リソース",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "ゲノム・遺伝子・文献",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "ウリ科ゲノムデータベース v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "植物比較ゲノミクス",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "植物ゲノム（JGI）",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "キュウリゲノムデータベース",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "シロイヌナズナ情報",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T メロンのゲノムとツール",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "タンパク質構造予測",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "引用",
+    "intro": "本プラットフォームが研究に役立った場合は、以下を引用してください：",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 北京市農林科学院（BAAFS）. All rights reserved."
+  }
+}

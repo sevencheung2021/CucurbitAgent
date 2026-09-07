@@ -1,0 +1,29 @@
+[Unit]
+Description=CuAgent daily literature fetch (PubMed Cucurbitaceae)
+Documentation=https://internal/cuagent
+# 不强依赖 cuagent-api.service —— 下载脚本本身不依赖 API 在线,
+# 只有最后的热重载步骤需要 API (脚本内部有重试, 失败也不致命)。
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# ← 部署到新服务器时改这两行 ↓
+User=www-data
+WorkingDirectory=/opt/cuagent
+ExecStart=/opt/cuagent/scripts/fetch_and_reload.sh
+
+# 日志走 journald (Type=oneshot 不需要 StandardOutput=file)
+StandardOutput=journal
+StandardError=journal
+
+# 失败不自动重启 (timer 会在下一个触发周期重跑)。
+# 如果想要失败立刻重试, 改成 Restart=on-failure + RestartSec=300。
+Restart=no
+
+# 资源限制 — 防止 ChromaDB 嵌入吃光内存
+MemoryMax=8G
+TimeoutStartSec=1800
+
+[Install]
+WantedBy=multi-user.target

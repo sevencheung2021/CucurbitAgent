@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Bienvenue sur\nCucurbitAgent",
+    "subtitle": "Une plateforme intelligente de nouvelle génération pour la recherche sur les Cucurbitaceae, intégrant les grands modèles de langage et les données multiomiques.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gènes",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Expression",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Protéines",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "À propos de CucurbitAgent",
+    "paragraphs": [
+      "Les cucurbitacées (Cucurbitaceae) — pastèque, concombre, melon, courge, concombre amer et cultures apparentées — sont parmi les grandes cultures maraîchères mondiales. Les génomes de haute qualité, les transcriptomes et les études fonctionnelles s'accumulent sans cesse, mais ces ressources restent dispersées entre bases de données et formats — et même une fois regroupées, leur ampleur dépasse l'interprétation manuelle. Transformer ces connaissances fragmentées et en croissance rapide en réponses pour la découverte de gènes et la sélection moléculaire exige à la fois une intégration systématique et un raisonnement assisté par IA.",
+      "Nous avons créé CucurbitAgent pour combler cette lacune. Développé par le Centre de recherche sur les légumes de Pékin (BVRC) de l'Académie des sciences agricoles et forestières de Pékin (BAAFS), CucurbitAgent est une plateforme de recherche IA qui associe des ressources multiomiques consolidées pour neuf espèces de cucurbitacées — annotation des gènes et orthologie, correspondance des ID de gènes entre versions, expression tissulaire et réseaux de co-expression, structures ESMFold à l'échelle du protéome avec sites de liaison prédits par GPSite, ainsi qu'un vaste corpus de littérature — à un assistant fondé sur un grand modèle de langage, avec génération augmentée par récupération et appel d'outils. Posez une question en langage naturel, et CucurbitAgent extrait des preuves des bases de gènes, d'expression, de structures et de littérature hébergées localement, et retourne des réponses fondées via des modules dédiés : gènes, expression, protéines, littérature et téléchargement de génomes.",
+      "Ensemble, les connaissances consolidées sur les cucurbitacées, la génération augmentée par récupération et les outils de bases de données structurées permettent à CucurbitAgent d'accélérer la découverte de gènes, d'éclaircir l'interprétation des variantes, des profils d'expression et des sites de liaison des protéines, et d'étayer des décisions de sélection plus éclairées — au service de la communauté mondiale de recherche sur les cucurbitacées."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Ressources externes",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Génomes, gènes, littérature",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Base de données génomiques des cucurbitacées v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Génomique comparée des plantes",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Génomique des plantes (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Base de données du génome du concombre",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Informations sur Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Génome T2T du melon et outils",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Prédiction de structures de protéines",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Nous citer",
+    "intro": "Si cette plateforme vous est utile dans vos recherches, merci de citer :",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026. Académie des sciences agricoles et forestières de Pékin (BAAFS). Tous droits réservés."
+  }
+}

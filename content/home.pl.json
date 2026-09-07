@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Witamy w\nCucurbitAgent",
+    "subtitle": "Nowej generacji platforma do badań nad Cucurbitaceae, łącząca duże modele językowe z danymi multiomicznymi.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Geny",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Ekspresja",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Białka",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "O CucurbitAgent",
+    "paragraphs": [
+      "Dyniowate (Cucurbitaceae) — arbuz, ogórek, melon, dynia, melon gorzki i rośliny spokrewnione — należą do najważniejszych warzyw świata. Wysokiej jakości genomy, transkryptomy i badania funkcjonalne stale się akumulują, jednak te zasoby pozostają rozproszone między bazami danych i formatami, a ich skala przekracza możliwości ręcznej analizy. Przekształcenie tej fragmentarycznej i szybko rosnącej wiedzy w odpowiedzi przydatne przy odkrywaniu genów i hodowli molekularnej wymaga zarówno systematycznej integracji, jak i wnioskowania opartego na AI.",
+      "CucurbitAgent powstał, aby wypełnić tę lukę. Opracowany przez Beijing Vegetable Research Center (BVRC) przy Beijing Academy of Agriculture and Forestry Sciences (BAAFS), CucurbitAgent jest badawczą platformą AI, która łączy kuratorowane zasoby multiomiczne dziewięciu gatunków dyniowatych — anotacje genów i ortologię, mapowanie ID genów między wersjami, ekspresję tkankową i sieci koekspresji, struktury ESMFold całego proteomu z przewidzianymi miejscami wiązania GPSite oraz obszerny korpus literatury — z asystentem opartym na dużych modelach językowych, wykorzystującym Retrieval-Augmented Generation i wywoływanie narzędzi. Zadaj pytanie w języku naturalnym, a CucurbitAgent wyodrębni dowody z lokalnie hostowanych baz genów, ekspresji, struktur i literatury, zwracając ugruntowane odpowiedzi przez wyspecjalizowane moduły: geny, ekspresja, białka, literatura i pobieranie genomów.",
+      "Połączenie kuratorowanej wiedzy, RAG i ustrukturyzowanych baz danych pozwala CucurbitAgent przyspieszać odkrywanie genów, przejrzyściej interpretować warianty, profile ekspresji i miejsca wiązania białek oraz podejmować lepiej uzasadnione decyzje hodowlane — dla dobra światowej społeczności badaczy dyniowatych."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Zasoby zewnętrzne",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genomy, geny, literatura",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Genomiczna baza dyniowatych v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Genomika porównawcza roślin",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genomy roślin (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Baza genomu ogórka",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Informacje o Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genom T2T melona i narzędzia",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Predykcja struktur białek",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Cytowanie",
+    "intro": "Jeśli platforma okazała się przydatna w Twoich badaniach, prosimy o cytowanie:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Wszelkie prawa zastrzeżone."
+  }
+}

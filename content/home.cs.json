@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Vítejte v\nCucurbitAgent",
+    "subtitle": "Nová generace platformy pro výzkum Cucurbitaceae, která spojuje velké jazykové modely a multiomická data.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Geny",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Exprese",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteiny",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "O CucurbitAgent",
+    "paragraphs": [
+      "Tykvovité (Cucurbitaceae) — meloun vodní, okurka, meloun cukrový, dýně, meloun hořký a příbuzné plodiny — patří k nejdůležitější zelenině světa. Kvalitní genomy, transkriptomy a funkční studie se neustále hromadí, tyto zdroje však zůstávají roztříštěné napříč databázemi a formáty a jejich rozsah přerůstá možnosti ruční analýzy. Proměnit tyto fragmentované a rychle rostoucí poznatky v odpovědi pro objevování genů a molekulární šlechtění vyžaduje jak systematickou integraci, tak závěry založené na AI.",
+      "CucurbitAgent vznikl, aby tuto mezeru zaplnil. Vyvinutý Beijing Vegetable Research Center (BVRC) při Beijing Academy of Agriculture and Forestry Sciences (BAAFS), je CucurbitAgent výzkumnou AI platformou, která propojuje kurátorované multiomické zdroje devíti druhů tykvovitých — anotace genů a ortologii, mapování ID genů mezi verzemi, expresi v tkáních a koexpresní sítě, struktury ESMFold celého proteomu s predikovanými vazebnými místy GPSite a rozsáhlý korpus literatury — s asistentem postaveným na velkých jazykových modelech, který využívá Retrieval-Augmented Generation a volání nástrojů. Položte otázku v přirozeném jazyce a CucurbitAgent vytěží důkazy z lokálně hostovaných databází genů, exprese, struktur a literatury a vrátí podložené odpovědi skrze specializované moduly: geny, exprese, proteiny, literatura a stahování genomů.",
+      "Kombinace kurátorovaných znalostí, RAG a strukturovaných databází umožňuje CucurbitAgentu urychlovat objevování genů, přehledněji interpretovat varianty, expresní vzorce a vazebná místa proteinů a přijímat lépe podložená šlechtitelská rozhodnutí — k prospěchu světové komunity výzkumníků tykvovitých rostlin."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Externí zdroje",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genomy, geny, literatura",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Genomická databáze tykvovitých v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Srovnávací genomika rostlin",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genomy rostlin (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Databáze genomu okurky",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Informace o Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T genom melounu cukrového a nástroje",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Predikce struktur proteinů",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Citace",
+    "intro": "Pokud vám platforma pomohla ve výzkumu, citujte prosím:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Všechna práva vyhrazena."
+  }
+}

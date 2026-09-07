@@ -1,0 +1,26 @@
+# secrets — never commit
+.env
+*.pem
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / next.js
+node_modules/
+.next/
+out/
+
+# local science data (see data/README.md for how data is obtained)
+data/science/
+data/**/*.db
+data/**/*.tsv.gz
+
+# runtime artifacts
+logs/
+*.log
+runtime/
+.DS_Store

@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Välkommen till\nCucurbitAgent",
+    "subtitle": "En intelligent plattform av nästa generation för forskning på Cucurbitaceae, som förenar stora språkmodeller med multiomik-data.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gener",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Uttryck",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteiner",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Om CucurbitAgent",
+    "paragraphs": [
+      "Gurkväxter (Cucurbitaceae) — vattenmelon, gurka, melon, pumpa, bittergurka och besläktade grödor — är viktiga grönsaksgrödor i hela världen. Högkvalitativa genom, transkriptom och funktionella studier ackumuleras ständigt, men dessa resurser förblir utspridda över databaser och format — och även när de samlas trotsar deras skala manuell tolkning. Att förvandla denna fragmenterade och snabbt växande kunskap till svar för genupptäckt och molekylär förädling kräver både systematisk integration och AI-drivet resonerande.",
+      "Vi byggde CucurbitAgent för att sluta detta gap. Utvecklad av Beijing Vegetable Research Center (BVRC) vid Beijing Academy of Agriculture and Forestry Sciences (BAAFS), är CucurbitAgent en AI-forskningsplattform som förenar kurerade multiomik-resurser för nio gurkväxtarter — genannotering och ortologi, gen-ID-mappning mellan versioner, vävnadsuttryck och samuttrycksnätverk, proteomomfattande ESMFold-strukturer med GPSite-predikterade bindningsställen samt en stor litteraturkorpus — med en retrievalförstärkt, verktygsanvändande assistent baserad på en stor språkmodell. Ställ en fråga på naturligt språk, så hämtar CucurbitAgent belägg från lokalt värdda gen-, uttrycks-, struktur- och litteraturdatabaser och returnerar välgrundade svar via dedikerade moduler för gener, uttryck, proteiner, litteratur och genoomnedladdning.",
+      "Tillsammans låter kurerad gurkväxtkunskap, retrievalförstärkt generering och strukturerade databasverktyg CucurbitAgent stödja snabbare genupptäckt, tydligare tolkning av varianter, uttrycksmönster och proteinbindningsställen samt bättre underbyggda förädlingsbeslut — för den globala forskargemenskapen kring gurkväxter."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Externa resurser",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genom, gener, litteratur",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Gurkväxtgenomikdatabas v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Jämförande växtgenomik",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Växtgenomik (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Gurkgenomsdatabas",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis-information",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T-melongenom & verktyg",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Prediktion av proteinstrukturer",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Citera oss",
+    "intro": "Om du tycker att plattformen är till nytta för din forskning, citera gärna:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026. Pekings akademi för jordbruks- och skogsvetenskaper (BAAFS). Alla rättigheter förbehållna."
+  }
+}

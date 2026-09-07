@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "خوش آمدید به\nCucurbitAgent",
+    "subtitle": "پلتفرم هوشمند نسل جدید برای پژوهش بر خانواده کدوئیان (Cucurbitaceae)، که مدل‌های زبانی بزرگ را با داده‌های چندآمیکسی یکپارچه می‌کند.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 ژن‌ها",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 بیان ژن",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 پروتئین‌ها",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "درباره CucurbitAgent",
+    "paragraphs": [
+      "کدوئیان (Cucurbitaceae) — هندوانه، خیار، طالبی، کدو، کدو تلخ و زرشات مرتبط — از گیاهان سبزی مهم جهان هستند. ژنوم‌های باکیفیت، رونویسی‌ها و مطالعات عملکردی پیوسته انباشته می‌شوند، اما این منابع در پایگاه‌های داده و قالب‌های گوناگون پراکنده باقی می‌مانند — و حتی پس از گردآوری، مقیاس عظیم آن‌ها تفسیر دستی را ناممکن می‌کند. تبدیل این دانش پراکنده و به‌سرعت در حال رشد به پاسخ‌هایی برای کشف ژن و اصلاح مولکولی، هم به یکپارچه‌سازی سیستماتیک نیاز دارد و هم به استدلال مبتنی بر هوش مصنوعی.",
+      "ما CucurbitAgent را برای پر کردن این شکاف ساختیم. CucurbitAgent که توسط مرکز پژوهش سبزیجات پکن (BVRC)، آکادمی علوم کشاورزی و جنگل‌شناسی پکن (BAAFS) توسعه یافته، یک پلتفرم پژوهشی هوش مصنوعی است که منابع چندآمیکسی گردآوری‌شده برای نُه گونه کدوئیان — حاشیه‌نویسی ژن و ارتولوژی، نگاشت شناسه ژنی میان نسخه‌ها، بیان بافتی و شبکه‌های بیان هم‌بسته، ساختارهای ESMFold برای کل پروتئئوم همراه با جایگاه‌های اتصال پیش‌بینی‌شده توسط GPSite، و پیکره مقالاتی بزرگ — را با دستیار مدل زبانی بزرگِ مجهز به تولید افزایش‌یافته با بازیابی و استفاده از ابزار پیوند می‌زند. یک پرسش به زبان طبیعی بپرسید تا CucurbitAgent شواهد را از پایگاه‌های ژن، بیان، ساختار و مقالاتِ میزبانی‌شده محلی بازیابی کند و از طریق ماژول‌های اختصاصی ژن، بیان ژن، پروتئین، مقالات و دانلود ژنوم، پاسخ‌های مستند برگرداند.",
+      "در کنار هم، دانش گردآوری‌شده کدوئیان، تولید افزایش‌یافته با بازیابی و ابزارهای پایگاه داده ساخت‌یافته به CucurbitAgent اجازه می‌دهد کشف ژن را سریع‌تر، تفسیر واریانت‌ها، الگوهای بیان و جایگاه‌های اتصال پروتئین را روشن‌تر، و تصمیم‌های اصلاح نژاد را آگاهانه‌تر پشتیبانی کند — برای جامعه جهانی پژوهش کدوئیان."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 منابع بیرونی",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "ژنوم‌ها، ژن‌ها، مقالات",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "پایگاه داده ژنومیک کدوئیان v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "ژنومیکس مقایسه‌ای گیاهان",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "ژنوم‌های گیاهی (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "پایگاه داده ژنوم خیار",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "اطلاعات آرابیدوپسیس",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "ژنوم T2T طالبی و ابزارها",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "پیش‌بینی ساختار پروتئین",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "به ما استناد دهید",
+    "intro": "اگر این پلتفرم برای پژوهش شما سودمند بود، لطفاً به آن استناد کنید:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "Beijing Vegetable Research Center (BVRC)",
+      "en": "Beijing Academy of Agriculture and Forestry Sciences (BAAFS)"
+    },
+    "contact": {
+      "address": "No. 50 Zhanghua Road, Haidian District, Beijing, China",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "State Key Laboratory of Vegetable Biobreeding",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      },
+      {
+        "name": "National Engineering Research Center for Vegetables",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      }
+    ],
+    "copyright": "حق نشر © 2026. آکادمی علوم کشاورزی و جنگل‌شناسی پکن (BAAFS). کلیه حقوق محفوظ است."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "CucurbitAgent ལ་\nདགའ་བསུ་ཞུ།",
+    "subtitle": "Cucurbitaceae ཞིབ་འཇུག་གི་དོན་དུ་བྱས་པའི་མི་རབས་གསར་པའི་རིག་ནུས་ལས་སྟེགས་ཤིག་ཡིན་ཞིང་། དེས་སྐད་ཡིག་དཔེ་ཆེན (LLM) དང་ multi-omics གཞི་གྲངས་སྦྲགས་ཡོད།",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 རྒྱུད་རྒྱུ།",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 མངོན་འགྱུར།",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 སྤྲི་དཀར།",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent སྐོར།",
+    "paragraphs": [
+      "ཀུབ་རིགས (Cucurbitaceae) — ཆུ་ཀུབ (watermelon) དང་། ཀུབ་ཚལ (cucumber)། ཀུབ་མངར (melon)། སྙི་ཀུབ (pumpkin)། ཁ་ཀུབ (bitter gourd) ལ་སོགས་པའི་ལོ་ཏོག — འཛམ་གླིང་ཐོག་གི་སྔོ་ཚལ་ལོ་ཏོག་གལ་ཆེན་ཞིག་ཡིན། སྤུས་ལེགས་ཀྱི་ genome་དང་། transcriptome། བྱེད་ནུས་ཞིབ་འཇུག་བཅས་རྒྱུན་མི་འཆད་པར་གསོག་འཇོག་བྱེད་བཞིན་ཡོད་ཀྱང་། ཐོན་ཁུངས་འདི་དག་གཞི་གྲངས་མཛོད་དང་རྩ་སྒྲིག (format) མི་འདྲ་བའི་ནང་ཁ་ཐོར་དུ་གནས་ཡོད་ལ། བསྡུ་རུབ་བྱས་ཀྱང་གྲངས་ཚད་ཧ་ཅང་ཆེ་བས་ལག་ཤེས་ཀྱི་འགྲེལ་བཤད་ཀྱི་ནུས་པ་ལས་བརྒལ་ཡོད། ཤེས་བྱ་ཁ་ཐོར་དང་མགྱོགས་མྱུར་འཕེལ་བ་འདི་དག་རྒྱུད་རྒྱུ་གསར་རྙེད་དང་འདུས་རྡུལ་གསོ་སྤེལ་གྱི་ལན་དུ་འགྱུར་བར། མ་ལག་ལྡན་པའི་སྡེབ་སྒྲིག་དང་རིག་ནུས་ཀྱི་གཏན་ཚིགས་གཉིས་ཀ་དགོས་ངེས་ཡིན།",
+      "བར་ཐོག་འདི་སྒྲོལ་ཆེད་ང་ཚོས་ CucurbitAgent བཟོས་པ་ཡིན། པེ་ཅིང་ཞིང་ལས་དང་ནགས་ལས་ཚན་རིག་སློབ་གླིང་ (BAAFS) གི་པེ་ཅིང་སྔོ་ཚལ་ཞིབ་འཇུག་ལྟེ་གནས་ (BVRC) ཀྱིས་གསར་བཟོ་བྱས་པའི་ CucurbitAgent ནི། ཀུབ་རིགས་རིགས་ཁག 9 ཀྱི་མཆན་འགྲེལ་ལྡན་པའི་ multi-omics ཐོན་ཁུངས — རྒྱུད་རྒྱུའི་མཆན་འགྲེལ་དང་རིགས་མཐུན་རྒྱུད་རྒྱུ (orthology)། པར་གཞི་བརྒལ་བའི་རྒྱུད་རྒྱུ ID སྡེབ་སྒྲིག ཕུང་གྲུབ་ཀྱི་མངོན་འགྱུར་དང་མཉམ་མངོན་འགྱུར་དྲ་བ། GPSite ཀྱི་སྔོན་དཔག་སྦྲེལ་གནས་དང་བཅས་པའི་སྤྲི་དཀར་ཡོངས་རྫོགས་ཀྱི་ ESMFold གྲུབ་ཚུལ། དེ་བཞིན་རྩོམ་ཡིག་མཛོད་ཆེན — དང་། འཚོལ་བཤེར་གྱིས་སྦྱོར་རྒྱུ (RAG) དང་ལག་ཆ་སྤྱོད་མཁན་གྱི་སྐད་ཡིག་དཔེ་ཆེན (LLM) རོགས་རམ་པ་སྦྲགས་པའི་རིག་ནུས་ཞིབ་འཇུག་ལས་སྟེགས་ཤིག་ཡིན། རང་བྱུང་སྐད་ཡིག་གི་ཐོག་ནས་དྲི་བ་ཞིག་ཞུས་ན། CucurbitAgent གིས་རང་སའི་རྒྱུད་རྒྱུ་དང་། མངོན་འགྱུར། གྲུབ་ཚུལ། རྩོམ་ཡིག་བཅས་ཀྱི་གཞི་གྲངས་མཛོད་ནས་དཔང་རྟགས་འཚོལ་ཞིབ་བྱས་ཏེ། རྒྱུད་རྒྱུ་དང་། མངོན་འགྱུར། སྤྲི་དཀར། རྩོམ་ཡིག genome ཕབ་ལེན་བཅས་ཀྱི་ཆེད་དམིགས་ཆ་ཤས་བརྒྱུད་ནས་གཞི་འཛིན་སའི་ལན་འདོན་སྲིད།",
+      "མཆན་འགྲེལ་ལྡན་པའི་ཀུབ་རིགས་ཤེས་བྱ་དང་། འཚོལ་བཤེར་གྱིས་སྦྱོར་བའི་སྐྱེད་བྱེད (RAG)། གྲུབ་ཆ་ལྡན་པའི་གཞི་གྲངས་མཛོད་ཀྱི་ལག་ཆ་བཅས་མཉམ་དུ་སྦྲགས་པ་ལས། CucurbitAgent ཀྱིས་རྒྱུད་རྒྱུ་གསར་རྙེད་མགྱོགས་སུ་གཏོང་བ་དང་། འགྱུར་ལྡོག་དང་། མངོན་འགྱུར་གྱི་ཆོས་ཉིད། སྤྲི་དཀར་གྱི་སྦྲེལ་གནས་བཅས་ཀྱི་འགྲེལ་བཤད་གསལ་དུ་འཇུག་པ། དེ་བཞིན་གསོ་སྤེལ་གྱི་ཐབས་ཤེས་གནད་ལ་འཁེལ་བ་ཞིག་འཛིན་པ་བཅས་ལ་རྒྱབ་སྐྱོར་བྱེད་ངེས — འཛམ་གླིང་གི་ཀུབ་རིགས་ཞིབ་འཇུག་མི་སྡེ་ཡོངས་ཀྱི་དོན་དུ།"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 ཕྱི་ཕྱོགས་ཐོན་ཁུངས།",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "genome་དང་། རྒྱུད་རྒྱུ། རྩོམ་ཡིག",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "ཀུབ་རིགས genome གཞི་གྲངས་མཛོད v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "རྩི་ཤིང་བསྡུར་བཤེར genome རིག་པ།",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "རྩི་ཤིང་གི་ genome (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "ཀུབ་ཚལ (cucumber) གྱི་ genome གཞི་གྲངས་མཛོད།",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis ཀྱི་ཆ་འཕྲིན།",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T ཀུབ་མངར (melon) གྱི་ genome་དང་ལག་ཆ།",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "སྤྲི་དཀར་གྲུབ་ཚུལ་སྔོན་དཔག",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "ལུང་འདྲེན་གནང་རོགས།",
+    "intro": "ལས་སྟེགས་འདིས་ཁྱེད་ཀྱི་ཞིབ་འཇུག་ལ་ཕན་ཐོགས་བྱུང་ན། ལུང་འདྲེན་གནང་རོགས་ཞུ།",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "པར་དབང་ © 2026 པེ་ཅིང་ཞིང་ལས་དང་ནགས་ལས་ཚན་རིག་སློབ་གླིང་ (BAAFS)། བདག་དབང་ཡོད་ཚད་སྲུང་ཉར་ཞུ་རྒྱུ།"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Chào mừng đến với\nCucurbitAgent",
+    "subtitle": "Nền tảng thông minh thế hệ mới cho nghiên cứu Cucurbitaceae, tích hợp các mô hình ngôn ngữ lớn với dữ liệu multi-omics.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gen",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Biểu hiện",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Protein",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Về CucurbitAgent",
+    "paragraphs": [
+      "Các cây họ bầu bí (Cucurbitaceae) — dưa hấu, dưa chuột, dưa lưới, bí đỏ, mướp đắng và các cây trồng liên quan — là những cây rau chính trên toàn thế giới. Các genome, transcriptome và nghiên cứu chức năng chất lượng cao không ngừng tích lũy, song các tài nguyên này vẫn còn rải rác ở nhiều cơ sở dữ liệu và định dạng — và kể cả khi được tập hợp, quy mô lớn của chúng vượt quá khả năng diễn giải thủ công. Biến kiến thức phân mảnh và tăng trưởng nhanh này thành câu trả lời cho việc phát hiện gen và chọn giống phân tử đòi hỏi cả tích hợp hệ thống lẫn suy luận hỗ trợ bởi AI.",
+      "Chúng tôi xây dựng CucurbitAgent để lấp khoảng trống đó. Được phát triển bởi Viện Nghiên cứu Rau Beijing (BVRC) thuộc Viện Khoa học Nông nghiệp và Lâm nghiệp Bắc Kinh (BAAFS), CucurbitAgent là nền tảng nghiên cứu AI kết hợp các tài nguyên multi-omics được quản lý cho chín loài bầu bí — chú giải gen và orthology, ánh xạ ID gen giữa các phiên bản, biểu hiện theo mô và mạng đồng biểu hiện, cấu trúc ESMFold toàn bộ proteome kèm vị trí gắn do GPSite dự đoán, cùng một kho tài liệu lớn — với một trợ lý mô hình ngôn ngữ lớn sử dụng tăng cường truy xuất (RAG) và gọi công cụ. Đặt câu hỏi bằng ngôn ngữ tự nhiên, CucurbitAgent sẽ truy xuất bằng chứng từ các cơ sở dữ liệu gen, biểu hiện, cấu trúc và tài liệu được lưu trữ cục bộ, trả về câu trả lời có căn cứ thông qua các mô-đun chuyên biệt: gen, biểu hiện, protein, tài liệu và tải xuống genome.",
+      "Kết hợp lại, kiến thức bầu bí được quản lý, sinh thành tăng cường truy xuất và các công cụ cơ sở dữ liệu có cấu trúc cho phép CucurbitAgent hỗ trợ phát hiện gen nhanh hơn, diễn giải rõ hơn các biến thể, mẫu hình biểu hiện và vị trí gắn protein, cùng các quyết định chọn giống có cơ sở hơn — vì cộng đồng nghiên cứu bầu bí toàn cầu."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Nguồn lực Bên ngoài",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genome, gen, tài liệu",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Cơ sở dữ liệu bộ gen cucurbit v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Bộ gen so sánh của thực vật",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Bộ gen thực vật (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Cơ sở dữ liệu genome dưa chuột",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Thông tin Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genome dưa lưới T2T & công cụ",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Dự đoán cấu trúc protein",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Trích dẫn",
+    "intro": "Nếu bạn thấy nền tảng này hữu ích cho nghiên cứu của mình, vui lòng trích dẫn:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Viện Khoa học Nông nghiệp và Lâm nghiệp Bắc Kinh (BAAFS). Bảo lưu mọi quyền."
+  }
+}

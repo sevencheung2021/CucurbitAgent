@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "CucurbitAgent-ga\nxush kelibsiz",
+    "subtitle": "Katta til modellari va multiomiks maʼlumotlarini birlashtirgan, Cucurbitaceae tadqiqotlari uchun yangi avlod platformasi.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Genlar",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Ekspressiya",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteinlar",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent haqida",
+    "paragraphs": [
+      "Qovoqdoshlar (Cucurbitaceae) — tarvuz, bodring, qovun, qovoq, achchiq qovun va qardosh ekinlar — dunyodagi eng muhim sabzavot ekinlari qatoriga kiradi. Yuqori sifatli genomlar, transkriptomalar va funksional tadqiqotlar uzluksiz toʻplanib bormoqda, biroq bu resurslar maʼlumotlar bazalari va formatlar boʻyicha tarqoq holatda qolmoqda, ularning hajmi esa qoʻlda tahlil imkoniyatlaridan oshib ketmoqda. Bu boʻlak-boʻlak va tez oʻsayotgan bilimni gen kashfiyoti va molekulyar seleksiya uchun javoblarga aylantirish uchun ham tizimli integratsiya, ham AI asosidagi mantiqiy xulosa zarur.",
+      "CucurbitAgent ana shu boʻshliqni toʻldirish uchun yaratilgan. Pekin qishloq xoʻjaligi va oʻrmonchilik akademiyasi (BAAFS) Pekin sabzavot tadqiqot markazi (BVRC) tomonidan ishlab chiqilgan CucurbitAgent — toʻqqiz qovoqdosh tur boʻyicha saralangan multiomiks resurslarini — gen annotatsiyalari va ortologiya, versiyalar oʻrtasidagi gen ID mosligi, toʻqima boʻyicha ekspressiya va ko-ekspressiya tarmoqlari, GPSite prognozlangan bogʻlanish joylari bilan butun proteom uchun ESMFold strukturalari hamda katta adabiyot korpusini — Retrieval-Augmented Generation va vositalarni chaqirishdan foydalanadigan katta til modeliga asoslangan yordamchi bilan birlashtiruvchi ilmiy AI platformasidir. Tabiiy tilda savol bering va CucurbitAgent mahalliy joylashgan gen, ekspressiya, struktura va adabiyot bazalaridan dalillar oladi hamda ixtisoslashtirilgan modullar orqali asoslangan javoblarni qaytaradi: genlar, ekspressiya, proteinlar, adabiyot va genomlarni yuklab olish.",
+      "Saralangan bilim, RAG va strukturalangan maʼlumotlar bazalarini uygʻunlashtirish CucurbitAgentga gen kashfiyotini tezlashtirish, variantlar, ekspressiya naqshlari va protein bogʻlanish joylarini aniqroq talqin qilish hamda asoslangan seleksiya qarorlarini qabul qilish imkonini beradi — bu butun dunyo qovoqdosh tadqiqotchilari hamjamiyati foydasiga."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Tashqi resurslar",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genomlar, genlar, adabiyot",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Qovoqdoshlar genom bazasi v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Oʻsimliklar qiyosiy genomikasi",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Oʻsimlik genomlari (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Bodring genomi bazasi",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis maʼlumotlari",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Qovun T2T genomi va vositalar",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Protein strukturalarini prognozlash",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Iqtibos",
+    "intro": "Agar platforma tadqiqotingizga foydali boʻlsa, uni iqtibos keltiring:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Pekin qishloq xoʻjaligi va oʻrmonchilik akademiyasi (BAAFS). Barcha huquqlar himoyalangan."
+  }
+}

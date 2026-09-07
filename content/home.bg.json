@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Добре дошли в\nCucurbitAgent",
+    "subtitle": "Платформа от ново поколение за изследвания на Cucurbitaceae, обединяваща големи езикови модели и мултиомиксни данни.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Гени",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Експресия",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Протеини",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "За CucurbitAgent",
+    "paragraphs": [
+      "Тиквовите (Cucurbitaceae) — диня, краставица, пъпеш, тиква, горчив пъпеш и родствени култури — са сред най-важните зеленчукови култури в света. Висококачествените геноми, транскриптоми и функционални изследвания се натрупват непрекъснато, но тези ресурси остават разпръснати по бази данни и формати, а мащабът им надхвърля възможностите на ръчния анализ. За да превърнем тези фрагментирани и бързо растящи знания в отговори за откриването на гени и молекулярната селекция, необходими са както системна интеграция, така и логически изводи, базирани на ИИ.",
+      "CucurbitAgent е създаден да запълни тази празнина. Разработен от Пекинския зеленчуков изследователски център (BVRC) при Пекинската академия за селско и горско стопанство (BAAFS), CucurbitAgent е научна ИИ платформа, обединяваща курирани мултиомиксни ресурси за девет тиквови вида — анотации на гени и ортология, съответствие на ID на гените между версии, експресия по тъкани и мрежи за коекспресия, ESMFold структури за целия протеом с предсказани GPSite места за свързване, както и голям корпус от литература — с асистент на базата на голям езиков модел, използващ Retrieval-Augmented Generation и извикване на инструменти. Задайте въпрос на естествен език и CucurbitAgent ще извлече доказателства от локално разположените бази за гени, експресия, структури и литература, връщайки обосновани отговори чрез специализирани модули: гени, експресия, протеини, литература и изтегляне на геноми.",
+      "Съчетанието на курирани знания, RAG и структурирани бази данни позволява на CucurbitAgent да ускорява откриването на гени, да интерпретира по-ясно варианти, профили на експресия и места за свързване на протеини, както и да се взимат по-обосновани селекционни решения — за доброто на световната общност от изследователи на тиквовите култури."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Външни ресурси",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Геноми, гени, литература",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Геномна база данни за тиквовите v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Сравнителна геномика на растенията",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Геноми на растения (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "База данни за генома на краставицата",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Информация за Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T геном на пъпеша и инструменти",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Предсказване на протеинови структури",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Цитиране",
+    "intro": "Ако платформата е била полезна за вашето изследване, моля, цитирайте:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Пекинска академия за селско и горско стопанство (BAAFS). Всички права запазени."
+  }
+}

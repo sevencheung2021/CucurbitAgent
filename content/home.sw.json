@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Karibu\nCucurbitAgent",
+    "subtitle": "Jukwaa lenye akili la kizazi kipya la utafiti wa Cucurbitaceae, linalounganisha modeli kubwa za lugha na data za oga-nyingi (multi-omics).",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Jini",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Usemi",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Protini",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Kuhusu CucurbitAgent",
+    "paragraphs": [
+      "Cucurbit (Cucurbitaceae) — tikiti-maji, tango, tikiti, boga, pareto na mazao yanayohusiana — ni mazao makuu ya mboga duniani. Jenomi za ubora wa juu, transkriptomu na utafiti wa utendaji unaendelea kuongezeka, hata hivyo rasilimali hizi bado zimegawanyika katika hifadhidata na miundo tofauti — na hata zikikusanywa, ukubwa wake mkubwa unazidi uwezo wa tafsiri ya mkono. Kubadilisha maarifa haya yaliyosambaratika na yanayokua kwa kasi kuwa majibu ya ugunduzi wa jini na uzalishaji wa molekuli, kunahitaji uunganishaji wa kimfumo pamoja na hoja inayotumia AI.",
+      "Tuliujenga CucurbitAgent kujaza pengo hili. Iliyotengenezwa na Beijing Vegetable Research Center (BVRC), Beijing Academy of Agriculture and Forestry Sciences (BAAFS), CucurbitAgent ni jukwaa la utafiti lenye AI linalounganisha rasilimali za oga-nyingi (multi-omics) zilizosuluhishwa kwa spishi tisa za cucurbit — maelezo na ortholojia ya jini, ulinganishaji wa IDs za jini kwenye matoleo tofauti, usemi wa tishu na mitandao ya usemi wa pamoja, miundo ya ESMFold ya protiniomu nzima yenye sehemu za kufunga zilizotabiriwa na GPSite, na mkusanyiko mkubwa wa fasihi — na msaidizi wa modeli kubwa ya lugha (LLM) anayetumia utafutaji-boreshwa na zana. Uliza swali kwa lugha ya kawaida, na CucurbitAgent atatoa ushahidi kutoka kwa hifadhidata za jini, usemi, muundo na fasihi zilizowekwa ndani, akirudisha majibu yenye msingi kupitia moduli maalum za jini, usemi, protini, fasihi na upakuaji wa jenomi.",
+      "Kwa pamoja, maarifa ya cucurbit yaliyosuluhishwa, utengenezaji boreshwa kwa utafutaji (RAG), na zana za hifadhidata zenye muundo, zinamruhusu CucurbitAgent kusaidia ugunduzi wa jini wa haraka zaidi, tafsiri bayana zaidi ya mabadiliko, mifumo ya usemi na sehemu za kufunga za protini, na maamuzi bora ya uzalishaji — kwa jamii ya utafiti wa cucurbit duniani kote."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Rasilimali za Nje",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Jenomi, jini, fasihi",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Hifadhidata ya jenomiki ya cucurbit v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Jenomiki ya kulinganisha ya mimea",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Jenomi za mimea (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Hifadhidata ya jenomu ya tango",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Taarifa za Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Jenomu ya T2T ya tikiti na zana",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Utabiri wa muundo wa protini",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Turejelee",
+    "intro": "Ukipata jukwaa hili lenye manufaa kwa utafiti wako, tafadhali rejelea:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Hakimiliki © 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Haki zote zimehifadhiwa."
+  }
+}

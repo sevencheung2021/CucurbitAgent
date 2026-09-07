@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Welcome to CucurbitAgent",
+    "subtitle": "A next-generation intelligent platform for Cucurbitaceae research, integrating large language models with multi-omics data.",
+    "image": "/assets/watermelon_1.png",
+    "cta": [
+      { "label": "🤖 CucurbitAgent", "href": "/agent" },
+      { "label": "🧬 Genes", "href": "/genes" },
+      { "label": "📊 Expression", "href": "/expression" },
+      { "label": "🔬 Proteins", "href": "/proteins" }
+    ]
+  },
+  "about": {
+    "title": "About CucurbitAgent",
+    "paragraphs": [
+      "Cucurbits (Cucurbitaceae)—watermelon, cucumber, melon, pumpkin, bitter gourd, and related crops—are major vegetable crops worldwide. High-quality genomes, transcriptomes, and functional studies keep accumulating, yet these resources remain scattered across databases and formats—and even when gathered, their sheer scale defies manual interpretation. Turning this fragmented, fast-growing knowledge into answers for gene discovery and molecular breeding calls for both systematic integration and AI-powered reasoning.",
+      "We built CucurbitAgent to close that gap. Developed by the Beijing Vegetable Research Center (BVRC), Beijing Academy of Agriculture and Forestry Sciences (BAAFS), CucurbitAgent is an AI research platform that pairs curated multi-omics resources for nine cucurbit species—gene annotation and orthology, cross-version gene ID mapping, tissue expression and co-expression networks, proteome-wide ESMFold structures with GPSite-predicted binding sites, and a large literature corpus—with a retrieval-augmented, tool-using large language model assistant. Ask a question in natural language, and CucurbitAgent retrieves evidence from locally hosted gene, expression, structure, and literature databases, returning grounded answers through dedicated gene, expression, protein, literature, and genome-download modules.",
+      "Together, curated cucurbit knowledge, retrieval-augmented generation, and structured database tools let CucurbitAgent support faster gene discovery, clearer interpretation of variants, expression patterns, and protein binding sites, and more informed breeding decisions—for the global cucurbit research community."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 External Resources",
+    "items": [
+      { "name": "NCBI", "description": "Genomes, genes, literature", "url": "https://www.ncbi.nlm.nih.gov/" },
+      { "name": "Cucurbit Genomics (CuGenDB)", "description": "Cucurbit genomics database v2", "url": "http://cucurbitgenomics.org/v2/" },
+      { "name": "Ensembl Plants", "description": "Plant comparative genomics", "url": "https://plants.ensembl.org/index.html" },
+      { "name": "Phytozome", "description": "Plant genomics (JGI)", "url": "https://phytozome-next.jgi.doe.gov/" },
+      { "name": "CucumberDB", "description": "Cucumber genome database", "url": "http://www.cucumberdb.com/#/home" },
+      { "name": "TAIR", "description": "Arabidopsis information", "url": "https://www.arabidopsis.org/#" },
+      { "name": "MIR", "description": "T2T melon genome & tools", "url": "https://zhanglab.qau.edu.cn/melon/index.php" },
+      { "name": "AlphaFold Server", "description": "Protein structure prediction", "url": "https://alphafoldserver.com/" }
+    ]
+  },
+  "citeUs": {
+    "title": "Cite Us",
+    "intro": "If you find this platform helpful for your research, please cite:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "Beijing Vegetable Research Center (BVRC)",
+      "en": "Beijing Academy of Agriculture and Forestry Sciences (BAAFS)"
+    },
+    "contact": {
+      "address": "No. 50 Zhanghua Road, Haidian District, Beijing, China",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "State Key Laboratory of Vegetable Biobreeding",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      },
+      {
+        "name": "National Engineering Research Center for Vegetables",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      }
+    ],
+    "copyright": "Copyright © 2026. Beijing Academy of Agriculture and Forestry Sciences (BAAFS). All rights reserved."
+  }
+}

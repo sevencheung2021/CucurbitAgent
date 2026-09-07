@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "CucurbitAgent-д\nтавтай морилно уу",
+    "subtitle": "Cucurbitaceae судалгаанд зориулсан, том хэлний загвар болон мультиомикс өгөгдлийг нэгтгэсэн шинэ үеийн платформ.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Генүүд",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Илэрхийлэл",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Уураг",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent-ийн тухай",
+    "paragraphs": [
+      "Cucurbitaceae овгийн ургамлууд — тарвас, хүнхэлз, амтат тарвас, хулуу, гашуун тарвас болон төрөл төрөгсөд — дэлхийн хамгийн чухал ногооны таримлуудын нэг юм. Өндөр чанартай геномууд, транскриптомууд болон үйл ажиллагааны судалгаанууд тасралтгүй нэмэгдсээр байгаа ч эдгээр нөөц өгөгдлийн сан, форматаараа тархан байгаа бөгөөд хэмжээ нь гар аргын шинжилгээний боломжоос хэтэрсээр байна. Энэхүү хэсэгчилсэн, хурдацтай өсөж буй мэдлэгийг ген нээх болон молекул селекцийн хариулт болгон хувиргахын тулд системийн интеграци болон AI дээр суурилсан логик дүгнэлт хоёуланг нь шаардана.",
+      "CucurbitAgent энэ хоорондыг нөхөхөд зориулагдсан. Бээжингийн Хөдөө аж ахуй, Ойн аж ахуйн Академийн (BAAFS) Бээжингийн Ногооны судалгааны төвийн (BVRC) боловсруулсан CucurbitAgent нь есөн зүйлийн Cucurbitaceae-д зориулсан боловсруулсан мультиомикс нөөц — генийн аннотаци ба ортологи, хувилбарууд хоорондын генийн ID тааралдцахуй, эд бүрээрх илэрхийлэл ба ко-экспрессийн сүлжээ, GPSite-ээр таамаглагдсан холболтын сайттай бүхэл протеомын ESMFold бүтцүүд, мөн том хэмжээний ном зүйн цуглуулга — зэргийг Retrieval-Augmented Generation болон багаж дуудах ашигладаг том хэлний загвар дээр тулгуурласан туслахтай нь нэгтгэсэн судалгааны AI платформ юм. Таны байгалийн хэлээр асуухад CucurbitAgent дотооддоо байрлах ген, илэрхийлэл, бүтэц, ном зүйн сангуудаас нотолгоо олж, мэргэжлийн модулиуд — генүүд, илэрхийлэл, уураг, ном зүй болон геном татаж авах замаар үндэслэлтэй хариулт өгнө.",
+      "Боловсруулсан мэдлэг, RAG болон бүтэцт өгөгдлийн санг хослуулах нь CucurbitAgent-д генийг илрүүлэхийг хурдасгаж, вариантууд, илэрхийллийн хэв маяг болон уургийн холболтын сайтуудыг тодорхой тайлбарлах, мөн илүү үндэслэлтэй селекцийн шийдвэр гаргах боломжийг олгоно — энэ нь дэлхийн Cucurbitaceae судлаачдын нийгэмлэгийн ашиг тусын тулд юм."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Гадаад нөөцүүд",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Геномууд, генүүд, ном зүй",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Cucurbitaceae-ийн геномын сан v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Ургамлын харьцуулсан геномик",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Ургамлын геномууд (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Хүнхэлзийн геномын сан",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis-ийн мэдээлэл",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Амтат тарвасны T2T геном болон багажууд",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Уургийн бүтцийг таамаглах",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Иш таталт",
+    "intro": "Хэрэв энэ платформ таны судалгаанд тустай байсан бол иш татана уу:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Бээжингийн Хөдөө аж ахуй, Ойн аж ахуйн Академи (BAAFS). Бүх эрх хамгаалагдсан."
+  }
+}

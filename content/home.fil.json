@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Maligayang pagdating sa\nCucurbitAgent",
+    "subtitle": "Isang matalinong platform ng susunod na henerasyon para sa pananaliksik sa Cucurbitaceae, pinagsasama ang malalaking modelong pangwika sa datos na multi-omics.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Mga Gen",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Ekspresyon",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Mga Protina",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Tungkol sa CucurbitAgent",
+    "paragraphs": [
+      "Ang mga cucurbit (Cucurbitaceae) — pakwan, pipino, melon, kalabasa, ampalaya, at mga kaugnay na pananim — ay mga pangunahing pananim na gulay sa buong mundo. Patuloy na dumadami ang mga de-kalidad na genome, transcriptome, at pag-aaral ng tungkulin, ngunit nananatiling kalat ang mga sangguniang ito sa iba't ibang database at format — at kahit na tipunin, nilalampasan ng laki nito ang kakayahan ng manu-manong interpretasyon. Ang paggawa ng karunungang ito na fragmented at mabilis na lumalago upang maging mga sagot para sa pagtuklas ng gen at molekular na pagpapaunlad ng lahi ay nangangailangan ng sistematikong integrasyon at pangangatwirang hinihimpil ng AI.",
+      "Ginawa namin ang CucurbitAgent upang mapunan ang agwang iyon. Binuo ng Beijing Vegetable Research Center (BVRC) ng Beijing Academy of Agriculture and Forestry Sciences (BAAFS), ang CucurbitAgent ay isang platform ng pananaliksik na AI na nagpapasama sa mga kuradong multi-omics na sanggunian para sa siyam na species ng cucurbit — anotasyon ng gen at orthology, pagmamapa ng gene ID sa mga bersyon, ekspresyon sa tisyu at mga co-expression network, mga estrukturang ESMFold sa buong proteome na may hinulaang binding site ng GPSite, at malaking korpus ng literatura — kasama ang isang assistant na malaking modelong pangwika na gumagamit ng retrieval-augmented generation at ng mga tool. Magtanong sa natural na wika, at kukunin ng CucurbitAgent ang ebidensya mula sa mga lokal na database ng gen, ekspresyon, estruktura, at literatura, na nagbabalik ng mga sagot na nakabatay sa ebidensya sa pamamagitan ng mga nakalaang module: gen, ekspresyon, protina, literatura, at pag-download ng genome.",
+      "Sama-sama, ang kuradong kaalaman sa cucurbit, ang retrieval-augmented generation, at ang mga tool ng database na may istruktura ay nagpapahintulot sa CucurbitAgent na suportahan ang mas mabilis na pagtuklas ng gen, mas malinaw na interpretasyon ng mga variant, pattern ng ekspresyon, at binding site ng protina, at mas may kaalamang mga desisyon sa pagpapaunlad ng lahi — para sa pandaigdigang komunidad ng pananaliksik sa cucurbit."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Mga Panlabas na Sanggunian",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Mga genome, gen, literatura",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Database ng genomics ng cucurbit v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Komparatibong genomics ng halaman",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genomics ng halaman (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Database ng genome ng pipino",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Impormasyon tungkol sa Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genome ng melon na T2T at mga tool",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Prediksyon ng estruktura ng protina",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Pag-quote sa Amin",
+    "intro": "Kung nakatulong ang platform na ito sa iyong pananaliksik, mangyaring i-quote:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Nakalaan ang lahat ng karapatan."
+  }
+}

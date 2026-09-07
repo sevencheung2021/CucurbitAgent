@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Bine ați venit la\nCucurbitAgent",
+    "subtitle": "Platformă de nouă generație pentru cercetarea Cucurbitaceae, care combină modele lingvistice de mari dimensiuni și date multi-omice.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gene",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Expresie",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteine",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Despre CucurbitAgent",
+    "paragraphs": [
+      "Cucurbitaceele (Cucurbitaceae) — pepenele verde, castravetele, pepenele galben, dovleacul, pepenele amar și culturile înrudite — sunt printre cele mai importante legume ale lumii. Genomurile de înaltă calitate, trascriptomele și studiile funcționale se acumulează continuu, însă aceste resurse rămân împrăștiate prin baze de date și formate diferite, iar scara lor depășește capacitatea de analiză manuală. Pentru a transforma aceste cunoștințe fragmentate și în rapidă creștere în răspunsuri utile pentru descoperirea genelor și ameliorarea moleculară sunt necesare atât integrarea sistematică, cât și inferența bazată pe AI.",
+      "CucurbitAgent a fost creat pentru a acoperi această lacună. Dezvoltat de Beijing Vegetable Research Center (BVRC) al Beijing Academy of Agriculture and Forestry Sciences (BAAFS), CucurbitAgent este o platformă de cercetare bazată pe AI, care integrează resurse multi-omice curate pentru nouă specii de cucurbitacee — adnotări de gene și ortologie, corespondența ID-urilor de gene între versiuni, expresia pe țesuturi și rețelele de co-exprimare, structuri ESMFold pentru întregul proteom cu situsuri de legare prezise de GPSite, precum și un corp vast de literatură — cu un asistent bazat pe modele lingvistice de mari dimensiuni, care utilizează Retrieval-Augmented Generation și apelarea de instrumente. Puneți o întrebare în limbaj natural, iar CucurbitAgent va extrage dovezile din bazele locale de gene, expresie, structuri și literatură, returnând răspunsuri fundamentate prin module specializate: gene, expresie, proteine, literatură și descărcarea genomurilor.",
+      "Combinarea cunoștințelor curate, a RAG și a bazelor de date structurate îi permite lui CucurbitAgent să accelereze descoperirea genelor, să interpreteze mai clar variantele, tiparele de expresie și situsurile de legare ale proteinelor, precum și să sprijine decizii de ameliorare mai bine fundamentate — în beneficiul comunității mondiale de cercetare a cucurbitaceelor."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Resurse externe",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genomuri, gene, literatură",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Baza genomică a cucurbitaceelor v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Genomică comparativă a plantelor",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genomuri de plante (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Baza de date a genomului de castravete",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Informații despre Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genomul T2T al pepenelui galben și instrumente",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Predicția structurilor proteice",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Citare",
+    "intro": "Dacă platforma v-a fost utilă în cercetare, vă rugăm să citați:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Toate drepturile rezervate."
+  }
+}

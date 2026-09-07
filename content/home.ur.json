@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "خوش آمدید\nCucurbitAgent",
+    "subtitle": "کیوکربٹ (Cucurbitaceae) تحقیق کے لیے نئی نسل کا ذہین پلیٹ فارم، جو بڑے زبان ماڈلز کو ملٹی-ومکس ڈیٹا کے ساتھ یکجا کرتا ہے۔",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 جینز",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 ایکسپریشن",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 پروٹینز",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent کے بارے میں",
+    "paragraphs": [
+      "کیوکربٹ فصلیں (Cucurbitaceae) — تربوز، کھیرا، خربوزہ، کدو، کریلا اور متعلقہ فصلیں — دنیا بھر کی اہم سبزی فصلیں ہیں۔ اعلیٰ معیار کے جینومز، ٹرانسکرپٹومز اور فنکشنل مطالعات مسلسل جمع ہو رہے ہیں، لیکن یہ وسائل ڈیٹابیسز اور فارمیٹس میں بکھرے ہوئے ہیں — اور انہیں اکٹھا کرنے کے بعد بھی ان کا وسیع پیمانہ دستی تشریح سے بڑھ جاتا ہے۔ اس بکھرے ہوئے، تیزی سے بڑھتے علم کو جین دریافت اور مولیکیولر بریڈنگ کے جوابات میں بدلنے کے لیے نظاماتی انضمام اور AI پر مبنی استدلال دونوں درکار ہیں۔",
+      "ہم نے یہ خلیج بھرنے کے لیے CucurbitAgent بنایا۔ بیجنگ اکیڈمی آف ایگریکلچر اینڈ فارسٹری سائنسز (BAAFS) کے بیجنگ ویجیٹیبل ریسرچ سینٹر (BVRC) نے تیار کیا، CucurbitAgent ایک AI ریسرچ پلیٹ فارم ہے جو نو کیوکربٹ انواع کے لیے مرتب شدہ ملٹی-ومکس وسائل — جین اینوٹیشن اور آرتھولوجی، ورژنز کے درمیان جین ID میپنگ، ٹشو ایکسپریشن اور کو-ایکسپریشن نیٹ ورکس، GPSite سے متوقع بائنڈنگ سائٹس کے ساتھ پورے پروٹیوم کی ESMFold ساختیں، اور ایک بڑا ادبی مجموعہ — کو ریٹریول-اگمنٹڈ، ٹول استعمال کرنے والے بڑے زبان ماڈل اسسٹنٹ کے ساتھ جوڑتا ہے۔ قدرتی زبان میں سوال پوچھیں، اور CucurbitAgent مقامی طور پر میزبانی شدہ جین، ایکسپریشن، ساخت اور ادبیات ڈیٹابیسز سے شواہد حاصل کر کے مخصوص جین، ایکسپریشن، پروٹین، ادبیات اور جینوم ڈاؤن لوڈ ماڈیولز کے ذریعے مبنی جوابات دیتا ہے۔",
+      "مل کر، مرتب شدہ کیوکربٹ علم، ریٹریول-اگمنٹڈ جنریشن اور ساختی ڈیٹابیس ٹولز CucurbitAgent کو تیز رفتار جین دریافت، ویریئنٹس، ایکسپریشن پیٹرنز اور پروٹین بائنڈنگ سائٹس کی واضح تشریح، اور زیادہ معلوم بریڈنگ فیصلوں میں معاون بناتے ہیں — عالمی کیوکربٹ ریسرچ کمیونٹی کے لیے۔"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 بیرونی وسائل",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "جینومز، جینز، ادبیات",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "کیوکربٹ جینومکس ڈیٹابیس v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "پودوں کی تقابلی جینومکس",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "پودوں کے جینومز (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "کھیرے کا جینوم ڈیٹابیس",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "آرابڈوپسس معلومات",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T خربوزہ جینوم اور ٹولز",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "پروٹین ساختی پیش گوئی",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "حوالہ دیں",
+    "intro": "اگر یہ پلیٹ فارم آپ کی تحقیق کے لیے مفید ہو تو براہ کرم حوالہ دیں:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "Beijing Vegetable Research Center (BVRC)",
+      "en": "Beijing Academy of Agriculture and Forestry Sciences (BAAFS)"
+    },
+    "contact": {
+      "address": "No. 50 Zhanghua Road, Haidian District, Beijing, China",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "State Key Laboratory of Vegetable Biobreeding",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      },
+      {
+        "name": "National Engineering Research Center for Vegetables",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      }
+    ],
+    "copyright": "کاپی رائٹ © 2026۔ بیجنگ اکیڈمی آف ایگریکلچر اینڈ فارسٹری سائنسز (BAAFS)۔ جملہ حقوق محفوظ ہیں۔"
+  }
+}
