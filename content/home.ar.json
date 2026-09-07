@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "مرحبًا بك في\nCucurbitAgent",
+    "subtitle": "منصة ذكية من الجيل الجديد لأبحاث عائلة القرعيات (Cucurbitaceae)، تدمج نماذج اللغة الكبيرة مع بيانات متعددة الأوميكس.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 الجينات",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 التعبير",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 البروتينات",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "عن CucurbitAgent",
+    "paragraphs": [
+      "القرعيات (Cucurbitaceae) — البطيخ والخيار والشمام والقرع والقرع المر والمحاصيل ذات الصلة — من أهم محاصيل الخضروات في العالم. تستمر الجينومات عالية الجودة والترنسكريبتومات والدراسات الوظيفية في التراكم، غير أن هذه الموارد تظل مبعثرة عبر قواعد البيانات والتنسيقات — وحتى عند تجميعها، فإن حجمها الهائل يتجاوز قدرة التفسير اليدوي. إن تحويل هذه المعرفة المجزأة سريعة النمو إلى إجابات تدعم اكتشاف الجينات والتهجين الجزيئي يتطلب تكاملًا منهجيًا واستدلالًا مدعومًا بالذكاء الاصطناعي.",
+      "أنشأنا CucurbitAgent لسد هذه الفجوة. طوّره مركز بكين لأبحاث الخضروات (BVRC) التابع لأكاديمية بكين للعلوم الزراعية والغابية (BAAFS)، ويُعد CucurbitAgent منصة أبحاث بالذكاء الاصطناعي تجمع بين موارد مالتو-أوميكس منسقة لتسعة أنواع قرعية — التعليقات التوضيحية الجينية والأورثولوجيا، ومطابقة معرّفات الجينات عبر الإصدارات، وتعبير الأنسجة وشبكات التعبير المشترك، وبنى ESMFold لكامل البروتيوم مع مواقع ارتباط متنبأ بها عبر GPSite، ومدونة أدبيات ضخمة — ومساعد يعتمد على نماذج اللغة الكبيرة مع التوليد المعزز بالاسترجاع واستدعاء الأدوات. اطرح سؤالًا بلغة طبيعية، ويسترجع CucurbitAgent الأدلة من قواعد بيانات الجينات والتعبير والبنية والأدبيات المستضافة محليًا، عائدًا بإجابات موثقة عبر وحدات مخصصة للجينات والتعبير والبروتينات والأدبيات وتنزيل الجينومات.",
+      "معًا، تتيح المعرفة المنسقة عن القرعيات، والتوليد المعزز بالاسترجاع، وأدوات قواعد البيانات المهيكلة لـ CucurbitAgent دعم اكتشاف أسرع للجينات، وتفسيرًا أوضح للمتغيرات وأنماط التعبير ومواقع ارتباط البروتين، وقرارات تهجين أكثر رشدًا — لخدمة مجتمع أبحاث القرعيات العالمي."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 موارد خارجية",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "جينومات وجينات وأدبيات",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "قاعدة بيانات جينوم القرعيات v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "جينوميات نباتية مقارنة",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "جينومات النبات (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "قاعدة بيانات جينوم الخيار",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "معلومات أرابيدوبسيس",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "جينوم الشمام T2T وأدوات",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "التنبؤ ببنية البروتين",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "الاستشهاد بنا",
+    "intro": "إذا وجدت هذه المنصة مفيدة لبحثك، فيرجى الاستشهاد بها:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "Beijing Vegetable Research Center (BVRC)",
+      "en": "Beijing Academy of Agriculture and Forestry Sciences (BAAFS)"
+    },
+    "contact": {
+      "address": "No. 50 Zhanghua Road, Haidian District, Beijing, China",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "State Key Laboratory of Vegetable Biobreeding",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      },
+      {
+        "name": "National Engineering Research Center for Vegetables",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      }
+    ],
+    "copyright": "حقوق النشر © 2026. أكاديمية بكين للعلوم الزراعية والغابية (BAAFS). جميع الحقوق محفوظة."
+  }
+}

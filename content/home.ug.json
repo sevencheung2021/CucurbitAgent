@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "خوش كەلدىڭىز\nCucurbitAgent",
+    "subtitle": "كاۋا ئائىلىسى (Cucurbitaceae) تەتقىقاتى ئۈچۈن يېڭى بىر ئەۋلاد ئەقلىي سۇپا بولۇپ، چوڭ تىل مودېللىرىنى كۆپ ئومىكس ساندانلىرى بىلەن بىرلەشتۈرىدۇ.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 گېنلار",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 ئىپادىلىنىش",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 ئاقسىللار",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent توغرىسىدا",
+    "paragraphs": [
+      "كاۋا زىرائەتلىرى (Cucurbitaceae) — تاۋۇز، تەرەڭ، قوغۇن، كاۋا، ئاچچىق كاۋا ۋە ئۇرۇق تۇغقان زىرائەتلەر — دۇنيادىكى مۇھىم كۆكتات زىرائەتلىرىدۇر. يۇقىرى سۈپەتلىك گېنوملار، ترانسكرىپتوملار ۋە ئىقتىدار تەتقىقاتلىرى ئۈزلۈكسىز كۆپىيىۋاتىدۇ، ئەمما بۇ بايلىقلار ساندانلار ۋە فورماتلار ئارىسىدا چېچىلىپ ياتماقتا — يىغىلغان تەقدىردىمۇ، ئۇلارنىڭ غايەت زور كۆلەمى قول بىلەن چۈشەندۈرۈشكە پاتمايدۇ. بۇ پارچە-پۇرات، تېز ئۆسۈۋاتقان بىلىملەرنى گېن بايقاش ۋە مولېكۇلالىق يېتىشتۈرۈش جاۋابلىرىغا ئايلاندۇرۇش ئۈچۈن سىستېمىلىق بىرىكتۈرۈش ۋە AI ئاساسىدىكى پىكىر يۈرگۈزۈش زۆرۈر.",
+      "بۇ بوشلۇقنى تولدۇرۇش ئۈچۈن بىز CucurbitAgent نى ياسىدۇق. بېيجىڭ يېزا ئىگىلىك ۋە ئورمان ئىلمى ئاكادېمىيەسى (BAAFS) نىڭ بېيجىڭ كۆكتات تەتقىقات مەركىزى (BVRC) تەرىپىدىن ئېچىلغان CucurbitAgent بولسا، توققۇز كاۋا تۈرى ئۈچۈن رەتلەنگەن كۆپ ئومىكس بايلىقلىرى — گېن ئاننوتاتسىيەسى ۋە ئورتولوگىيە، نەشرلەر ئارا گېن ID ماسلاشتۇرۇش، توقۇلما ئىپادىلىنىشى ۋە بىرلىكتە ئىپادىلىنىش تورلىرى، GPSite مۆلچەرلىگەن باغلىنىش ئورۇنلىرى بىلەن پۈتۈن پروتېئومنىڭ ESMFold قۇرۇلمىلىرى، شۇنداقلا چوڭ ئەدەبىيات توپلىمى — نى ئىزدەش كۈچەيتىلگەن، قورال ئىشلىتىدىغان چوڭ تىل مودېلى ياردەمچىسى بىلەن بىرلەشتۈرگەن AI تەتقىقات سۇپىسىدۇر. تەبىئىي تىلدا سوئال سوراڭ، CucurbitAgent يەرلىكتە ساقلانغان گېن، ئىپادىلىنىش، قۇرۇلما ۋە ئەدەبىيات ساندانلىرىدىن دەلىل ئېلىپ، مەخسۇس گېن، ئىپادىلىنىش، ئاقسىل، ئەدەبىيات ۋە گېنوم چۈشۈرۈش مودۇللىرى ئارقىلىق ئاساسلىق جاۋابلارنى بېرىدۇ.",
+      "بىرلىكتە، رەتلەنگەن كاۋا بىلىملىرى، ئىزدەش كۈچەيتىلگەن ھاسىللاش ۋە تۈزۈلمە ساندان قوراللىرى CucurbitAgent كا گېن بايقاشنى تېزلىتىش، ئۆزگىرىشلەر، ئىپادىلىنىش ئەندىزىلىرى ۋە ئاقسىل باغلىنىش ئورۇنلىرىنى ئوچۇق چۈشەندۈرۈش، شۇنداقلا ئۇچۇرلۇق يېتىشتۈرۈش قارارلىرىنى چىقىرىشنى قوللاش ئىمكانىيىتىنى بېرىدۇ — يەرشارى كاۋا تەتقىقات جامائەتى ئۈچۈن."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 تاشقى بايلىقلار",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "گېنوملار، گېنلار، ئەدەبىيات",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "كاۋا گېنوم ساندانى v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "ئۆسۈملۈك سېلىشتۇرما گېنومىكاسى",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "ئۆسۈملۈك گېنوملىرى (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "تەرەڭ گېنوم ساندانى",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "ئارابىدوپسىس ئۇچۇرلىرى",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T قوغۇن گېنومى ۋە قوراللار",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "ئاقسىل قۇرۇلمىسى مۆلچەرى",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "بىزگە ئىشارە قىلىڭ",
+    "intro": "ئەگەر بۇ سۇپا تەتقىقاتىڭىزغا پايدىلىق بولسا، ئىشارە قىلىشىڭىزنى ئۆتۈنىمىز:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "Beijing Vegetable Research Center (BVRC)",
+      "en": "Beijing Academy of Agriculture and Forestry Sciences (BAAFS)"
+    },
+    "contact": {
+      "address": "No. 50 Zhanghua Road, Haidian District, Beijing, China",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "State Key Laboratory of Vegetable Biobreeding",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      },
+      {
+        "name": "National Engineering Research Center for Vegetables",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      }
+    ],
+    "copyright": "نەشر ھوقۇقى © 2026. بېيجىڭ يېزا ئىگىلىك ۋە ئورمان ئىلمى ئاكادېمىيەسى (BAAFS). بارلىق ھوقۇقلار ساقلانغان."
+  }
+}

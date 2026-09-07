@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "CucurbitAgent'a\nHoş Geldiniz",
+    "subtitle": "Kabakgiller (Cucurbitaceae) araştırmaları için büyük dil modellerini çoklu-omiks verileriyle birleştiren yeni nesil akıllı platform.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Genler",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Ekspresyon",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteinler",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent Hakkında",
+    "paragraphs": [
+      "Kabakgiller (Cucurbitaceae) — karpuz, hıyar, kavun, kabak, acı kabak ve akraba ürünler — dünyanın başlıca sebze ürünlerindendir. Yüksek kaliteli genomlar, transkriptomlar ve işlevsel çalışmalar sürekli birikmektedir; ancak bu kaynaklar veritabanları ve biçimler arasında dağınık kalmaktadır — bir araya getirilseler bile ölçekleri elle yorumlamayı aşmaktadır. Bu parçalı ve hızla büyüyen bilgiyi gen keşfi ve moleküler ıslah için yanıtlara dönüştürmek, hem sistematik entegrasyonu hem de yapay zekâ destekli akıl yürütmeyi gerektirir.",
+      "Bu boşluğu kapatmak için CucurbitAgent'ı geliştirdik. Beijing Tarım ve Orman Bilimleri Akademisi (BAAFS) bünyesindeki Beijing Sebze Araştırma Merkezi (BVRC) tarafından geliştirilen CucurbitAgent, dokuz kabakgiller türü için derlenmiş çoklu-omiks kaynaklarını — gen anotasyonu ve ortoloji, sürümler arası gen ID eşlemesi, doku ekspresyonu ve birlikte-ekspresyon ağları, GPSite ile tahmin edilen bağlanma bölgeleriyle birlikte proteom geneli ESMFold yapıları ve geniş bir literatür derlemesi — geri-getirmeyle güçlendirilmiş, araç kullanan büyük dil modeli asistanıyla birleştiren bir yapay zekâ araştırma platformudur. Doğal dille bir soru sorun; CucurbitAgent, yerel olarak barındırılan gen, ekspresyon, yapı ve literatür veritabanlarından kanıt getirir ve gen, ekspresyon, protein, literatür ile genom indirme modülleri aracılığıyla temellendirilmiş yanıtlar döndürür.",
+      "Birlikte, derlenmiş kabakgiller bilgisi, geri-getirmeyle güçlendirilmiş üretim ve yapılandırılmış veritabanı araçları, CucurbitAgent'ın daha hızlı gen keşfini, varyantların, ekspresyon desenlerinin ve protein bağlanma bölgelerinin daha net yorumlanmasını ve daha bilinçli ıslah kararlarını desteklemesini sağlar — küresel kabakgiller araştırma topluluğu için."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Dış Kaynaklar",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genomlar, genler, literatür",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Kabakgiller genomik veritabanı v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Bitkisel karşılaştırmalı genomik",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Bitki genomları (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Hıyar genomu veritabanı",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis bilgileri",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T kavun genomu ve araçlar",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Protein yapısı tahmini",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Atıf Yapın",
+    "intro": "Bu platformu araştırmanız için yararlı bulursanız lütfen atıf yapın:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "Beijing Vegetable Research Center (BVRC)",
+      "en": "Beijing Academy of Agriculture and Forestry Sciences (BAAFS)"
+    },
+    "contact": {
+      "address": "No. 50 Zhanghua Road, Haidian District, Beijing, China",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "State Key Laboratory of Vegetable Biobreeding",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      },
+      {
+        "name": "National Engineering Research Center for Vegetables",
+        "detail": "Beijing Vegetable Research Center, Beijing Academy of Agriculture and Forestry Sciences, Beijing 100097, China"
+      }
+    ],
+    "copyright": "Telif Hakkı © 2026. Beijing Tarım ve Orman Bilimleri Akademisi (BAAFS). Tüm hakları saklıdır."
+  }
+}

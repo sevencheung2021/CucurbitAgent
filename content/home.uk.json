@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Ласкаво просимо до\nCucurbitAgent",
+    "subtitle": "Платформа нового покоління для досліджень Cucurbitaceae, що поєднує великі мовні моделі та мультиомікісні дані.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Гени",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Експресія",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Білки",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Про CucurbitAgent",
+    "paragraphs": [
+      "Гарбузові (Cucurbitaceae) — кавун, огірок, диня, гарбуз, гірка диня та споріднені культури — є одними з найважливіших овочевих культур світу. Якісні геноми, транскриптоми та функціональні дослідження накопичуються безперервно, однак ці ресурси залишаються розпорошеними по базах даних і форматах, а їхній масштаб перевищує можливості ручного аналізу. Щоб перетворити ці фрагментовані й стрімко зростаючі знання на відповіді для відкриття генів і молекулярної селекції, потрібні як системна інтеграція, так і логічний висновок на основі ШІ.",
+      "CucurbitAgent створено, щоб закрити цю прогалину. Розроблений Пекінським овочевим дослідницьким центром (BVRC) Пекінської академії сільського та лісового господарства (BAAFS), CucurbitAgent — це наукова ШІ-платформа, що поєднує курирувані мультиомікісні ресурси для дев'яти видів гарбузових — анотації генів і ортологію, відповідність ID генів між версіями, експресію за тканинами та мережі коекспресії, структури ESMFold для всього протеому з прогнозованими сайтами зв'язування GPSite, а також великий корпус літератури — з асистентом на основі великої мовної моделі, що використовує Retrieval-Augmented Generation і виклик інструментів. Задайте запитання природною мовою, і CucurbitAgent добуде докази з локально розміщених баз генів, експресії, структур і літератури, повертаючи обґрунтовані відповіді через спеціалізовані модулі: гени, експресія, білки, література та завантаження геномів.",
+      "Поєднання курируваних знань, RAG і структурованих баз даних дозволяє CucurbitAgent прискорювати відкриття генів, ясніше інтерпретувати варіанти, патерни експресії та сайти зв'язування білків, а також ухвалювати обґрунтованіші селекційні рішення — на благо світовому співтовариству дослідників гарбузових."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Зовнішні ресурси",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Геноми, гени, література",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Геномна база гарбузових v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Порівняльна геноміка рослин",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Геноми рослин (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "База геному огірка",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Інформація про Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T-геном дині та інструменти",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Прогнозування структур білків",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Цитування",
+    "intro": "Якщо платформа виявилася корисною для вашого дослідження, будь ласка, цитуйте:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Пекінська академія сільського та лісового господарства (BAAFS). Усі права захищено."
+  }
+}

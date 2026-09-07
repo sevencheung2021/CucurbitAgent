@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "CucurbitAgent में\nआपका स्वागत है",
+    "subtitle": "बड़े भाषा मॉडल और मल्टी-ओमिक्स डेटा को जोड़ने वाला, Cucurbitaceae अनुसंधान हेतु अगली पीढ़ी का बुद्धिमान प्लेटफ़ॉर्म।",
+    "cta": [
+      { "label": "🤖 CucurbitAgent", "href": "/agent" },
+      { "label": "🧬 जीन", "href": "/genes" },
+      { "label": "📊 अभिव्यक्ति", "href": "/expression" },
+      { "label": "🔬 प्रोटीन", "href": "/proteins" }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent के बारे में",
+    "paragraphs": [
+      "कुकुरबिट (Cucurbitaceae) — तरबूज, खीरा, खरबूजा, कद्दू, करेला और संबंधित फसलें — विश्व की प्रमुख सब्ज़ी फसलें हैं। उच्च-गुणवत्ता वाले जीनोम, ट्रांसक्रिप्टोम और कार्यात्मक अध्ययन लगातार बढ़ रहे हैं, पर ये संसाधन डेटाबेस और प्रारूपों में बिखरे हुए हैं — और इकट्ठा करने पर भी इनका पैमाना मैनुअल व्याख्या से परे है। इस खंडित, तेज़ी से बढ़ते ज्ञान को जीन खोज और आणविक प्रजनन के उत्तरों में बदलने के लिए व्यवस्थित एकीकरण और AI-संचालित तर्क — दोनों चाहिए।",
+      "हमने CucurbitAgent यही अंतर भरने के लिए बनाया। बीजिंग वेजिटेबल रिसर्च सेंटर (BVRC), बीजिंग एकेडमी ऑफ़ एग्रीकल्चर एंड फ़ॉरेस्ट्री साइंसेज़ (BAAFS) द्वारा विकसित CucurbitAgent एक AI अनुसंधान प्लेटफ़ॉर्म है, जो नौ कुकुरबिट प्रजातियों के क्यूरेटेड मल्टी-ओमिक्स संसाधनों — जीन एनोटेशन और ऑर्थोलॉजी, संस्करण-पार जीन ID मैपिंग, ऊतक अभिव्यक्ति और सह-अभिव्यक्ति नेटवर्क, प्रोटीओम-व्यापी ESMFold संरचनाएँ और GPSite-प्रेडिक्टेड बाइंडिंग साइट, तथा बड़ा साहित्य कोष — को रिट्रीवल-संवर्धित, टूल-उपयोगकर्ता बड़े भाषा मॉडल सहायक के साथ जोड़ता है। प्राकृतिक भाषा में प्रश्न पूछिए, CucurbitAgent स्थानीय रूप से होस्ट किए गए जीन, अभिव्यक्ति, संरचना और साहित्य डेटाबेस से साक्ष्य लाता है और जीन, अभिव्यक्ति, प्रोटीन, साहित्य तथा जीनोम-डाउनलोड मॉड्यूल के माध्यम से आधारित उत्तर देता है।",
+      "क्यूरेटेड कुकुरबिट ज्ञान, रिट्रीवल-संवर्धित जनरेशन और संरचित डेटाबेस टूल मिलकर CucurbitAgent को तेज़ जीन खोज, वेरिएंट-अभिव्यक्ति पैटर्न-बाइंडिंग साइटों की स्पष्ट व्याख्या और अधिक सूचित प्रजनन निर्णयों में सक्षम बनाते हैं — विश्व के कुकुरबिट अनुसंधान समुदाय के लिए।"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 बाहरी संसाधन",
+    "items": [
+      { "name": "NCBI", "description": "जीनोम, जीन, साहित्य", "url": "https://www.ncbi.nlm.nih.gov/" },
+      { "name": "Cucurbit Genomics (CuGenDB)", "description": "कुकुरबिट जीनोमिक्स डेटाबेस v2", "url": "http://cucurbitgenomics.org/v2/" },
+      { "name": "Ensembl Plants", "description": "पादप तुलनात्मक जीनोमिक्स", "url": "https://plants.ensembl.org/index.html" },
+      { "name": "Phytozome", "description": "पादप जीनोमिक्स (JGI)", "url": "https://phytozome-next.jgi.doe.gov/" },
+      { "name": "CucumberDB", "description": "खीरा जीनोम डेटाबेस", "url": "http://www.cucumberdb.com/#/home" },
+      { "name": "TAIR", "description": "अरेबिडोप्सिस सूचना", "url": "https://www.arabidopsis.org/#" },
+      { "name": "MIR", "description": "T2T खरबूजा जीनोम और टूल", "url": "https://zhanglab.qau.edu.cn/melon/index.php" },
+      { "name": "AlphaFold Server", "description": "प्रोटीन संरचना प्रेडिक्शन", "url": "https://alphafoldserver.com/" }
+    ]
+  },
+  "citeUs": {
+    "title": "हमें उद्धृत करें",
+    "intro": "यदि यह प्लेटफ़ॉर्म आपके अनुसंधान में सहायक लगे, तो कृपया उद्धृत करें:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "कॉपीराइट © 2026 बीजिंग एकेडमी ऑफ़ एग्रीकल्चर एंड फ़ॉरेस्ट्री साइंसेज़ (BAAFS)। सर्वाधिकार सुरक्षित।"
+  }
+}

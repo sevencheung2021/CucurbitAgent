@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Bienvenido a\nCucurbitAgent",
+    "subtitle": "Plataforma inteligente de nueva generación para la investigación de Cucurbitaceae, que integra grandes modelos de lenguaje con datos multiómicos.",
+    "cta": [
+      { "label": "🤖 CucurbitAgent", "href": "/agent" },
+      { "label": "🧬 Genes", "href": "/genes" },
+      { "label": "📊 Expresión", "href": "/expression" },
+      { "label": "🔬 Proteínas", "href": "/proteins" }
+    ]
+  },
+  "about": {
+    "title": "Acerca de CucurbitAgent",
+    "paragraphs": [
+      "Los cucúrbitos (Cucurbitaceae) —sandía, pepino, melón, calabaza, melón amargo y cultivos afines— son principales cultivos hortícolas en todo el mundo. Los genomas de alta calidad, transcriptomas y estudios funcionales se acumulan sin cesar, pero estos recursos siguen dispersos entre bases de datos y formatos; y aun reunidos, su escala desborda la interpretación manual. Convertir este conocimiento fragmentado y de rápido crecimiento en respuestas para el descubrimiento de genes y la mejora molecular exige tanto integración sistemática como razonamiento potenciado por IA.",
+      "Construimos CucurbitAgent para cerrar esa brecha. Desarrollado por el Beijing Vegetable Research Center (BVRC) de la Beijing Academy of Agriculture and Forestry Sciences (BAAFS), CucurbitAgent es una plataforma de investigación con IA que combina recursos multiómicos curados de nueve especies de cucúrbitos —anotación y ortología génica, mapeo de ID de gen entre versiones, expresión tisular y redes de coexpresión, estructuras ESMFold del proteoma completo con sitios de unión predichos por GPSite, y un amplio corpus de literatura— con un asistente de gran modelo de lenguaje con generación aumentada por recuperación y uso de herramientas. Formule una pregunta en lenguaje natural y CucurbitAgent recupera evidencia de las bases de genes, expresión, estructuras y literatura alojadas localmente, devolviendo respuestas fundamentadas a través de módulos dedicados de genes, expresión, proteínas, literatura y descarga de genomas.",
+      "El conocimiento curado de cucúrbitos, la generación aumentada por recuperación y las herramientas de bases de datos estructuradas permiten a CucurbitAgent acelerar el descubrimiento de genes, interpretar con mayor claridad variantes, patrones de expresión y sitios de unión proteicos, y tomar decisiones de mejora más informadas — para la comunidad mundial de investigación en cucúrbitos."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Recursos externos",
+    "items": [
+      { "name": "NCBI", "description": "Genomas, genes, literatura", "url": "https://www.ncbi.nlm.nih.gov/" },
+      { "name": "Cucurbit Genomics (CuGenDB)", "description": "Base de datos genómica de cucúrbitos v2", "url": "http://cucurbitgenomics.org/v2/" },
+      { "name": "Ensembl Plants", "description": "Genómica comparativa vegetal", "url": "https://plants.ensembl.org/index.html" },
+      { "name": "Phytozome", "description": "Genómica vegetal (JGI)", "url": "https://phytozome-next.jgi.doe.gov/" },
+      { "name": "CucumberDB", "description": "Base de datos del genoma del pepino", "url": "http://www.cucumberdb.com/#/home" },
+      { "name": "TAIR", "description": "Información de Arabidopsis", "url": "https://www.arabidopsis.org/#" },
+      { "name": "MIR", "description": "Genoma T2T del melón y herramientas", "url": "https://zhanglab.qau.edu.cn/melon/index.php" },
+      { "name": "AlphaFold Server", "description": "Predicción de estructura de proteínas", "url": "https://alphafoldserver.com/" }
+    ]
+  },
+  "citeUs": {
+    "title": "Cítenos",
+    "intro": "Si esta plataforma resulta útil para su investigación, por favor cite:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Todos los derechos reservados."
+  }
+}

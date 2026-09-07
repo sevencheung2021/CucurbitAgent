@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "title": "欢迎来到\nCucurbitAgent",
+    "subtitle": "面向葫芦科研究的新一代智能平台，将大语言模型与多组学数据深度整合。",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 基因",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 表达",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 蛋白",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于 CucurbitAgent",
+    "paragraphs": [
+      "葫芦科（Cucurbitaceae）——西瓜、黄瓜、甜瓜、南瓜、苦瓜及相关作物——是世界主要的蔬菜作物。高质量的基因组、转录组和功能研究在不断积累，但这些资源仍分散在各个数据库和格式之中；即使汇集到一起，其规模也远超人工解读的能力。要把这些碎片化、快速增长的知识转化为基因发现与分子育种可用的答案，既需要系统性的整合，也需要 AI 驱动的推理能力。",
+      "我们构建 CucurbitAgent 正是为了弥补这一缺口。CucurbitAgent 由北京市农林科学院蔬菜研究所（BVRC）开发，是一个 AI 研究平台：一方面整理了九种葫芦科作物的多组学资源——基因注释与同源关系、跨版本基因 ID 映射、组织表达与共表达网络、全蛋白质组 ESMFold 结构及 GPSite 预测的结合位点，以及大规模文献语料；另一方面配备了一个检索增强、可调用工具的大语言模型助手。用自然语言提问，CucurbitAgent 即从本地部署的基因、表达、结构与文献数据库中检索证据，并通过基因、表达、蛋白、文献与基因组下载等专门模块返回有据可依的回答。",
+      "精选的葫芦科知识、检索增强生成与结构化数据库工具相结合，使 CucurbitAgent 能够支持更快的基因发现、更清晰地解读变异、表达模式与蛋白结合位点，并为全球葫芦科研究者的育种决策提供参考。"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 外部资源",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "基因组、基因、文献",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "葫芦科基因组数据库 v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "植物比较基因组学",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "植物基因组（JGI）",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "黄瓜基因组数据库",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "拟南芥信息资源",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T 甜瓜基因组与工具",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "蛋白质结构预测",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "引用我们",
+    "intro": "如果本平台对你的研究有所帮助，请引用：",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "institution": {
+      "cn": "北京市农林科学院蔬菜研究所",
+      "en": "北京市农林科学院"
+    },
+    "contact": {
+      "address": "北京市海淀区彰化路 50 号",
+      "phone": "+86-10-81127222",
+      "email": "bvrc@nercv.org"
+    },
+    "affiliations": [
+      {
+        "name": "蔬菜生物育种全国重点实验室",
+        "detail": "北京市农林科学院蔬菜研究所，北京 100097"
+      },
+      {
+        "name": "国家蔬菜工程技术研究中心",
+        "detail": "北京市农林科学院蔬菜研究所，北京 100097"
+      }
+    ],
+    "copyright": "版权所有 © 2026 北京市农林科学院。保留所有权利。"
+  }
+}

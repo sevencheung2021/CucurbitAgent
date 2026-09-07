@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Selamat datang ke\nCucurbitAgent",
+    "subtitle": "Platform pintar generasi baharu untuk penyelidikan Cucurbitaceae, menyepadukan model bahasa besar dengan data multi-omik.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gen",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Ekspresi",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Protein",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Mengenai CucurbitAgent",
+    "paragraphs": [
+      "Tanaman labu (Cucurbitaceae) — tembikai, timun, melon, labu, peria, dan tanaman berkaitan — merupakan tanaman sayur utama di seluruh dunia. Genom, transkriptom dan kajian berfungsi berkualiti tinggi terus bertimbun, namun sumber ini masih berselerak merentas pelbagai pangkalan data dan format — malah selepas dikumpulkan, skala yang terlalu besar mengatasi keupayaan tafsiran manual. Mengubah pengetahuan yang berpecah dan pantas berkembang ini menjadi jawapan bagi penemuan gen dan pembiakan molekul memerlukan kedua-dua integrasi sistematik dan penaakulan dikuasakan AI.",
+      "Kami membina CucurbitAgent untuk merapatkan jurang itu. Dibangunkan oleh Beijing Vegetable Research Center (BVRC), Beijing Academy of Agriculture and Forestry Sciences (BAAFS), CucurbitAgent ialah platform penyelidikan AI yang menggabungkan sumber multi-omik terkurasi untuk sembilan spesies cucurbit — anotasi gen dan ortologi, pemetaan ID gen merentas versi, ekspresi tisu dan rangkaian ko-ekspresi, struktur ESMFold seluruh proteom dengan tapak pengikatan diramal GPSite, serta korpus literatur yang besar — dengan pembantu model bahasa besar yang menggunakan retrieval-augmented generation (RAG) dan keupayaan memanggil alat. Ajukan soalan dalam bahasa semula jadi, dan CucurbitAgent akan mendapatkan bukti daripada pangkalan data gen, ekspresi, struktur dan literatur yang dihoskan secara setempat, lalu memulangkan jawapan yang berasaskan bukti melalui modul khusus: gen, ekspresi, protein, literatur dan muat turun genom.",
+      "Bergabung bersama, pengetahuan cucurbit terkurasi, penjanaan berbantukan capaian semula, dan alat pangkalan data berstruktur membolehkan CucurbitAgent menyokong penemuan gen yang lebih pantas, tafsiran yang lebih jelas terhadap varian, corak ekspresi dan tapak pengikatan protein, serta keputusan pembiakan yang lebih bermaklumat — untuk komuniti penyelidikan cucurbit global."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Sumber Eksternal",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genom, gen, literatur",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Pangkalan data genomik cucurbit v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Genomik perbandingan tumbuhan",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genomik tumbuhan (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Pangkalan data genom timun",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Maklumat Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genom melon T2T & alat",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Ramalan struktur protein",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Sitasi",
+    "intro": "Jika anda mendapati platform ini membantu penyelidikan anda, sila petik:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Akademi Sains Pertanian dan Perhutanan Beijing (BAAFS). Hak cipta terpelihara."
+  }
+}

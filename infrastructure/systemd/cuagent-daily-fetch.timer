@@ -1,0 +1,14 @@
+[Unit]
+Description=Trigger CuAgent daily literature fetch at 03:00
+Requires=cuagent-daily-fetch.service
+
+[Timer]
+# 每天凌晨 3 点触发 (服务器本地时区)
+OnCalendar=*-*-* 03:00:00
+# 如果错过了 (服务器关机/重启), 开机后立即补跑一次
+Persistent=true
+# 随机抖动 0-10 分钟, 避免和其他定时任务撞车
+RandomizedDelaySec=600
+
+[Install]
+WantedBy=timers.target

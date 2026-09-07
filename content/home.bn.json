@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "CucurbitAgent-এ\nস্বাগতম",
+    "subtitle": "Cucurbitaceae গবেষণার জন্য একটি নতুন প্রজন্মের বুদ্ধিমান প্ল্যাটফর্ম, যা লার্জ ল্যাঙ্গুয়েজ মডেলকে মাল্টি-ওমিক্স ডেটার সাথে একীভূত করে।",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 জিন",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 অভিব্যক্তি",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 প্রোটিন",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent সম্পর্কে",
+    "paragraphs": [
+      "কুকুরবিট (Cucurbitaceae) — তরমুজ, শসা, খরমুজা, কুমড়া, করলা ও সম্পর্কিত ফসল — বিশ্বের অন্যতম প্রধান সবজি ফসল। উচ্চমানের জিনোম, ট্রান্সক্রিপ্টোম ও কার্যগত গবেষণা ক্রমাগত জমা হচ্ছে, তবুও এই সম্পদগুলো বিভিন্ন ডেটাবেস ও ফরম্যাটে ছড়িয়ে রয়েছে — একত্র করা হলেও এগুলোর বিশাল আকার ম্যানুয়াল বিশ্লেষণের সাধ্যের বাইরে। এই খণ্ডিত ও দ্রুত বর্ধনশীল জ্ঞানকে জিন আবিষ্কার ও আণবিক প্রজননের উত্তরে রূপান্তর করতে পদ্ধতিগত সংহতকরণ এবং AI-চালিত যুক্তি — দুটোই প্রয়োজন।",
+      "এই শূন্যতা পূরণের জন্যই আমরা CucurbitAgent তৈরি করেছি। বেইজিং একাডেমি অফ এগ্রিকালচার অ্যান্ড ফরেস্ট্রি সায়েন্সেস (BAAFS)-এর বেইজিং ভেজিটেবল রিসার্চ সেন্টার (BVRC) দ্বারা উন্নত CucurbitAgent একটি AI গবেষণা প্ল্যাটফর্ম, যা নয়টি কুকুরবিট প্রজাতির কিউরেটেড মাল্টি-ওমিক্স সম্পদ — জিন অ্যানোটেশন ও অর্থোলজি, সংস্করণজুড়ে জিন ID ম্যাপিং, টিস্যু অভিব্যক্তি ও সহ-অভিব্যক্তি নেটওয়ার্ক, GPSite-প্রেডিক্টেড বাইন্ডিং সাইটসহ সমগ্র প্রোটিওমের ESMFold গঠন, এবং একটি বিশাল সাহিত্য সংকলন — একটি রিট্রিভাল-অগমেন্টেড, টুল-ব্যবহারকারী লার্জ ল্যাঙ্গুয়েজ মডেল সহকারীর সাথে যুক্ত করে। স্বাভাবিক ভাষায় প্রশ্ন করুন, CucurbitAgent স্থানীয়ভাবে হোস্ট করা জিন, অভিব্যক্তি, গঠন ও সাহিত্য ডেটাবেস থেকে প্রমাণ সংগ্রহ করে জিন, অভিব্যক্তি, প্রোটিন, সাহিত্য ও জিনোম-ডাউনলোড মডিউলের মাধ্যমে প্রমাণভিত্তিক উত্তর দেয়।",
+      "কিউরেটেড কুকুরবিট জ্ঞান, রিট্রিভাল-অগমেন্টেড জেনারেশন ও স্ট্রাকচার্ড ডেটাবেস টুলের সমন্বয়ে CucurbitAgent দ্রুততর জিন আবিষ্কার, ভ্যারিয়েন্ট, অভিব্যক্তির ধরন ও প্রোটিন বাইন্ডিং সাইটের স্পষ্টতর ব্যাখ্যা এবং আরও তথ্যভিত্তিক প্রজনন সিদ্ধান্তে সহায়তা করে — বিশ্বব্যাপী কুকুরবিট গবেষণা সম্প্রদায়ের জন্য।"
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 বাহ্যিক সম্পদ",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "জিনোম, জিন, সাহিত্য",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "কুকুরবিট জিনোমিক্স ডেটাবেস v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "উদ্ভিদ তুলনামূলক জিনোমিক্স",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "উদ্ভিদ জিনোম (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "শসার জিনোম ডেটাবেস",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis সংক্রান্ত তথ্য",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T খরমুজা জিনোম ও টুল",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "প্রোটিন গঠন প্রেডিকশন",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "আমাদের উদ্ধৃত করুন",
+    "intro": "এই প্ল্যাটফর্মটি আপনার গবেষণায় সহায়ক মনে হলে, অনুগ্রহ করে উদ্ধৃত করুন:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "কপিরাইট © 2026 বেইজিং একাডেমি অফ এগ্রিকালচার অ্যান্ড ফরেস্ট্রি সায়েন্সেস (BAAFS)। সর্বস্বত্ব সংরক্ষিত।"
+  }
+}

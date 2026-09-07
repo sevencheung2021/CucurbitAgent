@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "CucurbitAgent-ге\nқош келдіңіз",
+    "subtitle": "Ірі тіл модельдері мен мультиомикс деректерін біріктіретін, Cucurbitaceae зерттеулеріне арналған жаңа буын платформасы.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Гендер",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Экспрессия",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Ақуыздар",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "CucurbitAgent туралы",
+    "paragraphs": [
+      "Асқабақ тұқымдастары (Cucurbitaceae) — қарбыз, қияр, қауын, асқабақ, ащы қауын және туыстас дақылдар — әлемдегі ең маңызды көкөніс дақылдарының қатарына жатады. Жоғары сапалы геномдар, транскриптомалар мен функциялық зерттеулер үздіксіз жинақталуда, алайда бұл ресурстар деректер базалары мен форматтар бойынша шашыраңқы күйде қалып отыр, ал олардың көлемі қолмен талдау мүмкіндіктерінен асып түседі. Осы фрагменттелген және жылдам өсіп келе жатқан білімді ген ашу мен молекулалық селекция үшін жауаптарға айналдыру үшін жүйелі интеграция да, ЖИ-ге негізделген логикалық қорытынды да қажет.",
+      "CucurbitAgent осы өзекті жабуға арналған. Бейжің аграрлық және орман шаруашылығы академиясының (BAAFS) Бейжің көкөніс зерттеу орталығы (BVRC) әзірлеген CucurbitAgent — тоғыз асқабақ түрі бойынша құрылған мультиомикс ресурстарын — ген аннотациялары мен ортологияны, нұсқалар арасындағы ген ID сәйкестігін, ұлпа бойынша экспрессия мен коэкспрессия желілерін, GPSite болжанған байланысу орындарымен бүкіл протеомға арналған ESMFold құрылымдарын, сондай-ақ ірі әдебиет корпусын — Retrieval-Augmented Generation мен құралдарды шақыруды пайдаланатын ірі тіл моделіне негізделген көмекшісімен біріктіретін ғылыми ЖИ платформасы. Табиғи тілде сұрақ қойыңыз — CucurbitAgent жергілікті ген, экспрессия, құрылым және әдебиет базаларынан дәлелдер алып, мамандандырылған модульдер арқылы негізделген жауаптар қайтарады: гендер, экспрессия, ақуыздар, әдебиет және геномдарды жүктеу.",
+      "Құрылған білімді, RAG пен құрылымдық деректер базаларын біріктіру CucurbitAgent-ке гендерді ашуды жылдамдатуға, варианттарды, экспрессия өрнектерін және ақуыз байланысу орындарын айқынырақ интерпретациялауға, сондай-ақ негізделген селекциялық шешімдер қабылдауға мүмкіндік береді — бұл әлемдік асқабақ зерттеушілер қауымдастығының игілігі үшін."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Сыртқы ресурстар",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Геномдар, гендер, әдебиет",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Асқабақ тұқымдастарының геномикалық базасы v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Өсімдіктердің салыстырмалы геномикасы",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Өсімдік геномдары (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Қияр геномының базасы",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis бойынша ақпарат",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Қауынның T2T геномы және құралдар",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Ақуыз құрылымдарын болжау",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Цитаталау",
+    "intro": "Егер платформа зерттеуіңізге пайдалы болса, оны цитаталаңыз:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Бейжің аграрлық және орман шаруашылығы академиясы (BAAFS). Барлық құқықтар қорғалған."
+  }
+}

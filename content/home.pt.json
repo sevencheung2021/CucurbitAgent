@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Bem-vindo ao\nCucurbitAgent",
+    "subtitle": "Plataforma de nova geração para pesquisa em Cucurbitaceae, unindo grandes modelos de linguagem e dados multi-ômicos.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Genes",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Expressão",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteínas",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre o CucurbitAgent",
+    "paragraphs": [
+      "As cucurbitáceas (Cucurbitaceae) — melancia, pepino, melão, abóbora, melão-amargo e culturas aparentadas — estão entre as hortaliças mais importantes do mundo. Genomas de alta qualidade, transcriptomas e estudos funcionais acumulam-se continuamente, mas esses recursos permanecem dispersos em bancos de dados e formatos diversos, e sua escala ultrapassa o que é possível analisar manualmente. Transformar esses conhecimentos fragmentados e de crescimento acelerado em respostas para a descoberta de genes e o melhoramento molecular exige tanto integração sistemática quanto inferência por IA.",
+      "O CucurbitAgent foi criado para preencher essa lacuna. Desenvolvido pelo Beijing Vegetable Research Center (BVRC) da Beijing Academy of Agriculture and Forestry Sciences (BAAFS), o CucurbitAgent é uma plataforma de pesquisa com IA que integra recursos multi-ômicos curados de nove espécies de cucurbitáceas — anotações de genes e ortologia, mapeamento de IDs de genes entre versões, expressão por tecido e redes de coexpressão, estruturas ESMFold de todo o proteoma com sítios de ligação preditos pelo GPSite, além de um grande acervo de literatura — a um assistente baseado em grandes modelos de linguagem com Geração Aumentada por Recuperação (RAG) e chamada de ferramentas. Faça uma pergunta em linguagem natural e o CucurbitAgent extrairá evidências das bases locais de genes, expressão, estruturas e literatura, devolvendo respostas fundamentadas por meio de módulos especializados: genes, expressão, proteínas, literatura e download de genomas.",
+      "A combinação de conhecimento curado, RAG e bases de dados estruturadas permite ao CucurbitAgent acelerar a descoberta de genes, interpretar com mais clareza variantes, padrões de expressão e sítios de ligação de proteínas, e apoiar decisões de melhoramento mais bem fundamentadas — em benefício da comunidade mundial de pesquisa com cucurbitáceas."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Recursos externos",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genomas, genes, literatura",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Base genômica de cucurbitáceas v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Genômica comparativa de plantas",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genomas de plantas (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Base de dados do genoma do pepino",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Informações sobre Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genoma T2T do melão e ferramentas",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Predição de estruturas de proteínas",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Como citar",
+    "intro": "Se a plataforma foi útil para sua pesquisa, por favor cite:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "© 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). Todos os direitos reservados."
+  }
+}

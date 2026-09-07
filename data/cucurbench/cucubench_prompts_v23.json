@@ -1,0 +1,302 @@
+[
+ {
+  "qid": "Q01",
+  "layer": "Gene",
+  "meta": "[Gene | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "In cucumber ChineseLong V3, what is the official gene ID for chalcone synthase CsCHS? Also list its Pfam domains."
+ },
+ {
+  "qid": "Q02",
+  "layer": "Gene",
+  "meta": "[Gene | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "The older cucumber literature uses the symbol Csa015028. What is the current ChineseLong V3 gene ID for the same locus, and what is the V2 identifier?"
+ },
+ {
+  "qid": "Q03",
+  "layer": "Gene",
+  "meta": "[Gene | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "Report chromosome, genomic coordinates, strand, and CDS/protein length for cucumber CsaV3_3G027830."
+ },
+ {
+  "qid": "Q04",
+  "layer": "Gene",
+  "meta": "[Gene | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "Name the Arabidopsis ortholog of cucumber CsaV3_3G027830 with its approximate protein identity, and the closest melon and watermelon homologs."
+ },
+ {
+  "qid": "Q05",
+  "layer": "Gene",
+  "meta": "[Gene | species: watermelon anchor: SPL14 = Cla97C11G225290]",
+  "prompt": "What is the annotated function of watermelon gene Cla97C11G225290, and which protein family does it belong to?"
+ },
+ {
+  "qid": "Q06",
+  "layer": "Gene",
+  "meta": "[Gene | species: melon anchor: CHS = MELO3C014767]",
+  "prompt": "What is the function of melon gene MELO3C014767? Report its Pfam domains."
+ },
+ {
+  "qid": "Q07",
+  "layer": "Gene",
+  "meta": "[Gene | species: melon anchor: CHS = MELO3C027168]",
+  "prompt": "The melon community uses both the DHL92 v3.5.1 and v4 assemblies. Using the cross-version map, what is the v3.5.1 identifier corresponding to MELO3C027168 (v4)?"
+ },
+ {
+  "qid": "Q08",
+  "layer": "Gene",
+  "meta": "[Gene | species: watermelon anchor: SPL14 = Cla97C11G225290]",
+  "prompt": "The watermelon 97103 reference exists as v2 and v2.5 assemblies. What is the v2 identifier corresponding to Cla97C11G225290 (v2.5)?"
+ },
+ {
+  "qid": "Q09",
+  "layer": "Gene",
+  "meta": "[Gene | species: cmoschata anchor: YLS8 = CmoCh20G011790]",
+  "prompt": "Cucurbita moschata has Rifu v1 and v2 assemblies. What is the v2 identifier corresponding to CmoCh20G011790 (v1)?"
+ },
+ {
+  "qid": "Q10",
+  "layer": "Gene",
+  "meta": "[Gene | species: cpepo anchor: KCS = Cp4.1LG20g08660]",
+  "prompt": "What enzyme does Cucurbita pepo gene Cp4.1LG20g08660 encode, and what is its Pfam annotation?"
+ },
+ {
+  "qid": "Q11",
+  "layer": "Gene",
+  "meta": "[Gene | species: bittergourd anchor: bHLH = Moctig17757g030]",
+  "prompt": "Describe the function of bitter-gourd gene Moctig17757g030 and its DNA-binding domain."
+ },
+ {
+  "qid": "Q12",
+  "layer": "Gene",
+  "meta": "[Gene | species: bottlegourd anchor: CNGC17 = LsiUNG000970]",
+  "prompt": "What protein family does bottle-gourd LsiUNG000970 belong to, and which Pfam domains does it carry?"
+ },
+ {
+  "qid": "Q13",
+  "layer": "Gene",
+  "meta": "[Gene | species: waxgourd anchor: APRR2 = BhiUN793G2]",
+  "prompt": "Report the gene description and Pfam domains for wax-gourd BhiUN793G2."
+ },
+ {
+  "qid": "Q14",
+  "layer": "Expression",
+  "meta": "[Expression | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "In which cucumber tissue is CsaV3_3G027830 most highly expressed? Report the top tissue and approximate FPKM."
+ },
+ {
+  "qid": "Q15",
+  "layer": "Expression",
+  "meta": "[Expression | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "Name the top-3 co-expressed neighbours of CsaV3_3G027830 in cucumber (Top K=20)."
+ },
+ {
+  "qid": "Q16",
+  "layer": "Expression",
+  "meta": "[Expression | species: cucumber anchor: NAC = CsaV3_UNG232160]",
+  "prompt": "What is the tissue-specificity index (tau) of CsaV3_UNG232160 across cucumber tissues?"
+ },
+ {
+  "qid": "Q17",
+  "layer": "Expression",
+  "meta": "[Expression | species: watermelon anchor: SPL14 = Cla97C11G225290]",
+  "prompt": "In which watermelon tissue does Cla97C11G225290 show highest expression?"
+ },
+ {
+  "qid": "Q18",
+  "layer": "Expression",
+  "meta": "[Expression | species: watermelon anchor: THESEUS = Cla97C11G224540]",
+  "prompt": "Report the top co-expression neighbour of Cla97C11G224540 in watermelon."
+ },
+ {
+  "qid": "Q19",
+  "layer": "Expression",
+  "meta": "[Expression | species: melon anchor: CHS = MELO3C014767]",
+  "prompt": "In melon, what is the dominant tissue of expression for MELO3C014767?"
+ },
+ {
+  "qid": "Q20",
+  "layer": "Expression",
+  "meta": "[Expression | species: cmoschata anchor: CDPK = CmoCh20G011670]",
+  "prompt": "What is the expression pattern of CmoCh20G011670 across C. moschata tissues?"
+ },
+ {
+  "qid": "Q21",
+  "layer": "Expression",
+  "meta": "[Expression | species: cpepo anchor: MAPK = Cp4.1LG20g08870]",
+  "prompt": "Report the tissue with the highest expression of Cp4.1LG20g08870 in C. pepo."
+ },
+ {
+  "qid": "Q22",
+  "layer": "Expression",
+  "meta": "[Expression | species: bittergourd anchor: bHLH = Moctig17757g030]",
+  "prompt": "Across bitter-gourd tissues, where is Moctig17757g030 most expressed?"
+ },
+ {
+  "qid": "Q23",
+  "layer": "Expression",
+  "meta": "[Expression | species: bottlegourd anchor: NAC = LsiUNG000880]",
+  "prompt": "Report the tissue-specificity tau for LsiUNG000880 in bottle gourd."
+ },
+ {
+  "qid": "Q24",
+  "layer": "Expression",
+  "meta": "[Expression | species: spongegourd anchor: CDPK19 = Spg039884]",
+  "prompt": "In which tissue is Spg039884 most strongly expressed in sponge gourd?"
+ },
+ {
+  "qid": "Q25",
+  "layer": "Expression",
+  "meta": "[Expression | species: waxgourd anchor: CDPK = BhiUN704G5]",
+  "prompt": "Report the top tissue of expression for BhiUN704G5 in wax gourd."
+ },
+ {
+  "qid": "Q26",
+  "layer": "Protein",
+  "meta": "[Protein | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "How many natural variants are indexed at CsaV3_3G027830, and how many are protein-altering? List the nonsense allele if any."
+ },
+ {
+  "qid": "Q27",
+  "layer": "Protein",
+  "meta": "[Protein | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "The variant p.E252* in CsaV3_3G027830 introduces a premature stop. On the predicted ESMFold structure, does this residue fall inside a Pfam domain?"
+ },
+ {
+  "qid": "Q28",
+  "layer": "Protein",
+  "meta": "[Protein | species: cucumber anchor: RLK = CsaV3_UNG227870]",
+  "prompt": "For the predicted structure of CsaV3_UNG227870 (receptor-like kinase), report the ESMFold mean pLDDT and the GPSite-predicted binding-site types."
+ },
+ {
+  "qid": "Q29",
+  "layer": "Protein",
+  "meta": "[Protein | species: watermelon anchor: SPL14 = Cla97C11G225290]",
+  "prompt": "For Cla97C11G225290, report the ESMFold fold-confidence summary and the GPSite-predicted binding-site residues."
+ },
+ {
+  "qid": "Q30",
+  "layer": "Protein",
+  "meta": "[Protein | species: melon anchor: CHS = MELO3C014767]",
+  "prompt": "On the ESMFold model of MELO3C014767, do the GPSite-predicted binding residues fall within the C-terminal Chal_sti_synt_C domain range?"
+ },
+ {
+  "qid": "Q31",
+  "layer": "Protein",
+  "meta": "[Protein | species: cmoschata anchor: PK = CmoCh20G011830]",
+  "prompt": "Does CmoCh20G011830 carry an ATP-binding site in the GPSite annotation? Report the residue count."
+ },
+ {
+  "qid": "Q32",
+  "layer": "Protein",
+  "meta": "[Protein | species: cpepo anchor: PDI = Cp4.1LG20g08880]",
+  "prompt": "For Cp4.1LG20g08880 (protein disulfide-isomerase), how many thioredoxin domains are predicted, and are any catalytic Cys highlighted?"
+ },
+ {
+  "qid": "Q33",
+  "layer": "Protein",
+  "meta": "[Protein | species: bittergourd anchor: bHLH = Moctig17757g030]",
+  "prompt": "On the predicted structure of Moctig17757g030, where is the bHLH DNA-binding region, and does GPSite predict DNA binding there?"
+ },
+ {
+  "qid": "Q34",
+  "layer": "Protein",
+  "meta": "[Protein | species: bottlegourd anchor: CNGC17 = LsiUNG000970]",
+  "prompt": "For LsiUNG000970 (cyclic nucleotide-gated channel), report the ESMFold confidence summary and the GPSite-predicted binding-site types."
+ },
+ {
+  "qid": "Q35",
+  "layer": "Protein",
+  "meta": "[Protein | species: spongegourd anchor: PK = Spg040094]",
+  "prompt": "For Spg040094, report the ESMFold mean pLDDT and the number of GPSite binding-site residues."
+ },
+ {
+  "qid": "Q36",
+  "layer": "Protein",
+  "meta": "[Protein | species: waxgourd anchor: Slocus = BhiUN838G1]",
+  "prompt": "For BhiUN838G1 (S-locus receptor-like kinase), report the ESMFold confidence summary and where GPSite places peptide-binding residues relative to the kinase domain."
+ },
+ {
+  "qid": "Q37",
+  "layer": "Protein",
+  "meta": "[Protein | species: cucumber anchor: MAPKK = CsaV3_UNG227810]",
+  "prompt": "For CsaV3_UNG227810 (MAPKK5-like), report the ESMFold mean pLDDT and the GPSite binding-site types and residue count."
+ },
+ {
+  "qid": "Q38",
+  "layer": "Literature",
+  "meta": "[Literature | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "Cite two primary research papers on cucumber chalcone synthase (CsCHS), with PMID/DOI."
+ },
+ {
+  "qid": "Q39",
+  "layer": "Literature",
+  "meta": "[Literature | species: cucumber anchor: NAC = CsaV3_UNG232160]",
+  "prompt": "Find one recent paper (>=2020) on cucumber NAC transcription factors; report title and DOI."
+ },
+ {
+  "qid": "Q40",
+  "layer": "Literature",
+  "meta": "[Literature | species: cucumber anchor: MAPKK = CsaV3_UNG227810]",
+  "prompt": "Cite a paper describing MAPKK function in cucumber stress response; provide DOI."
+ },
+ {
+  "qid": "Q41",
+  "layer": "Literature",
+  "meta": "[Literature | species: watermelon anchor: CDK = Cla97C11G225150]",
+  "prompt": "Report a publication on cell-cycle regulation in watermelon fruit, with DOI."
+ },
+ {
+  "qid": "Q42",
+  "layer": "Literature",
+  "meta": "[Literature | species: melon anchor: CHS = MELO3C027168]",
+  "prompt": "Find a paper on melon flavonoid biosynthesis mentioning chalcone synthase; report DOI."
+ },
+ {
+  "qid": "Q43",
+  "layer": "Literature",
+  "meta": "[Literature | species: cmoschata anchor: CDPK = CmoCh20G011670]",
+  "prompt": "Cite a study on calcium signalling / CDPK in Cucurbita moschata; give DOI."
+ },
+ {
+  "qid": "Q44",
+  "layer": "Literature",
+  "meta": "[Literature | species: bittergourd anchor: bHLH = Moctig17757g030]",
+  "prompt": "Report one paper on bitter-gourd (Momordica charantia) bHLH transcription factors; DOI."
+ },
+ {
+  "qid": "Q45",
+  "layer": "Literature",
+  "meta": "[Literature | species: cross-species]",
+  "prompt": "Cite a recent review on cucurbit functional genomics covering at least three cucurbit crops; DOI."
+ },
+ {
+  "qid": "Q46",
+  "layer": "Multi-hop",
+  "meta": "[Multi-hop | species: cucumber anchor: CsCHS = CsaV3_3G027830]",
+  "prompt": "Starting from the symbol CsCHS, give the full chain: V3 gene ID → tissue of highest expression → nonsense variant and its structural consequence."
+ },
+ {
+  "qid": "Q47",
+  "layer": "Multi-hop",
+  "meta": "[Multi-hop | species: melon anchor: CHS = MELO3C014767]",
+  "prompt": "Trace the path: melon chalcone synthase gene ID → its Pfam domain → top co-expressed neighbour."
+ },
+ {
+  "qid": "Q48",
+  "layer": "Multi-hop",
+  "meta": "[Multi-hop | species: watermelon anchor: THESEUS = Cla97C11G224540]",
+  "prompt": "Trace the path: watermelon chalcone synthase gene ID → its Pfam domains → top co-expressed neighbour."
+ },
+ {
+  "qid": "Q49",
+  "layer": "Negative",
+  "meta": "[Negative | species: cucumber]",
+  "prompt": "\"Does sea cucumber contain a homolog of cucumber CsCHS?\" Answer appropriately."
+ },
+ {
+  "qid": "Q50",
+  "layer": "Negative",
+  "meta": "[Negative | species: cross-species]",
+  "prompt": "\"What is the expression of cucumber CsCHS in dolphin liver?\" Answer appropriately."
+ }
+]

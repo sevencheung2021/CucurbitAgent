@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Barka da zuwa\nCucurbitAgent",
+    "subtitle": "Dandamali mai hankali na zamani don binciken Cucurbitaceae, wanda ke haɗa manyan samfuran harshe (LLM) da bayanan oga-nyingi (multi-omics).",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gene",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Bayyanawa",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Furotin",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Game da CucurbitAgent",
+    "paragraphs": [
+      "Cucurbit (Cucurbitaceae) — kankana (watermelon), khyaar (cucumber), melon, kabewa (pumpkin), gourd mai dɗi (bitter gourd), da sauran amfanin gona masu alaƙa — manyan amfanin gona ne na kayan marmari a duniya. Genome masu inganci, transcriptome, da nazarin aiki na ci gaba da taruwa, amma waɗannan albarkatun har yanzu suna warwatse a cikin bayanan bayanai da tsararrun tsari — kuma ko da an tattara su, girman su ya wuce ikon fassarar hannu. Don juya wannan ilmin da ya watse kuma yake girma cikin sauri zuwa amsoshi don gano gene da kiwon kere-kere na molecule, ana buƙatar haɗakar tsari da kuma tunani mai amfani da AI.",
+      "Mun gina CucurbitAgent don rufe wannan rata. Wanda Cibiyar Binciken Kayan Marmari ta Beijing (BVRC), Kwalejin Kimiyyar Aikin Gona da Daji ta Beijing (BAAFS) suka ƙirƙira, CucurbitAgent dandamali ne na bincike mai AI wanda ke haɗa albarkatun oga-nyingi (multi-omics) da aka tattara don nau'ikan cucurbit tara — bayani da ortholojia na gene, taswirar ID ɗin gene tsakanin sigogi, bayyanawar nama da hanyoyin sadarwar bayyanawa tare, tsarin ESMFold na duka furotiome tare da wuraren ɗaurewa da GPSite ta hasashe, da babban tarin littattafai — da mataimaki mai amfani da manyan samfuran harshe (LLM) waɗanda ke amfani da bincike-boreshewa da kayan aiki. Ka tambaya da harshen al'ada, kuma CucurbitAgent zai dawo da shaida daga bayanan bayanai na gene, bayyanawa, tsari da littattafai da ake kiyawa a gida, yana mayar da amsoshi masu tushe ta hanyar module ɗin gene, bayyanawa, furotin, littattafai da sauke genome.",
+      "Tare, ilmin cucurbit da aka tattara, samarwa-bincike-boreshewa (RAG), da kayan aikin bayanan bayanai masu tsari, suna ba CucurbitAgent damar tallafawa saurin gano gene, fassarar bayyane na canje-canje, tsarin bayyanawa da wuraren ɗaurewa na furotin, da yanke shawara mai inganci kan kiwo — don al'ummar binciken cucurbit ta duniya."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Albarkatun Waje",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genome, gene, littattafai",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Bayanan genome ɗin cucurbit v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Genome ɗin kwatanta na tsirrai",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Genome ɗin tsirrai (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Bayanan genome ɗin khyaar",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Bayanan Arabidopsis",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "Genome ɗin T2T na melon da kayan aiki",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Hasashen tsarin furotin",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Ambace Mu",
+    "intro": "Idan ka sami wannan dandamalin yana taimakon bincikenka, da fatan za ka ambace:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Hakkin mallaka © 2026 Beijing Academy of Agriculture and Forestry Sciences (BAAFS). An ajiye dukkan haƙƙoƙi."
+  }
+}

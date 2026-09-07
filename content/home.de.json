@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Willkommen bei\nCucurbitAgent",
+    "subtitle": "Eine intelligente Plattform der nächsten Generation für die Cucurbitaceae-Forschung, die große Sprachmodelle mit Multi-Omics-Daten verbindet.",
+    "cta": [
+      {
+        "label": "🤖 CucurbitAgent",
+        "href": "/agent"
+      },
+      {
+        "label": "🧬 Gene",
+        "href": "/genes"
+      },
+      {
+        "label": "📊 Expression",
+        "href": "/expression"
+      },
+      {
+        "label": "🔬 Proteine",
+        "href": "/proteins"
+      }
+    ]
+  },
+  "about": {
+    "title": "Über CucurbitAgent",
+    "paragraphs": [
+      "Kürbisgewächse (Cucurbitaceae) — Wassermelone, Gurke, Melone, Kürbis, Bittermelone und verwandte Kulturen — sind bedeutende Gemüsekulturen weltweit. Hochwertige Genome, Transkriptome und funktionelle Studien häufen sich beständig, doch diese Ressourcen bleiben über Datenbanken und Formate verstreut — und selbst gebündelt übersteigt ihre schiere Menge jede manuelle Auswertung. Um dieses fragmentierte, schnell wachsende Wissen in Antworten für die Genentdeckung und molekulare Züchtung zu verwandeln, sind ebenso systematische Integration wie KI-gestütztes Schließen erforderlich.",
+      "Wir haben CucurbitAgent entwickelt, um diese Lücke zu schließen. Entwickelt vom Beijing Vegetable Research Center (BVRC) der Beijing Academy of Agriculture and Forestry Sciences (BAAFS), ist CucurbitAgent eine KI-Forschungsplattform, die kuratierte Multi-Omics-Ressourcen für neun Kürbisgewächs-Arten — Genannotation und Orthologie, versionsübergreifende Gen-ID-Zuordnung, Gewebeexpression und Co-Expressionsnetzwerke, proteomweite ESMFold-Strukturen mit GPSite-vorhergesagten Bindungsstellen sowie einen großen Literaturkorpus — mit einem Retrieval-augmentierten, werkzeugnutzenden Assistenten auf Basis großer Sprachmodelle verbindet. Stellen Sie eine Frage in natürlicher Sprache, und CucurbitAgent ruft Belege aus lokal gehosteten Gen-, Expressions-, Struktur- und Literaturdatenbanken ab und liefert fundierte Antworten über dedizierte Module für Gene, Expression, Proteine, Literatur und Genom-Downloads.",
+      "Zusammen ermöglichen kuratiertes Kürbisgewächs-Wissen, Retrieval-augmentierte Generierung und strukturierte Datenbankwerkzeuge, dass CucurbitAgent schnellere Genentdeckung, klarere Interpretation von Varianten, Expressionsmustern und Protein-Bindungsstellen sowie fundiertere Züchtungsentscheidungen unterstützt — für die globale Forschungsgemeinschaft der Kürbisgewächse."
+    ]
+  },
+  "externalResources": {
+    "title": "🔗 Externe Ressourcen",
+    "items": [
+      {
+        "name": "NCBI",
+        "description": "Genome, Gene, Literatur",
+        "url": "https://www.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "Cucurbit Genomics (CuGenDB)",
+        "description": "Kürbisgewächs-Genomik-Datenbank v2",
+        "url": "http://cucurbitgenomics.org/v2/"
+      },
+      {
+        "name": "Ensembl Plants",
+        "description": "Vergleichende Pflanzengenomik",
+        "url": "https://plants.ensembl.org/index.html"
+      },
+      {
+        "name": "Phytozome",
+        "description": "Pflanzengenomik (JGI)",
+        "url": "https://phytozome-next.jgi.doe.gov/"
+      },
+      {
+        "name": "CucumberDB",
+        "description": "Gurkengenom-Datenbank",
+        "url": "http://www.cucumberdb.com/#/home"
+      },
+      {
+        "name": "TAIR",
+        "description": "Arabidopsis-Informationen",
+        "url": "https://www.arabidopsis.org/#"
+      },
+      {
+        "name": "MIR",
+        "description": "T2T-Melonengenom & Tools",
+        "url": "https://zhanglab.qau.edu.cn/melon/index.php"
+      },
+      {
+        "name": "AlphaFold Server",
+        "description": "Proteinstrukturvorhersage",
+        "url": "https://alphafoldserver.com/"
+      }
+    ]
+  },
+  "citeUs": {
+    "title": "Zitieren",
+    "intro": "Wenn Sie diese Plattform für Ihre Forschung hilfreich finden, zitieren Sie bitte:",
+    "citation": "CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae (manuscript in preparation).",
+    "bibtex": "@unpublished{CucurbitAgent2026,\n  title = {CucurbitAgent: An AI-driven interactive assistant for multi-omics and structural analysis in Cucurbitaceae},\n  author = {{Beijing Vegetable Research Center}},\n  note = {Manuscript in preparation},\n  year = {2026}\n}"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026. Pekinger Akademie für Agrar- und Forstwissenschaften (BAAFS). Alle Rechte vorbehalten."
+  }
+}
