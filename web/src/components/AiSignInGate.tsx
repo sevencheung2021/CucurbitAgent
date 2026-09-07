@@ -53,7 +53,7 @@ export default function AiSignInGate({
       role="status"
     >
       <div className="mx-auto mb-2 flex size-9 items-center justify-center rounded-full bg-white border border-amber-200">
-        <BotIcon className="size-4 text-[#0D9488]" />
+        <BotIcon className="size-4 text-[#475569]" />
       </div>
       <p className="text-sm font-semibold text-slate-800">
         {t('gateTitle', { feature })}
@@ -64,13 +64,13 @@ export default function AiSignInGate({
       <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
         <Link
           href={`/login?next=${next}`}
-          className="inline-flex items-center rounded-lg bg-[#0D9488] px-4 py-2 text-sm font-semibold text-white hover:bg-[#0F766E] transition-colors"
+          className="inline-flex items-center rounded-lg bg-[#475569] px-4 py-2 text-sm font-semibold text-white hover:bg-[#334155] transition-colors"
         >
           {t('gateSignIn')}
         </Link>
         <Link
           href={`/register?next=${next}`}
-          className="inline-flex items-center rounded-lg border border-[#0D9488] px-4 py-2 text-sm font-semibold text-[#0D9488] hover:bg-white transition-colors"
+          className="inline-flex items-center rounded-lg border border-[#475569] px-4 py-2 text-sm font-semibold text-[#475569] hover:bg-white transition-colors"
         >
           {t('gateRegister')}
         </Link>

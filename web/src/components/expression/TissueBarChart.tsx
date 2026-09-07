@@ -37,7 +37,7 @@ export default function TissueBarChart({ tissues }: { tissues: TissueEntry[] }) 
                 className="h-full rounded-sm transition-[width] duration-300"
                 style={{
                   width: `${pct}%`,
-                  backgroundColor: isTop ? '#B01A75' : '#0D9488',
+                  backgroundColor: isTop ? '#B01A75' : '#475569',
                 }}
                 title={`${r.tissue}: ${mean.toFixed(1)} FPKM`}
               />

@@ -75,7 +75,7 @@ export default function NavUserMenu({ user }: { user: AuthUser }) {
         aria-haspopup="menu"
         title={user.email}
       >
-        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#0D9488] text-[11px] font-bold text-white select-none">
+        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[#475569] text-[11px] font-bold text-white select-none">
           {initialsFromEmail(user.email)}
         </span>
         <svg
@@ -118,7 +118,7 @@ export default function NavUserMenu({ user }: { user: AuthUser }) {
                   <path d="M4.5 6A1.5 1.5 0 003 7.5v9A1.5 1.5 0 004.5 18h6a1.5 1.5 0 001.5-1.5V16H8.5A2.5 2.5 0 016 13.5V6H4.5z" />
                 </svg>
               </button>
-              {copied && <span className="text-[#0D9488]">Copied</span>}
+              {copied && <span className="text-[#475569]">Copied</span>}
             </div>
           </div>
 

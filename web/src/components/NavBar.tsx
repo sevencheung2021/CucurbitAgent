@@ -80,15 +80,15 @@ export default function NavBar() {
                 aria-current={active ? 'page' : undefined}
                 className={`group flex items-center gap-1.5 pb-3 text-base font-extrabold whitespace-nowrap border-b-4 transition-colors ${
                   active
-                    ? 'text-[#0F766E] border-[#0D9488]'
-                    : 'text-slate-500 border-transparent hover:text-[#0D9488] hover:border-[#99F6E4]'
+                    ? 'text-[#334155] border-[#475569]'
+                    : 'text-slate-500 border-transparent hover:text-[#475569] hover:border-[#e2e8f0]'
                 }`}
               >
                 <Icon
                   className={`size-4 transition-colors ${
                     active
-                      ? 'text-[#0D9488]'
-                      : 'text-slate-400 group-hover:text-[#0D9488]'
+                      ? 'text-[#475569]'
+                      : 'text-slate-400 group-hover:text-[#475569]'
                   }`}
                 />
                 {t(item.labelKey)}
@@ -113,13 +113,13 @@ export default function NavBar() {
                 <div className="flex items-center gap-2">
                   <Link
                     href="/login"
-                    className="text-sm font-semibold text-[#0D9488] hover:underline"
+                    className="text-sm font-semibold text-[#475569] hover:underline"
                   >
                     {t('signIn')}
                   </Link>
                   <Link
                     href="/register"
-                    className="rounded-md bg-[#0D9488] px-2.5 py-1 text-xs font-semibold text-white hover:bg-[#0F766E]"
+                    className="rounded-md bg-[#475569] px-2.5 py-1 text-xs font-semibold text-white hover:bg-[#334155]"
                   >
                     {t('register')}
                   </Link>
@@ -137,10 +137,10 @@ export default function NavBar() {
       <div className="md:hidden flex items-center justify-between pb-2">
         <Link
           href="/"
-          className="flex items-center gap-2 text-[#0F766E] font-extrabold text-lg"
+          className="flex items-center gap-2 text-[#334155] font-extrabold text-lg"
           aria-label="CucurbitAgent home"
         >
-          <BotIcon className="size-6 text-[#0D9488]" />
+          <BotIcon className="size-6 text-[#475569]" />
           CucurbitAgent
         </Link>
 
@@ -150,7 +150,7 @@ export default function NavBar() {
           ) : isHome && ready ? (
             <Link
               href="/login"
-              className="text-sm font-semibold text-[#0D9488] hover:underline"
+              className="text-sm font-semibold text-[#475569] hover:underline"
             >
               {t('signIn')}
             </Link>
@@ -162,7 +162,7 @@ export default function NavBar() {
             aria-label={t('menu')}
             aria-expanded={drawerOpen}
             aria-controls="mobile-nav-drawer"
-            className="inline-flex items-center justify-center size-9 rounded-lg border border-[#E2E8F0] bg-white text-slate-600 hover:bg-slate-50 hover:text-[#0D9488] transition-colors"
+            className="inline-flex items-center justify-center size-9 rounded-lg border border-[#E2E8F0] bg-white text-slate-600 hover:bg-slate-50 hover:text-[#475569] transition-colors"
           >
             <MenuIcon className="size-5" />
           </button>
@@ -192,8 +192,8 @@ export default function NavBar() {
             className="absolute right-0 top-0 h-full w-[280px] max-w-[80vw] bg-white shadow-xl flex flex-col"
           >
             <div className="flex items-center justify-between px-4 py-3 border-b border-[#E2E8F0]">
-              <span className="flex items-center gap-2 font-extrabold text-[#0F766E]">
-                <BotIcon className="size-5 text-[#0D9488]" />
+              <span className="flex items-center gap-2 font-extrabold text-[#334155]">
+                <BotIcon className="size-5 text-[#475569]" />
                 {t('menu')}
               </span>
               <button
@@ -217,13 +217,13 @@ export default function NavBar() {
                       aria-current={active ? 'page' : undefined}
                       className={`flex items-center gap-3 px-4 py-3 text-base font-semibold border-l-4 transition-colors ${
                         active
-                          ? 'text-[#0F766E] bg-[#F0FDFA] border-[#0D9488]'
-                          : 'text-slate-700 border-transparent hover:bg-slate-50 hover:text-[#0D9488]'
+                          ? 'text-[#334155] bg-[#f8fafc] border-[#475569]'
+                          : 'text-slate-700 border-transparent hover:bg-slate-50 hover:text-[#475569]'
                       }`}
                     >
                       <Icon
                         className={`size-5 ${
-                          active ? 'text-[#0D9488]' : 'text-slate-400'
+                          active ? 'text-[#475569]' : 'text-slate-400'
                         }`}
                       />
                       {t(item.labelKey)}
@@ -251,13 +251,13 @@ export default function NavBar() {
                     <>
                       <Link
                         href="/login"
-                        className="block w-full text-center rounded-lg border border-[#0D9488] px-4 py-2.5 text-sm font-semibold text-[#0D9488] hover:bg-[#F0FDFA] transition-colors"
+                        className="block w-full text-center rounded-lg border border-[#475569] px-4 py-2.5 text-sm font-semibold text-[#475569] hover:bg-[#f8fafc] transition-colors"
                       >
                         {t('signIn')}
                       </Link>
                       <Link
                         href="/register"
-                        className="block w-full text-center rounded-lg bg-[#0D9488] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] transition-colors"
+                        className="block w-full text-center rounded-lg bg-[#475569] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] transition-colors"
                       >
                         {t('register')}
                       </Link>

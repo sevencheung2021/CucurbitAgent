@@ -47,7 +47,7 @@ export default function CiteUs({ content }: { content?: CiteUsContent | null }) 
           <button
             type="button"
             onClick={copyBibtex}
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0D9488] hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#475569] hover:underline"
           >
             {copied ? (
               <>

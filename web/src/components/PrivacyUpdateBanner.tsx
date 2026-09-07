@@ -103,17 +103,17 @@ export default function PrivacyUpdateBanner() {
     <div
       role="region"
       aria-label="Privacy policy update notice"
-      className="sticky top-0 z-[60] border-b border-[#99F6E4] bg-[#F0FDFA] px-4 py-2 text-xs text-slate-700 shadow-sm"
+      className="sticky top-0 z-[60] border-b border-[#e2e8f0] bg-[#f8fafc] px-4 py-2 text-xs text-slate-700 shadow-sm"
     >
       <div className="mx-auto flex max-w-content flex-wrap items-center gap-x-3 gap-y-1.5">
-        <span className="font-semibold text-[#0F766E]">{t('privacyUpdated')}</span>
+        <span className="font-semibold text-[#334155]">{t('privacyUpdated')}</span>
         <span className="hidden sm:inline text-slate-600">
           We&apos;ve revised our Privacy Policy. Please review and agree to continue.
         </span>
         <div className="ml-auto flex items-center gap-2">
           <Link
             href="/privacy"
-            className="rounded-md border border-[#0D9488] px-2.5 py-1 text-[11px] font-semibold text-[#0D9488] hover:bg-white"
+            className="rounded-md border border-[#475569] px-2.5 py-1 text-[11px] font-semibold text-[#475569] hover:bg-white"
           >
             Review
           </Link>
@@ -121,7 +121,7 @@ export default function PrivacyUpdateBanner() {
             type="button"
             onClick={agree}
             disabled={state === 'agreeing'}
-            className="rounded-md bg-[#0D9488] px-2.5 py-1 text-[11px] font-semibold text-white hover:bg-[#0F766E] disabled:opacity-60"
+            className="rounded-md bg-[#475569] px-2.5 py-1 text-[11px] font-semibold text-white hover:bg-[#334155] disabled:opacity-60"
           >
             {state === 'agreeing' ? 'Saving…' : 'I agree'}
           </button>

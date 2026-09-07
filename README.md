@@ -10,7 +10,7 @@ a gene entry, an expression value, a structural residue, or a literature passage
 
 ![Architecture](docs/img/architecture.png)
 
-- Live platform: **https://cuagent.com**
+- Live platform: **https://cuagent.net**
 - Knowledge base: 9 cucurbit genomes, ~256,000 genes, 16.0 M natural variants,
   ~242,000 ESMFold structures with GPSite binding-site annotations, and a curated
   corpus of 18,000+ cucurbit publications
@@ -111,10 +111,14 @@ If you reuse the framework, please cite this work (see below).
 Code is released under the [MIT License](LICENSE).
 CucurbitBench items are released for research use; attribution is appreciated.
 
+## Contact
+
+Questions and bug reports: **wenchanglong@nercv.org**
+
 ## Citation
 
 A manuscript describing CucurbitAgent is under review. Until publication, please
 cite the platform:
 
 > Zhang, R., Zhang, J., Zhang, Y., et al. CucurbitAgent: an AI agent for
-> multi-omics research in cucurbit biology. https://cuagent.com (2026).
+> multi-omics research in cucurbit biology. https://cuagent.net (2026).

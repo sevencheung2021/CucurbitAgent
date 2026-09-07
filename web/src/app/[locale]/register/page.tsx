@@ -77,7 +77,7 @@ function RegisterForm() {
 
   return (
     <div className="mx-auto max-w-md px-4 py-10">
-      <h1 className="text-2xl font-bold text-[#0F766E]">{t('registerTitle')}</h1>
+      <h1 className="text-2xl font-bold text-[#334155]">{t('registerTitle')}</h1>
       <p className="mt-2 text-sm text-slate-600">{t('registerDesc')}</p>
 
       {step === 'form' ? (
@@ -114,7 +114,7 @@ function RegisterForm() {
               type="checkbox"
               checked={agreed}
               onChange={(e) => setAgreed(e.target.checked)}
-              className="mt-0.5 h-4 w-4 shrink-0 rounded border-slate-300 text-[#0D9488] focus:ring-[#0D9488]"
+              className="mt-0.5 h-4 w-4 shrink-0 rounded border-slate-300 text-[#475569] focus:ring-[#475569]"
               required
             />
             <span>
@@ -123,7 +123,7 @@ function RegisterForm() {
                 href="/privacy"
                 target="_blank"
                 rel="noopener"
-                className="font-semibold text-[#0D9488] underline"
+                className="font-semibold text-[#475569] underline"
               >
                 Privacy Policy
               </Link>{' '}
@@ -132,7 +132,7 @@ function RegisterForm() {
                 href="/terms"
                 target="_blank"
                 rel="noopener"
-                className="font-semibold text-[#0D9488] underline"
+                className="font-semibold text-[#475569] underline"
               >
                 Terms of Use
               </Link>
@@ -143,7 +143,7 @@ function RegisterForm() {
           <button
             type="submit"
             disabled={busy || !agreed}
-            className="w-full rounded-lg bg-[#0D9488] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] disabled:cursor-not-allowed disabled:opacity-60"
+            className="w-full rounded-lg bg-[#475569] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] disabled:cursor-not-allowed disabled:opacity-60"
           >
             {busy ? t('sending') : t('sendCode')}
           </button>
@@ -170,7 +170,7 @@ function RegisterForm() {
           <button
             type="submit"
             disabled={busy}
-            className="w-full rounded-lg bg-[#0D9488] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] disabled:opacity-60"
+            className="w-full rounded-lg bg-[#475569] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] disabled:opacity-60"
           >
             {busy ? t('verifying') : t('verifyRegister')}
           </button>
@@ -186,7 +186,7 @@ function RegisterForm() {
 
       <p className="mt-6 text-center text-sm text-slate-600">
         {t('haveAccount')}{' '}
-        <Link href={`/login?next=${encodeURIComponent(next)}`} className="font-semibold text-[#0D9488]">
+        <Link href={`/login?next=${encodeURIComponent(next)}`} className="font-semibold text-[#475569]">
           {t('gateSignIn')}
         </Link>
       </p>

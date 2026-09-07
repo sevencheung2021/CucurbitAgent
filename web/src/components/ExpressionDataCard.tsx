@@ -24,7 +24,7 @@ function Cell({ label, children }: { label: string; children: React.ReactNode })
 function Section({ title, count, children }: { title: string; count?: number; children: React.ReactNode }) {
   return (
     <div>
-      <div className="text-[10px] font-semibold text-[#0F766E] uppercase tracking-wider mb-1.5">
+      <div className="text-[10px] font-semibold text-[#334155] uppercase tracking-wider mb-1.5">
         {title}{typeof count === 'number' ? ` (${count})` : ''}
       </div>
       <div className="space-y-1">{children}</div>
@@ -58,7 +58,7 @@ export default function ExpressionDataCard({ data }: { data: any }) {
     <div className="rounded-lg border border-slate-200 bg-slate-50/50 overflow-hidden">
       <div className="px-3 py-1.5 bg-slate-100 border-b border-slate-200 flex items-center justify-between">
         <span className="text-xs font-semibold text-slate-700 inline-flex items-center gap-1.5">
-          <BarChart3Icon className="size-3.5 text-[#0D9488]" />
+          <BarChart3Icon className="size-3.5 text-[#475569]" />
           {data.gene_id} <span className="text-slate-400 font-normal">· {data.species_common}</span>
         </span>
         <span className="text-[10px] text-slate-400">{data.reliability} · {data.n_samples} samples</span>
@@ -67,7 +67,7 @@ export default function ExpressionDataCard({ data }: { data: any }) {
       <div className="p-3 space-y-3">
         {/* Headline stats */}
         <Section title={t('specificity')}>
-          <Cell label={tf('topTissue')}>{data.top_tissue} <span className="text-[#0F766E]">({fmt1(data.top_tissue_fpkm)} FPKM)</span></Cell>
+          <Cell label={tf('topTissue')}>{data.top_tissue} <span className="text-[#334155]">({fmt1(data.top_tissue_fpkm)} FPKM)</span></Cell>
           <Cell label={t('meanMax')}>{fmt1(data.mean_fpkm)} / {fmt1(data.max_fpkm)} FPKM</Cell>
           <Cell label={t('tauSpecificity')}>{fmt1(data.tau_specificity)} <span className="text-slate-400">({Number(data.tau_specificity) > 0.8 ? t('tissueSpecific') : Number(data.tau_specificity) > 0.6 ? t('moderatelySpecific') : t('ubiquitous')})</span></Cell>
           <Cell label={t('samplesProjects')}>{data.n_samples} / {data.n_projects}</Cell>
@@ -81,7 +81,7 @@ export default function ExpressionDataCard({ data }: { data: any }) {
                 <span className="text-slate-600 w-28 truncate flex-shrink-0">{t.tissue}</span>
                 <div className="flex-1 h-3 bg-slate-200 rounded-sm overflow-hidden">
                   <div
-                    className="h-full bg-[#0D9488] rounded-sm"
+                    className="h-full bg-[#475569] rounded-sm"
                     style={{ width: `${Math.max(4, (t.mean / maxFpkm) * 100)}%` }}
                   />
                 </div>
@@ -113,7 +113,7 @@ export default function ExpressionDataCard({ data }: { data: any }) {
                 <span className="text-slate-700 truncate">
                   {s.tissue} <span className="text-slate-400">{s.condition}</span>
                 </span>
-                <span className="text-[#0F766E] tabular-nums flex-shrink-0">{fmt1(s.fpkm)}</span>
+                <span className="text-[#334155] tabular-nums flex-shrink-0">{fmt1(s.fpkm)}</span>
               </div>
             ))}
           </Section>

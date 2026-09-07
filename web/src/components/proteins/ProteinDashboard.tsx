@@ -2,7 +2,7 @@ import { BotIcon } from '@/components/ui/icons';
 
 export default function ProteinDashboard({ data }: { data: any }) {
   const score = Number(data.plddt_score || 0);
-  const color = score >= 90 ? '#117a65' : score >= 70 ? '#2980b9' : score >= 50 ? '#f39c12' : '#c0392b';
+  const color = score >= 90 ? '#334155' : score >= 70 ? '#2980b9' : score >= 50 ? '#f39c12' : '#c0392b';
   return (
     <div className="grid gap-5 md:grid-cols-[1fr_2fr] mb-6">
       <div className="rounded-xl bg-white p-5 text-center shadow border-t-[5px]" style={{ borderTopColor: color }}>
@@ -11,7 +11,7 @@ export default function ProteinDashboard({ data }: { data: any }) {
         <div className="text-base font-bold" style={{ color }}>{data.plddt_label}</div>
       </div>
       <div className="rounded-xl bg-white p-5 shadow border-t-[5px] border-[#1abc9c] flex flex-col justify-center">
-        <div className="mb-4 text-sm font-bold text-[#117a65] inline-flex items-center gap-2">
+        <div className="mb-4 text-sm font-bold text-[#334155] inline-flex items-center gap-2">
           <BotIcon className="size-4" /> AI Global Functional Summary
         </div>
         <div className="text-lg leading-relaxed text-[#2c3e50]">

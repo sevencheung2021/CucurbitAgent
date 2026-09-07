@@ -15,7 +15,7 @@ export default function AgentComposer({
   placeholder?: string;
 }) {
   return (
-    <div className="rounded-[18px] border border-[#99F6E4] bg-white/95 p-4 shadow-[0_8px_24px_rgba(15,118,110,0.08)]">
+    <div className="rounded-[18px] border border-[#e2e8f0] bg-white/95 p-4 shadow-[0_8px_24px_rgba(51,65,85,0.08)]">
       <textarea
         className="w-full h-28 resize-none border-0 outline-none text-sm text-[#334155] placeholder:text-[#94A3B8] bg-transparent"
         placeholder={placeholder}
@@ -37,7 +37,7 @@ export default function AgentComposer({
           type="button"
           onClick={onSend}
           disabled={disabled || !value.trim()}
-          className="h-10 w-10 rounded-xl bg-[#0D9488] text-white font-bold flex items-center justify-center hover:bg-[#0F766E] transition-colors disabled:opacity-40"
+          className="h-10 w-10 rounded-xl bg-[#475569] text-white font-bold flex items-center justify-center hover:bg-[#334155] transition-colors disabled:opacity-40"
           title="Send"
           aria-label="Send message"
         >

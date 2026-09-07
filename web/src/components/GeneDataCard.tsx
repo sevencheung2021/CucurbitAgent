@@ -28,7 +28,7 @@ function Cell({ label, children }: { label: string; children: React.ReactNode })
 function Section({ title, count, children }: { title: string; count?: number; children: React.ReactNode }) {
   return (
     <div>
-      <div className="text-[10px] font-semibold text-[#0F766E] uppercase tracking-wider mb-1.5">
+      <div className="text-[10px] font-semibold text-[#334155] uppercase tracking-wider mb-1.5">
         {title}{typeof count === 'number' ? ` (${count})` : ''}
       </div>
       <div className="space-y-1">{children}</div>
@@ -76,7 +76,7 @@ export default function GeneDataCard({ data }: { data: any }) {
       {/* Title bar — compact */}
       <div className="px-3 py-1.5 bg-slate-100 border-b border-slate-200 flex items-center justify-between">
         <span className="text-xs font-semibold text-slate-700 inline-flex items-center gap-1.5">
-          <ClipboardListIcon className="size-3.5 text-[#0D9488]" />
+          <ClipboardListIcon className="size-3.5 text-[#475569]" />
           {data.gene_id} <span className="text-slate-400 font-normal">· {data.species}</span>
         </span>
         {data.version_mapping && (
@@ -140,7 +140,7 @@ export default function GeneDataCard({ data }: { data: any }) {
             {orthologs.map((o: any, i: number) => (
               <div key={i} className="flex justify-between text-xs">
                 <span className="text-slate-700">{o.species} <span className="text-slate-400">{o.gene_id}</span></span>
-                <span className="text-[#0F766E] font-medium tabular-nums">{o.identity}</span>
+                <span className="text-[#334155] font-medium tabular-nums">{o.identity}</span>
               </div>
             ))}
           </Section>

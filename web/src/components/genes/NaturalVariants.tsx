@@ -12,7 +12,7 @@ const tabs = [
   ['non_cds', 'tabNonCds'],
 ] as const;
 const filters = ['all', 'synonymous', 'missense', 'nonsense'] as const;
-const palette: Record<string, string> = { Synonymous: '#94A3B8', Missense: '#B01A75', Nonsense: '#DC2626', 'Intron/UTR': '#0D9488', Other: '#64748B' };
+const palette: Record<string, string> = { Synonymous: '#94A3B8', Missense: '#B01A75', Nonsense: '#DC2626', 'Intron/UTR': '#475569', Other: '#64748B' };
 
 export default function NaturalVariants({ species, geneId, initial }: Props) {
   const t = useTranslations('genes');
@@ -32,9 +32,9 @@ export default function NaturalVariants({ species, geneId, initial }: Props) {
       <div className="rounded-lg border border-dashed border-slate-200 bg-slate-50 px-4 py-6 text-sm text-slate-600">
         <p className="font-medium text-slate-700">{t('noVariants')}</p>
         <p className="mt-1 text-slate-500">
-          {species} has a curated SNP / InDel index, but <code className="font-mono text-[#0D9488]">{geneId}</code> has
+          {species} has a curated SNP / InDel index, but <code className="font-mono text-[#475569]">{geneId}</code> has
           no records in it (common for very short genes or loci outside the called set). Try another gene — e.g.
-          Watermelon <code className="font-mono text-[#0D9488]">Cla97C08G154570</code>.
+          Watermelon <code className="font-mono text-[#475569]">Cla97C08G154570</code>.
         </p>
       </div>
     );
@@ -44,8 +44,8 @@ export default function NaturalVariants({ species, geneId, initial }: Props) {
 
   return (
     <section className="mt-10">
-      <h2 className="mb-6 text-3xl font-extrabold text-[#1a252f] inline-flex items-center gap-3">
-        <DnaIcon className="size-7 text-[#0D9488]" /> Natural Variants
+      <h2 className="mb-6 text-3xl font-extrabold text-[#0f172a] inline-flex items-center gap-3">
+        <DnaIcon className="size-7 text-[#475569]" /> Natural Variants
       </h2>
       <div className="grid grid-cols-4 gap-6 text-left mb-5">
         <Metric label={t('metricTotal')} value={summary.total} />
@@ -56,7 +56,7 @@ export default function NaturalVariants({ species, geneId, initial }: Props) {
       <p className="mb-8 text-sm text-[#64748B]">{t('cdsBreakdown', { synonymous: summary.synonymous, missense: summary.missense, nonsense: summary.nonsense })}</p>
       <div className="mb-4 flex justify-center gap-10 border-b border-[#DADDE1]">
         {tabs.map(([key, label]) => (
-          <button key={key} onClick={() => { setTab(key); setPage(1); }} className={`pb-3 text-2xl font-extrabold border-b-4 ${tab === key ? 'text-[#B01A75] border-[#B01A75]' : 'text-[#1a252f] border-transparent'}`}>
+          <button key={key} onClick={() => { setTab(key); setPage(1); }} className={`pb-3 text-2xl font-extrabold border-b-4 ${tab === key ? 'text-[#B01A75] border-[#B01A75]' : 'text-[#0f172a] border-transparent'}`}>
             {t(label)}
           </button>
         ))}
@@ -69,7 +69,7 @@ export default function NaturalVariants({ species, geneId, initial }: Props) {
               <div key={cat} className="grid grid-cols-[110px_1fr_40px] items-center gap-3 text-sm">
                 <span className="text-right text-[#64748B]">{cat}</span>
                 <div className="relative h-10 border-l border-[#E2E8F0]">
-                  <div className="h-full" style={{ width: `${(data.chart.counts[i] / max) * 100}%`, background: palette[cat] || '#0D9488' }} />
+                  <div className="h-full" style={{ width: `${(data.chart.counts[i] / max) * 100}%`, background: palette[cat] || '#475569' }} />
                 </div>
                 <span>{data.chart.counts[i]}</span>
               </div>
@@ -110,5 +110,5 @@ export default function NaturalVariants({ species, geneId, initial }: Props) {
 }
 
 function Metric({ label, value }: { label: string; value: number }) {
-  return <div><div className="mb-2 text-sm">{label}</div><div className="text-4xl font-light text-[#1a252f]">{value}</div></div>;
+  return <div><div className="mb-2 text-sm">{label}</div><div className="text-4xl font-light text-[#0f172a]">{value}</div></div>;
 }

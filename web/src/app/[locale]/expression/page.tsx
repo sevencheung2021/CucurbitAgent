@@ -197,7 +197,7 @@ export default function ExpressionPage() {
       <div className="max-w-content mx-auto px-4 py-8">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-teal-brand inline-flex items-center gap-2">
-            <BarChart3Icon className="size-7 text-[#0D9488]" /> {t('title')}
+            <BarChart3Icon className="size-7 text-[#475569]" /> {t('title')}
           </h1>
           <p className="text-slate-600 mt-1">
             {t('subtitle')} ·
@@ -205,14 +205,14 @@ export default function ExpressionPage() {
           </p>
         </div>
 
-        <div className="rounded-2xl border border-[#CCFBF1] bg-white shadow-sm p-5 mb-6">
+        <div className="rounded-2xl border border-[#f1f5f9] bg-white shadow-sm p-5 mb-6">
           <div className="flex flex-col md:flex-row gap-3 items-stretch md:items-end">
             <div>
               <label className="block text-xs text-slate-500 mb-1">{t('species')}</label>
               <select
                 value={species}
                 onChange={(e) => setSpecies(e.target.value)}
-                className="w-full md:w-auto rounded-lg border border-[#CBD5E1] bg-white px-3 py-2 text-sm text-slate-800 min-w-[200px] focus:border-[#0D9488] focus:outline-none"
+                className="w-full md:w-auto rounded-lg border border-[#CBD5E1] bg-white px-3 py-2 text-sm text-slate-800 min-w-[200px] focus:border-[#475569] focus:outline-none"
               >
                 {SPECIES.map((s) => (
                   <option key={s} value={s}>{s}</option>
@@ -229,13 +229,13 @@ export default function ExpressionPage() {
                 onChange={(e) => setGeneId(e.target.value)}
                 onKeyDown={onKeyDown}
                 placeholder={t('geneIdPlaceholder')}
-                className="w-full rounded-lg border border-[#CBD5E1] px-3 py-2 text-sm font-mono text-slate-800 focus:outline-none focus:border-[#0D9488]"
+                className="w-full rounded-lg border border-[#CBD5E1] px-3 py-2 text-sm font-mono text-slate-800 focus:outline-none focus:border-[#475569]"
               />
             </div>
             <button
               onClick={() => runSearch()}
               disabled={!geneId.trim() || exprLoading}
-              className="inline-flex items-center gap-1.5 px-5 py-2 rounded-lg bg-[#0D9488] text-white text-sm font-semibold hover:bg-[#0F766E] transition-colors whitespace-nowrap disabled:cursor-not-allowed"
+              className="inline-flex items-center gap-1.5 px-5 py-2 rounded-lg bg-[#475569] text-white text-sm font-semibold hover:bg-[#334155] transition-colors whitespace-nowrap disabled:cursor-not-allowed"
             >
               <BarChart3Icon className="size-4" />
               {exprLoading ? t('analyzing') : t('analyze')}
@@ -290,8 +290,8 @@ export default function ExpressionPage() {
                   {t('reliabilityDesc')}
                 </div>
 
-                <div className="rounded-xl border border-[#CCFBF1] bg-gradient-to-br from-[#F0FDFA] to-white p-5">
-                  <h3 className="text-sm font-semibold text-[#0F766E] mb-2 inline-flex items-center gap-2">
+                <div className="rounded-xl border border-[#f1f5f9] bg-gradient-to-br from-[#f8fafc] to-white p-5">
+                  <h3 className="text-sm font-semibold text-[#334155] mb-2 inline-flex items-center gap-2">
                     <SparklesIcon className="size-4" /> {t('aiSummary')}
                   </h3>
                   <ul className="text-xs text-slate-700 space-y-1.5 list-disc pl-5">
@@ -303,14 +303,14 @@ export default function ExpressionPage() {
 
                 <div className="rounded-lg bg-slate-50 border border-slate-200 px-4 py-3 text-xs text-slate-600">
                   <strong className="text-slate-700 inline-flex items-center gap-1.5">
-                    <InfoIcon className="size-3.5 text-[#0D9488]" /> {t('tryThese')}:
+                    <InfoIcon className="size-3.5 text-[#475569]" /> {t('tryThese')}:
                   </strong>{' '}
                   {DEMO_GENES.map((d, i) => (
                     <span key={d.geneId}>
                       {i > 0 ? ' · ' : null}
                       <button
                         type="button"
-                        className="font-mono text-[#0D9488] hover:underline underline-offset-2"
+                        className="font-mono text-[#475569] hover:underline underline-offset-2"
                         title={`${d.species} / ${d.geneId}`}
                         onClick={() => runSearch(d.geneId, d.species)}
                       >
@@ -328,10 +328,10 @@ export default function ExpressionPage() {
         {mode === 'search' && (
           <>
             {canSummarize && (
-              <div className="rounded-xl border border-[#CCFBF1] bg-gradient-to-br from-[#F0FDFA] to-white shadow-sm overflow-hidden mb-6">
-                <div className="px-5 py-3 border-b border-[#CCFBF1] flex flex-wrap items-center justify-between gap-3">
+              <div className="rounded-xl border border-[#f1f5f9] bg-gradient-to-br from-[#f8fafc] to-white shadow-sm overflow-hidden mb-6">
+                <div className="px-5 py-3 border-b border-[#f1f5f9] flex flex-wrap items-center justify-between gap-3">
                   <h3 className="text-sm font-semibold text-slate-800 flex items-center gap-2">
-                    <SparklesIcon className="size-4 text-[#0D9488]" /> AI Summary
+                    <SparklesIcon className="size-4 text-[#475569]" /> AI Summary
                   </h3>
                   {isSignedIn && (
                     !summaryOpen ? (
@@ -367,7 +367,7 @@ export default function ExpressionPage() {
                                 {t.content ? (
                                   <AgentMarkdown content={t.content} />
                                 ) : summaryLoading ? (
-                                  <span className="text-sm text-[#0D9488] inline-flex items-center gap-1">
+                                  <span className="text-sm text-[#475569] inline-flex items-center gap-1">
                                     <span className="cuagent-thinking-dot" />
                                     <span className="cuagent-thinking-dot" />
                                     <span className="cuagent-thinking-dot" />
@@ -378,7 +378,7 @@ export default function ExpressionPage() {
                           </div>
                         ))}
                         {summaryStatuses.length > 0 && (
-                          <div className="rounded-lg bg-[#F0FDFA] border border-[#CCFBF1] p-3 text-xs text-[#0F766E] space-y-1">
+                          <div className="rounded-lg bg-[#f8fafc] border border-[#f1f5f9] p-3 text-xs text-[#334155] space-y-1">
                             {summaryStatuses.slice(-4).map((s, i) => (
                               <div key={`${s}-${i}`}>• {s}</div>
                             ))}
@@ -398,7 +398,7 @@ export default function ExpressionPage() {
                             type="button"
                             onClick={onFollowUp}
                             disabled={summaryLoading || !followUp.trim()}
-                            className="px-4 py-2 rounded-lg bg-[#0D9488] text-white text-sm font-medium hover:bg-[#0F766E] disabled:opacity-50 whitespace-nowrap"
+                            className="px-4 py-2 rounded-lg bg-[#475569] text-white text-sm font-medium hover:bg-[#334155] disabled:opacity-50 whitespace-nowrap"
                           >
                             {t('ask')}
                           </button>
@@ -456,7 +456,7 @@ export default function ExpressionPage() {
 
                     <div className="rounded-xl border border-[#E2E8F0] bg-white p-4 shadow-sm">
                       <h3 className="text-sm font-semibold text-slate-700 mb-3 inline-flex items-center gap-2">
-                        <BarChart3Icon className="size-4 text-[#0D9488]" /> Tissue Expression Profile
+                        <BarChart3Icon className="size-4 text-[#475569]" /> Tissue Expression Profile
                         <span className="text-xs text-slate-400 font-normal">
                           (mean FPKM across {exprData.n_samples} samples · top tissue highlighted in pink)
                         </span>
@@ -466,7 +466,7 @@ export default function ExpressionPage() {
 
                     <div className="rounded-xl border border-[#E2E8F0] bg-white p-4 shadow-sm">
                       <h3 className="text-sm font-semibold text-slate-700 mb-3 inline-flex items-center gap-2">
-                        <TargetIcon className="size-4 text-[#0D9488]" /> Top {exprData.top_samples.length} High-Expression Samples
+                        <TargetIcon className="size-4 text-[#475569]" /> Top {exprData.top_samples.length} High-Expression Samples
                       </h3>
                       <TopSamplesTable samples={exprData.top_samples} />
                     </div>
@@ -476,7 +476,7 @@ export default function ExpressionPage() {
                 <div className="rounded-xl border border-[#E2E8F0] bg-white p-4 shadow-sm">
                   <h3 className="text-sm font-semibold text-slate-700 mb-3 flex items-center justify-between">
                     <span className="inline-flex items-center gap-1.5">
-                      <LinkIcon className="size-4 text-[#0D9488]" /> Co-expressed Genes (Pearson)
+                      <LinkIcon className="size-4 text-[#475569]" /> Co-expressed Genes (Pearson)
                     </span>
                     {coexpData && (
                       <span className="text-xs font-normal text-slate-500">
@@ -517,7 +517,7 @@ function TabButton({ active, onClick, children }: { active: boolean; onClick: ()
       onClick={onClick}
       className={`px-4 py-2 text-sm font-semibold border-b-2 transition-colors ${
         active
-          ? 'text-[#B01A75] border-[#0D9488]'
+          ? 'text-[#B01A75] border-[#475569]'
           : 'text-slate-500 border-transparent hover:text-[#B01A75]'
       }`}
     >

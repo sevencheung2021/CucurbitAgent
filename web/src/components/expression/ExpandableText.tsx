@@ -32,7 +32,7 @@ export default function ExpandableText({
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="mt-0.5 text-[10px] font-medium text-[#0D9488] hover:text-[#B01A75] hover:underline"
+          className="mt-0.5 text-[10px] font-medium text-[#475569] hover:text-[#B01A75] hover:underline"
         >
           {open ? 'Show less' : 'Show more'}
         </button>

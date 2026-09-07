@@ -42,12 +42,12 @@ export default function Footer({
   const topCountries = (stats?.by_country || []).slice(0, TOP_N);
 
   return (
-    <footer className="max-w-content mx-auto mt-6 px-5 pt-3 pb-2.5 text-black overflow-hidden bg-gradient-to-b from-[#F0FDFA] to-[#ECFDF5] border border-[#CCFBF1] border-t-[3px] border-t-[#0D9488] rounded-t-[12px] shadow-[0_2px_10px_rgba(15,118,110,0.06)]">
+    <footer className="max-w-content mx-auto mt-6 px-5 pt-3 pb-2.5 text-black overflow-hidden bg-gradient-to-b from-[#f8fafc] to-[#ECFDF5] border border-[#f1f5f9] border-t-[3px] border-t-[#475569] rounded-t-[12px] shadow-[0_2px_10px_rgba(51,65,85,0.06)]">
       {/* Top: Global Reach | Institution (+ logo) | Contact */}
       <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 w-full">
         <section className="shrink-0 w-full sm:w-auto sm:max-w-[180px]">
           <div className="flex items-center gap-1.5 text-[13px] font-bold mb-1 leading-none text-black">
-            <GlobeIcon className="size-3.5 text-[#0D9488]" />
+            <GlobeIcon className="size-3.5 text-[#475569]" />
             {t('globalReach')}
           </div>
           <div className="text-[12px] text-black leading-snug">
@@ -57,7 +57,7 @@ export default function Footer({
             </strong>
           </div>
           <div className="mt-0.5 flex items-center gap-1 text-[11px] text-slate-600 leading-snug">
-            <TrendingUpIcon className="size-3 text-[#0D9488]" />
+            <TrendingUpIcon className="size-3 text-[#475569]" />
             {t('today')}{' '}
             <strong className="text-slate-800 tabular-nums">
               {stats ? stats.today.toLocaleString() : '—'}
@@ -77,7 +77,7 @@ export default function Footer({
                 <li key={row.country} className="truncate">
                   <span className="font-medium text-slate-800">{label}</span>
                   <span className="text-slate-400"> · </span>
-                  <span className="tabular-nums text-[#0F766E]">
+                  <span className="tabular-nums text-[#334155]">
                     {row.visits.toLocaleString()}
                   </span>
                 </li>
@@ -110,17 +110,17 @@ export default function Footer({
           </div>
           <div className="space-y-0.5 text-[11px] leading-snug text-black">
             <div className="flex items-start gap-1.5">
-              <MapPinIcon className="size-3.5 shrink-0 mt-[1px] text-[#0D9488]" />
+              <MapPinIcon className="size-3.5 shrink-0 mt-[1px] text-[#475569]" />
               <span>{contact.address}</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <PhoneIcon className="size-3.5 shrink-0 text-[#0D9488]" />
+              <PhoneIcon className="size-3.5 shrink-0 text-[#475569]" />
               <a href={`tel:${(contact.phone || '').replace(/-/g, '')}`}>
                 {contact.phone || '—'}
               </a>
             </div>
             <div className="flex items-center gap-1.5">
-              <MailIcon className="size-3.5 shrink-0 text-[#0D9488]" />
+              <MailIcon className="size-3.5 shrink-0 text-[#475569]" />
               <a href={`mailto:${contact.email || ''}`}>{contact.email || '—'}</a>
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function Footer({
       {affiliations.length > 0 && (
         <section
           aria-label="Research affiliations"
-          className="mt-2.5 pt-2 border-t border-[#99F6E4]/60"
+          className="mt-2.5 pt-2 border-t border-[#e2e8f0]/60"
         >
           <div className="text-[12px] font-bold mb-1 leading-none text-black">
             {t('affiliations')}
@@ -142,7 +142,7 @@ export default function Footer({
                 key={item.name}
                 className="flex gap-1.5 text-[11px] leading-[1.35] text-slate-700 min-w-0"
               >
-                <span className="shrink-0 tabular-nums font-semibold text-[#0F766E] w-3.5 text-right">
+                <span className="shrink-0 tabular-nums font-semibold text-[#334155] w-3.5 text-right">
                   {i + 1}.
                 </span>
                 <span className="min-w-0">{affiliationLine(item)}</span>
@@ -155,11 +155,11 @@ export default function Footer({
       <div className="text-center text-[10px] mt-2 text-black/70 space-x-3">
         <span>{copyright}</span>
         <span className="text-black/30">·</span>
-        <Link href="/privacy" className="text-[#0F766E] hover:underline">
+        <Link href="/privacy" className="text-[#334155] hover:underline">
           {t('privacy')}
         </Link>
         <span className="text-black/30">·</span>
-        <Link href="/terms" className="text-[#0F766E] hover:underline">
+        <Link href="/terms" className="text-[#334155] hover:underline">
           {t('terms')}
         </Link>
       </div>

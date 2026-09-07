@@ -63,7 +63,7 @@ export default function InlineAgentPanel({
       {title && (
         <div className="px-4 py-2.5 border-b border-[#E2E8F0] bg-gradient-to-r from-teal-accent/10 to-transparent flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <BotIcon className="size-5 text-[#0D9488]" />
+            <BotIcon className="size-5 text-[#475569]" />
             <span className="text-sm font-semibold text-slate-800">{title}</span>
           </div>
           {extraActions}

@@ -167,11 +167,11 @@ export default function LiteraturesPage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       {/* ---------- Paper Chat ---------- */}
-      <section className="mb-8 rounded-xl border border-[#CCFBF1] bg-gradient-to-br from-[#F0FDFA] to-white shadow-sm overflow-hidden">
-        <div className="px-5 py-3 border-b border-[#CCFBF1] flex flex-wrap items-center justify-between gap-3">
+      <section className="mb-8 rounded-xl border border-[#f1f5f9] bg-gradient-to-br from-[#f8fafc] to-white shadow-sm overflow-hidden">
+        <div className="px-5 py-3 border-b border-[#f1f5f9] flex flex-wrap items-center justify-between gap-3">
           <div>
             <h2 className="text-sm font-semibold text-slate-800 flex items-center gap-2">
-              <BotIcon className="size-4 text-[#0D9488]" />
+              <BotIcon className="size-4 text-[#475569]" />
               Paper Chat
             </h2>
             <p className="mt-0.5 text-[11px] text-slate-500">
@@ -199,7 +199,7 @@ export default function LiteraturesPage() {
                     type="button"
                     onClick={() => askPaper(ex)}
                     disabled={chatLoading}
-                    className="rounded-full border border-[#CCFBF1] bg-white px-3 py-1.5 text-[11px] text-[#0F766E] hover:bg-[#CCFBF1] transition text-left disabled:opacity-50"
+                    className="rounded-full border border-[#f1f5f9] bg-white px-3 py-1.5 text-[11px] text-[#334155] hover:bg-[#f1f5f9] transition text-left disabled:opacity-50"
                   >
                     <span className="inline-flex items-center gap-1">
                       <SparklesIcon className="size-3 shrink-0" />
@@ -222,7 +222,7 @@ export default function LiteraturesPage() {
                           {t.content ? (
                             <AgentMarkdown content={t.content} />
                           ) : chatLoading ? (
-                            <span className="text-sm text-[#0D9488] inline-flex items-center gap-1">
+                            <span className="text-sm text-[#475569] inline-flex items-center gap-1">
                               <span className="cuagent-thinking-dot" />
                               <span className="cuagent-thinking-dot" />
                               <span className="cuagent-thinking-dot" />
@@ -244,7 +244,7 @@ export default function LiteraturesPage() {
                 ))}
 
                 {chatStatuses.length > 0 && chatLoading && (
-                  <div className="rounded-lg bg-[#F0FDFA] border border-[#CCFBF1] p-3 text-xs text-[#0F766E] space-y-1">
+                  <div className="rounded-lg bg-[#f8fafc] border border-[#f1f5f9] p-3 text-xs text-[#334155] space-y-1">
                     {chatStatuses.slice(-4).map((s, i) => (
                       <div key={`${s}-${i}`}>• {s}</div>
                     ))}
@@ -267,13 +267,13 @@ export default function LiteraturesPage() {
                 }}
                 disabled={chatLoading || !authReady}
                 placeholder={t('placeholder')}
-                className="flex-1 px-3 py-2.5 rounded-lg border border-slate-200 text-sm focus:border-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488]/15 disabled:opacity-50"
+                className="flex-1 px-3 py-2.5 rounded-lg border border-slate-200 text-sm focus:border-[#475569] focus:outline-none focus:ring-2 focus:ring-[#475569]/15 disabled:opacity-50"
               />
               <button
                 type="button"
                 onClick={() => askPaper(chatInput)}
                 disabled={chatLoading || !chatInput.trim()}
-                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-[#0D9488] text-white text-sm font-medium hover:bg-[#0F766E] disabled:opacity-50 whitespace-nowrap"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg bg-[#475569] text-white text-sm font-medium hover:bg-[#334155] disabled:opacity-50 whitespace-nowrap"
                 aria-label="Ask Paper Chat"
               >
                 <SendIcon className="size-4" />
@@ -286,13 +286,13 @@ export default function LiteraturesPage() {
 
       {/* ---------- Literature Hub ---------- */}
       <section>
-        <h1 className="mb-3 text-2xl font-extrabold text-[#0f766e] inline-flex items-center gap-2">
-          <BookOpenIcon className="size-6 text-[#0D9488]" />
+        <h1 className="mb-3 text-2xl font-extrabold text-[#334155] inline-flex items-center gap-2">
+          <BookOpenIcon className="size-6 text-[#475569]" />
           {t('hubTitle')}
         </h1>
         <div className="mb-5 grid gap-3 md:grid-cols-[1fr_auto]">
           <input
-            className="rounded-lg border border-[#E2E8F0] px-4 py-3 focus:outline-none focus:border-[#0f766e] focus:ring-2 focus:ring-[#0f766e]/20"
+            className="rounded-lg border border-[#E2E8F0] px-4 py-3 focus:outline-none focus:border-[#334155] focus:ring-2 focus:ring-[#334155]/20"
             placeholder={t('searchPlaceholder')}
             value={inputQ}
             onChange={(e) => setInputQ(e.target.value)}
@@ -302,7 +302,7 @@ export default function LiteraturesPage() {
           />
           <button
             onClick={submitSearch}
-            className="flex items-center justify-center gap-2 rounded-lg bg-[#0f766e] px-6 py-3 font-semibold text-white hover:bg-[#0c5a52] transition-colors"
+            className="flex items-center justify-center gap-2 rounded-lg bg-[#334155] px-6 py-3 font-semibold text-white hover:bg-[#0c5a52] transition-colors"
           >
             {t('search')}
           </button>
@@ -311,7 +311,7 @@ export default function LiteraturesPage() {
           <>
             <div className="mb-3 flex flex-wrap gap-2">
               {[
-                { key: '', label: '__ALL__', color: '#0f766e' },
+                { key: '', label: '__ALL__', color: '#334155' },
                 {
                   key: 'cgi',
                   label: 'Cucurbit Genetic Improvement and Resistance',
@@ -337,8 +337,8 @@ export default function LiteraturesPage() {
               })}
             </div>
             {searching ? (
-              <div className="mb-4 flex items-center gap-2 text-sm text-[#0f766e]">
-                <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-[#0f766e]"></span>
+              <div className="mb-4 flex items-center gap-2 text-sm text-[#334155]">
+                <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-[#334155]"></span>
                 {t('searching')}
               </div>
             ) : null}
@@ -388,14 +388,14 @@ export default function LiteraturesPage() {
                           goToPage();
                         }
                       }}
-                      className="w-16 rounded border border-[#DADDE1] px-2 py-2 text-center text-sm text-slate-700 tabular-nums focus:border-[#0f766e] focus:outline-none focus:ring-2 focus:ring-[#0f766e]/20"
+                      className="w-16 rounded border border-[#DADDE1] px-2 py-2 text-center text-sm text-slate-700 tabular-nums focus:border-[#334155] focus:outline-none focus:ring-2 focus:ring-[#334155]/20"
                       aria-label={t('pageLabel')}
                     />
                   </label>
                   <button
                     type="button"
                     onClick={goToPage}
-                    className="rounded border border-[#DADDE1] px-3 py-2 text-sm font-medium text-slate-700 hover:border-[#0f766e] hover:text-[#0f766e]"
+                    className="rounded border border-[#DADDE1] px-3 py-2 text-sm font-medium text-slate-700 hover:border-[#334155] hover:text-[#334155]"
                   >
                     {t('go')}
                   </button>
@@ -432,7 +432,7 @@ function PaperCard({ paper }: { paper: any }) {
   const badge = SUBJECT_BADGES[subj] || SUBJECT_BADGES.other;
   return (
     <details className="rounded-lg border border-[#E2E8F0] bg-white p-4 shadow-sm">
-      <summary className="cursor-pointer text-base font-bold text-[#1a252f]">
+      <summary className="cursor-pointer text-base font-bold text-[#0f172a]">
         <span
           className="mr-2 inline-block rounded-full px-2 py-0.5 align-middle text-xs font-semibold text-white"
           style={{ backgroundColor: badge.color }}
@@ -458,7 +458,7 @@ function PaperCard({ paper }: { paper: any }) {
         </div>
         {paper.abstract && <p className="leading-relaxed">{paper.abstract}</p>}
         {paper.match_snippet && paper.match_snippet !== paper.abstract && (
-          <p className="mt-2 rounded-lg bg-[#F0FDFA] p-3 text-xs leading-relaxed text-[#0F766E]">
+          <p className="mt-2 rounded-lg bg-[#f8fafc] p-3 text-xs leading-relaxed text-[#334155]">
             <span className="font-semibold">{t2('matchedExcerpt', { source: paper.match_source || 'hybrid' })}</span>
             {paper.match_snippet}
           </p>

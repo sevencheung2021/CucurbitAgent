@@ -91,7 +91,7 @@ export default function LatestLiterature({
     <section className="max-w-content mx-auto px-4 mb-10">
       <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1 mb-4">
         <h3 className="text-teal-brand font-bold text-lg flex items-center gap-2">
-          <BookOpenIcon className="size-5 text-[#0D9488]" />
+          <BookOpenIcon className="size-5 text-[#475569]" />
           {t('latestTitle')}
         </h3>
         {asOf && <span className="text-sm text-slate-400">({asOf})</span>}
@@ -112,9 +112,9 @@ export default function LatestLiterature({
                 href={paperHref(paper)}
                 target={paper.doi || paper.pmid ? '_blank' : undefined}
                 rel={paper.doi || paper.pmid ? 'noopener noreferrer' : undefined}
-                className="block rounded-xl border border-[#E2E8F0] border-l-4 border-l-[#0D9488] bg-white px-4 py-3.5 shadow-sm hover:bg-[#FAFEFC] hover:border-[#CCFBF1] transition no-underline"
+                className="block rounded-xl border border-[#E2E8F0] border-l-4 border-l-[#475569] bg-white px-4 py-3.5 shadow-sm hover:bg-[#FAFEFC] hover:border-[#f1f5f9] transition no-underline"
               >
-                <div className="font-semibold text-[#0F766E] text-sm leading-snug">
+                <div className="font-semibold text-[#334155] text-sm leading-snug">
                   {title}
                 </div>
                 <div className="mt-1 text-[11px] text-slate-500">
@@ -134,7 +134,7 @@ export default function LatestLiterature({
       <div className="mt-5 flex justify-center">
         <Link
           href="/literatures"
-          className="inline-flex items-center gap-1.5 rounded-lg bg-[#0D9488] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] transition-colors no-underline"
+          className="inline-flex items-center gap-1.5 rounded-lg bg-[#475569] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] transition-colors no-underline"
         >
           {t('viewAll')} →
         </Link>

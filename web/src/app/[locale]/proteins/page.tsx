@@ -232,7 +232,7 @@ export default function ProteinsPage() {
             <button
               onClick={() => void runPredict()}
               disabled={!geneId.trim() || predictLoading}
-              className="inline-flex items-center gap-1.5 px-5 py-2 rounded-lg bg-[#0D9488] text-white text-sm font-semibold hover:bg-[#0F766E] transition-colors whitespace-nowrap disabled:cursor-not-allowed"
+              className="inline-flex items-center gap-1.5 px-5 py-2 rounded-lg bg-[#475569] text-white text-sm font-semibold hover:bg-[#334155] transition-colors whitespace-nowrap disabled:cursor-not-allowed"
             >
               {predictLoading ? t('predicting') : (<><SparklesIcon className="size-4" /> {t('predict')}</>)}
             </button>
@@ -242,10 +242,10 @@ export default function ProteinsPage() {
         {mode === 'predict' && (
           <div className="space-y-5">
             {canSummarize && (
-              <div className="rounded-xl border border-[#CCFBF1] bg-gradient-to-br from-[#F0FDFA] to-white shadow-sm overflow-hidden">
-                <div className="px-5 py-3 border-b border-[#CCFBF1] flex flex-wrap items-center justify-between gap-3">
+              <div className="rounded-xl border border-[#f1f5f9] bg-gradient-to-br from-[#f8fafc] to-white shadow-sm overflow-hidden">
+                <div className="px-5 py-3 border-b border-[#f1f5f9] flex flex-wrap items-center justify-between gap-3">
                   <h3 className="text-sm font-semibold text-slate-800 flex items-center gap-2">
-                    <SparklesIcon className="size-4 text-[#0D9488]" /> {t('aiSummary')}
+                    <SparklesIcon className="size-4 text-[#475569]" /> {t('aiSummary')}
                   </h3>
                   {isSignedIn && (
                     !summaryOpen ? (
@@ -281,7 +281,7 @@ export default function ProteinsPage() {
                                 {t.content ? (
                                   <AgentMarkdown content={t.content} />
                                 ) : summaryLoading ? (
-                                  <span className="text-sm text-[#0D9488] inline-flex items-center gap-1">
+                                  <span className="text-sm text-[#475569] inline-flex items-center gap-1">
                                     <span className="cuagent-thinking-dot" />
                                     <span className="cuagent-thinking-dot" />
                                     <span className="cuagent-thinking-dot" />
@@ -292,7 +292,7 @@ export default function ProteinsPage() {
                           </div>
                         ))}
                         {summaryStatuses.length > 0 && (
-                          <div className="rounded-lg bg-[#F0FDFA] border border-[#CCFBF1] p-3 text-xs text-[#0F766E] space-y-1">
+                          <div className="rounded-lg bg-[#f8fafc] border border-[#f1f5f9] p-3 text-xs text-[#334155] space-y-1">
                             {summaryStatuses.slice(-4).map((s, i) => (
                               <div key={`${s}-${i}`}>• {s}</div>
                             ))}
@@ -312,7 +312,7 @@ export default function ProteinsPage() {
                             type="button"
                             onClick={onFollowUp}
                             disabled={summaryLoading || !followUp.trim()}
-                            className="px-4 py-2 rounded-lg bg-[#0D9488] text-white text-sm font-medium hover:bg-[#0F766E] disabled:opacity-50 whitespace-nowrap"
+                            className="px-4 py-2 rounded-lg bg-[#475569] text-white text-sm font-medium hover:bg-[#334155] disabled:opacity-50 whitespace-nowrap"
                           >
                             {t('ask')}
                           </button>
@@ -486,8 +486,8 @@ function ProteinsLanding({
       </div>
 
       <div className="rounded-xl border border-[#E2E8F0] bg-white shadow-sm overflow-hidden">
-        <div className="px-5 py-3 border-b border-[#E2E8F0] bg-gradient-to-r from-[#F0FDFA] to-[#ECFDF5]">
-          <h3 className="text-sm font-semibold text-[#0F766E] inline-flex items-center gap-2">
+        <div className="px-5 py-3 border-b border-[#E2E8F0] bg-gradient-to-r from-[#f8fafc] to-[#ECFDF5]">
+          <h3 className="text-sm font-semibold text-[#334155] inline-flex items-center gap-2">
             <MicroscopeIcon className="size-4" /> {t('whatTitle')}
           </h3>
         </div>
@@ -524,8 +524,8 @@ function ProteinsLanding({
         </div>
       </div>
 
-      <div className="rounded-xl border border-[#CCFBF1] bg-gradient-to-br from-[#F0FDFA] to-white p-5">
-        <h3 className="text-sm font-semibold text-[#0F766E] mb-2 inline-flex items-center gap-2">
+      <div className="rounded-xl border border-[#f1f5f9] bg-gradient-to-br from-[#f8fafc] to-white p-5">
+        <h3 className="text-sm font-semibold text-[#334155] mb-2 inline-flex items-center gap-2">
           <SparklesIcon className="size-4" /> {t('aiSummary')}
         </h3>
         <ul className="text-xs text-slate-700 space-y-1.5 list-disc pl-5">
@@ -542,7 +542,7 @@ function ProteinsLanding({
             {i > 0 ? ' · ' : null}
             <button
               type="button"
-              className="font-mono text-[#0D9488] hover:underline underline-offset-2"
+              className="font-mono text-[#475569] hover:underline underline-offset-2"
               title={`${d.species} / ${d.geneId}`}
               onClick={() => onTryExample?.(d.species, d.geneId)}
             >
@@ -591,7 +591,7 @@ function ProteinLandingRow({
 function ProteinLandingFeatureRow({ icon, name, desc }: { icon: ReactNode; name: string; desc: string }) {
   return (
     <tr className="hover:bg-slate-50">
-      <td className="px-4 py-2.5 w-12 text-[#0D9488]">{icon}</td>
+      <td className="px-4 py-2.5 w-12 text-[#475569]">{icon}</td>
       <td className="px-2 py-2.5 font-semibold text-slate-800 whitespace-nowrap min-w-[160px]">{name}</td>
       <td className="px-4 py-2.5 text-slate-600">{desc}</td>
     </tr>

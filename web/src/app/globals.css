@@ -1,12 +1,17 @@
+/* ===== Theme placeholders =============================
+   This release ships with a neutral placeholder palette.
+   Replace the values below (and web/tailwind.config.ts)
+   with your own brand colors. Variable names are stable.
+   ====================================================== */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --bg-page: #f9fbfa;
-  --text-primary: #1a252f;
-  --teal-brand: #0f766e;
-  --teal-accent: #0d9488;
+  --bg-page: #f8fafc;
+  --text-primary: #0f172a;
+  --teal-brand: #334155;
+  --teal-accent: #475569;
   --border-light: #e2e8f0;
 }
 
@@ -29,7 +34,7 @@ a { color: inherit; }
   height: 6px;
   margin: 0 2px;
   border-radius: 9999px;
-  background: #0D9488;
+  background: #475569;
   animation: cuagent-dot-bounce 1.2s infinite ease-in-out;
 }
 .cuagent-thinking-dot:nth-child(2) { animation-delay: 0.15s; }

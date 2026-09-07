@@ -68,7 +68,7 @@ function LoginForm() {
 
   return (
     <div className="mx-auto max-w-md px-4 py-10">
-      <h1 className="text-2xl font-bold text-[#0F766E]">{t('loginTitle')}</h1>
+      <h1 className="text-2xl font-bold text-[#334155]">{t('loginTitle')}</h1>
       <p className="mt-2 text-sm text-slate-600">{t('loginDesc')}</p>
 
       {step === 'form' ? (
@@ -89,7 +89,7 @@ function LoginForm() {
           <button
             type="submit"
             disabled={busy}
-            className="w-full rounded-lg bg-[#0D9488] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] disabled:opacity-60"
+            className="w-full rounded-lg bg-[#475569] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] disabled:opacity-60"
           >
             {busy ? t('sending') : t('sendCode')}
           </button>
@@ -115,7 +115,7 @@ function LoginForm() {
           <button
             type="submit"
             disabled={busy}
-            className="w-full rounded-lg bg-[#0D9488] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#0F766E] disabled:opacity-60"
+            className="w-full rounded-lg bg-[#475569] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#334155] disabled:opacity-60"
           >
             {busy ? t('signingIn') : t('verifyLogin')}
           </button>
@@ -131,7 +131,7 @@ function LoginForm() {
 
       <p className="mt-6 text-center text-sm text-slate-600">
         {t('newHere')}{' '}
-        <Link href={`/register?next=${encodeURIComponent(next)}`} className="font-semibold text-[#0D9488]">
+        <Link href={`/register?next=${encodeURIComponent(next)}`} className="font-semibold text-[#475569]">
           {t('createAccount')}
         </Link>
       </p>
