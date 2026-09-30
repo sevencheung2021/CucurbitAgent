@@ -120,5 +120,5 @@ Questions and bug reports: **wenchanglong@nercv.org**
 A manuscript describing CucurbitAgent is under review. Until publication, please
 cite the platform:
 
-> Zhang, R., Zhang, J., Zhang, Y., et al. CucurbitAgent: an AI agent for
-> multi-omics research in cucurbit biology. https://cucurbitagent.com (2026).
+> Zhang, R., Zhang, J., Zhang, Y., et al. CucurbitAgent: An AI agent for exploring cucurbit
+> multi-omics resources. https://cucurbitagent.com (2026).
