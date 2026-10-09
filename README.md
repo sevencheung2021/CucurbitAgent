@@ -10,7 +10,7 @@ a gene entry, an expression value, a structural residue, or a literature passage
 
 ![Architecture](docs/img/architecture.png)
 
-- Live platform: **http://8.130.152.130:3000** (temporary IP access; the permanent domain, **https://cucurbitagent.com**, will go live once the website registration (ICP filing) process is complete)
+- Live platform: **https://cucurbitagent.com**
 - Knowledge base: 9 cucurbit genomes, ~256,000 genes, 16.0 M natural variants,
   ~242,000 ESMFold structures with GPSite binding-site annotations, and a curated
   corpus of 18,000+ cucurbit publications
